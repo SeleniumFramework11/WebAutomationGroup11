@@ -1,19 +1,19 @@
 package testingpage;
 
-import homepage.HomePage;
+import homepage.WelcomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class TestMainPage extends HomePage {
-    HomePage mainPage;
+public class TestMainPage extends WelcomePage {
+    WelcomePage mainPage;
 
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage = PageFactory.initElements(driver, HomePage.class);
+        mainPage = PageFactory.initElements(driver, WelcomePage.class);
         setUrl("http://www.walmart.com");
     }
 

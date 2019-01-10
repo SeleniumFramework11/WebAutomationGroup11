@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-public class WelcomePage extends BaseUtil {
+public class MainPage extends BaseUtil {
 
     @FindBy (xpath = "//img[@class='uhc-logo desktop-logo']")
     public static WebElement seeLogo;
