@@ -16,8 +16,8 @@ public class TestSignInPage extends SignInPage{
         }.getClass().getEnclosingMethod().getName()));
         SignInPage = PageFactory.initElements(driver, SignInPage.class);
         HomePage = PageFactory.initElements(driver, HomePage.class);
+        setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
-        setUrl("www.Netflix.com");
     }
     @Test (priority=1)
         public void testEnterEmailAddress(){

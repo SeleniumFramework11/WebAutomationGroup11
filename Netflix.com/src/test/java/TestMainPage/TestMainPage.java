@@ -29,10 +29,10 @@ public class TestMainPage extends MainPage {
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
+        setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
         TestProfileSelectionPage.testSelectProfile();
-        setUrl("www.Netflix.com");
     }
 
     @Test (priority = 1)

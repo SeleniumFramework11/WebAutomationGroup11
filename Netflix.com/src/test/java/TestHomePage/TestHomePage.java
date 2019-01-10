@@ -8,12 +8,13 @@ import reporting.TestLogger;
 
 public class TestHomePage extends HomePage {
     HomePage HomePage;
+
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         HomePage = PageFactory.initElements(driver, HomePage.class);
-        setUrl("www.Netflix.com");
+        setUrl("http://www.Netflix.com");
     }
     @Test (priority=1)
     public void testSignInLink() {
