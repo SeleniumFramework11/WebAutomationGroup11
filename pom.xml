@@ -11,6 +11,7 @@
     <modules>
         <module>Generic</module>
         <module>Walmart</module>
+        <module>Netflix.com</module>
     </modules>
 
     <dependencyManagement>
