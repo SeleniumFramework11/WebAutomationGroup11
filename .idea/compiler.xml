@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
-        <module name="Walmart" />
+        <module name="MacysModule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eBay" target="1.10" />
+      <module name="Walmart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
