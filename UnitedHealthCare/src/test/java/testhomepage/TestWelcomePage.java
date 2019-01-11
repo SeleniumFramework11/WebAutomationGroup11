@@ -15,6 +15,7 @@ public class TestWelcomePage extends MainPage {
 
         welcome = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.uhc.com/");
+        //setUrl("https://www.uhone.com/shop/#/census");
 
     }
     @Test
@@ -158,12 +159,114 @@ public class TestWelcomePage extends MainPage {
 
     }
     @Test
-    public void testzipCode() {
+    public void testlearnDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkzipCode();
+        welcome.checklearnDental();
 
     }
+    @Test
+    public void testviewDental() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkviewDental();
+
+    }
+    @Test
+    public void testlearnHealthINsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checklearnHealthInsurance();
+
+    }
+    @Test
+    public void testviewHealthINsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkviewHealthInsurance();
+
+    }
+    @Test
+    public void testlearnMedicaidPlans() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checklearnMedicaidPlans();
+
+    }
+    @Test
+    public void testhospitalAndDoctorInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkhospitalAndDoctorInsurance();
+
+    }
+    @Test
+    public void testvisionInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkvisionInsurance();
+
+    }
+    @Test
+    public void testtermLifeInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checktermLifeInsurance();
+
+    }
+    @Test
+    public void testillnessInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkillnessInsurance();
+
+    }
+    @Test
+    public void testaccidentInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkaccidentInsurance();
+
+    }
+    @Test
+    public void testhospitalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkhospitalInsurance();
+
+    }
+    @Test
+    public void testsupplementInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checksupplementInsurance();
+
+    }
+    @Test
+    public void testglobalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkglobalInsurance();
+
+    }
+    @Test
+    public void testtravelInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checktravelInsurance();
+
+    }
+    @Test
+    public void testproviderPortal() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkproviderPortal();
+
+    }
+
+
+
+
 
 
 

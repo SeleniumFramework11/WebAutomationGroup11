@@ -49,7 +49,7 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//*[@id=\"loginmenu\"]/li[1]/a")
     public static  WebElement signinUHC;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/p[1]/span[1]")
+    @FindBy (xpath = "//a[@class='top-menu6']")
     public static WebElement nearbyClinic;
 
     @FindBy (xpath = "//span[@class='button-primary-common button-digital-blue'][contains(text(),'Learn More')]")
@@ -70,11 +70,50 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//a[@aria-label='View plans on UHOne.com (opens in a new window)']")
     public static WebElement viewindividualAndFamily;
 
-    @FindBy (xpath = "//input[@id='zipCode']")
-    public static WebElement zipCode;
+    @FindBy (xpath = "//a[@aria-label='Learn More about Dental Plans']")
+    public static WebElement learnDental;
 
+    @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental']")
+    public static WebElement viewDental;
 
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/p[2]/a[1]")
+    public static WebElement learnHeathInsurance;
 
+    @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM']")
+    public static WebElement viewHealthInsurance;
+
+    @FindBy (xpath = "//a[@href='https://uhccommunityplan.com']")
+    public static WebElement learnMedicaidPlans;
+
+    @FindBy (xpath = "//a[contains(text(),'Hospital and Doctor Insurance')]")
+    public static WebElement hospitalAndDoctorInsurance;
+
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/span[1]/a[1]")
+    public static WebElement visionInsurance;
+
+    @FindBy (xpath = "//a[contains(text(),'Term Life Insurance')]")
+    public static WebElement termLifeInsurance;
+
+    @FindBy (xpath = "//span[contains(text(),'Critical Illness Insurance')]")
+    public static WebElement illnessInsurance;
+
+    @FindBy (xpath = "//a[contains(text(),'Accident Insurance')]")
+    public static WebElement accidentInsurance;
+
+    @FindBy (xpath = "//a[contains(text(),'Hospitalization Insurance')]")
+    public static WebElement hospitalInsurance;
+
+    @FindBy (xpath = "//a[contains(text(),'Supplemental Insurance')]")
+    public static WebElement supplementInsurance;
+
+    @FindBy (xpath = "//a[@href='https://www.uhcglobal.com/']")
+    public static WebElement globalInsurance;
+
+    @FindBy (xpath = "//a[contains(text(),'Global Travel Insurance')]")
+    public static WebElement travelInsurance;
+
+    @FindBy (xpath = "//span[contains(text(),'Access the Provider Portal')]")
+    public static WebElement providerPortal;
 
 
     public void checkseeLogo() {
@@ -181,11 +220,85 @@ public class MainPage extends BaseUtil {
         viewindividualAndFamily.click();
 
     }
-    public void checkzipCode() {
+    public void checklearnDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        zipCode.sendKeys("11101, Keys.ENTER");
+        learnDental.click();
 
     }
+    public void checkviewDental() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        viewDental.click();
+
+    }
+    public void checklearnHealthInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        learnHeathInsurance.click();
+
+    }
+    public void checkviewHealthInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        viewHealthInsurance.click();
+
+    }
+    public void checklearnMedicaidPlans() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        learnMedicaidPlans.click();
+
+    }
+    public void checkhospitalAndDoctorInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        hospitalAndDoctorInsurance.click();
+
+    }
+    public void checkvisionInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        visionInsurance.click();
+
+    }
+    public void checktermLifeInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        termLifeInsurance.click();
+
+    }
+    public void checkillnessInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        illnessInsurance.click();
+
+    }
+    public void checkaccidentInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        accidentInsurance.click();
+
+    }
+    public void checkhospitalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        hospitalInsurance.click();
+
+    }
+    public void checksupplementInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        supplementInsurance.click();
+
+    }
+    public void checkglobalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        globalInsurance.click();
+
+    }
+    public void checktravelInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        travelInsurance.click();
+
+    }
+    public void checkproviderPortal() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        providerPortal.click();
+
+    }
+
+
+
+
 
 
 

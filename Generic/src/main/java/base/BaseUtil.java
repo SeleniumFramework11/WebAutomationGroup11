@@ -40,7 +40,7 @@ public class BaseUtil {
 
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "...Generic\\\\Driver\\\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
         //setUpBrowserStack();
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
@@ -122,7 +122,7 @@ public class BaseUtil {
         cap.setCapability("browser_version","68.0");
         cap.setCapability("os", "OS X"); //put your operating system
         cap.setCapability("os_version", "Sierra"); //put your version
-        String browserStackUrl = "www.walmart.com";
+        String browserStackUrl = "https://afiafarjana1:9Z5U2U9zmF6Uq6QUr9pi@hub-cloud.browserstack.com/wd/hub";
         URL serverUrl = new URL(browserStackUrl);
         driver = new RemoteWebDriver(serverUrl,cap);
     }
@@ -151,13 +151,5 @@ public class BaseUtil {
         }
         return text;
     }
-
-
-
-
-
-
-
-
 
 }
