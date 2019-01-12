@@ -115,6 +115,75 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//span[contains(text(),'Access the Provider Portal')]")
     public static WebElement providerPortal;
 
+    @FindBy (xpath = "//a[contains(text(),'View Broker Resources')]")
+    public static WebElement brokerResources;
+
+    @FindBy (xpath = "//a[contains(text(),'Marketplace Insurance Plans')]")
+    public static WebElement marketplaceInsurance;
+
+    @FindBy (xpath = "//a[@href='https://www.aarpmedicareplans.com/?WT.mc_id=880332']")
+    public static WebElement medicareLink;
+
+    @FindBy (xpath = "//a[contains(text(),'Medicaid')]")
+    public static WebElement medicaidProduct;
+
+    @FindBy (xpath = "//a[contains(text(),'Employer Group Plans')]")
+    public static WebElement employerGroup;
+
+    @FindBy (xpath = "//a[contains(text(),'Dental Insurance')]")
+    public static WebElement dentalInsurance;
+
+    @FindBy (xpath = "//a[@href='/content/uhcdotcom/en/home/individual-and-family/insurance-plans/vision']")
+    public static WebElement visionProduct;
+
+    @FindBy (xpath = "//a[contains(text(),'Short Term Health Insurance')]")
+    public static WebElement shorttermHealth;
+
+    @FindBy (xpath = "//a[contains(text(),'Fitness')]")
+    public static WebElement fitnessLiving;
+
+    @FindBy(xpath = "//a[contains(text(),'Nutrition')]")
+    public static WebElement nutritionLiving;
+
+    @FindBy (xpath = "//a[contains(text(),'Health Topics')]")
+    public static WebElement healthTopics;
+
+    @FindBy (xpath = "//a[contains(text(),'Take Control of Your Care')]")
+    public static WebElement careControl;
+
+    @FindBy (xpath = "//a[contains(text(),'Health and Wellness')]")
+    public static WebElement healthWellness;
+
+    @FindBy (xpath = "//a[contains(text(),'Programs & Tools')]")
+    public static WebElement programandTools;
+
+    @FindBy (xpath = "//a[contains(text(),'Open Enrollment')]")
+    public static WebElement openEnrollment;
+
+    @FindBy (xpath = "//a[contains(text(),'Member Resources')]")
+    public static WebElement memberResource;
+
+    @FindBy (linkText = "About Us")
+    public static WebElement aboutUs;
+
+    @FindBy (linkText = "United For Reform")
+    public static WebElement unitedReform;
+
+    @FindBy (linkText = "Value-Based Care")
+    public static WebElement valuebasedCare;
+
+    @FindBy (linkText = "View Drug List")
+    public static WebElement viewdrugList;
+
+    @FindBy (linkText = "Download Health4Me App")
+    public static WebElement downloadApp;
+
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[8]/a[1]")
+    public static WebElement brokerLink;
+
+    @FindBy (linkText = "Just Plain Clear® Glossary")
+    public static WebElement plainGlossary;
+
 
     public void checkseeLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -295,17 +364,115 @@ public class MainPage extends BaseUtil {
         providerPortal.click();
 
     }
+    public void checkbrokerResources() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        brokerResources.click();
 
+    }
+    public void checkmarketplaceInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        marketplaceInsurance.click();
 
+    }
+    public void checkmedicareLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        medicareLink.click();
 
+    }
+    public void checkmedicaidProduct() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        medicaidProduct.click();
 
+    }
+    public void checkemployerGroup() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        employerGroup.click();
 
+    }
+    public void checkdentalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        dentalInsurance.click();
 
+    }
+    public void checkvisionProduct() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        visionProduct.click();
 
+    }
+    public void checkshorttermHealth() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        shorttermHealth.click();
 
+    }
+    public void checkfitnessLiving() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        fitnessLiving.click();
 
+    }
+    public void checknutritionLiving() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        nutritionLiving.click();
 
+    }
+    public void checkhealthTopics() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        healthTopics.click();
 
+    }
+    public void checkcontrolCare() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        careControl.click();
+
+    }
+    public void checkhealthWellness() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        careControl.click();
+
+    }
+    public void checkprogramandTools() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        seeLogo.click();
+
+    }
+    public void checkopenEnrollment() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        openEnrollment.click();
+
+    }
+    public void checkmemberResource() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        memberResource.click();
+    }
+    public void checkaboutUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        aboutUs.click();
+    }
+    public void checkunitedReform() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        unitedReform.click();
+    }
+    public void checkvaluebasedCare() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        valuebasedCare.click();
+    }
+    public void checkviewdrugList() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        viewdrugList.click();
+
+    }
+    public void checkdownloadApp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        downloadApp.click();
+
+    }
+    public void checkbrokerLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        brokerLink.click();
+    }
+    public void checkplainGlossary() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        plainGlossary.click();
+    }
 
 
 

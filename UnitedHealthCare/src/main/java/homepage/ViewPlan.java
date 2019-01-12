@@ -15,6 +15,7 @@ public class ViewPlan extends BaseUtil {
     @FindBy (xpath = "//input[@id='primary_birthday']")
     public static WebElement dateofBirth;
 
+
     public void checkzipCode() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         zipCode.sendKeys("11101, Keys.ENTER");
