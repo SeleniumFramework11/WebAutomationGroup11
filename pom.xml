@@ -13,6 +13,7 @@
         <module>Walmart</module>
         <module>UnitedHealthCare</module>
         <module>Netflix.com</module>
+        <module>ebay</module>
     </modules>
 
     <dependencyManagement>
