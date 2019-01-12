@@ -37,7 +37,6 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath ="//*[@id='myRewardsLabel-status']/span[1]")
     public static WebElement signinmyaccount;
 
-
     public void checkLogo(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         logo.click();

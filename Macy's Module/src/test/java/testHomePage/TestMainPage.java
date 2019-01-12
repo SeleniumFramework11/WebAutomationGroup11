@@ -14,6 +14,7 @@ public class TestMainPage extends MainPage {
         log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
+        setUrl("https://www.macys.com/");
     }
     @Test                                               // Test Passed
     public void testLogo() {
@@ -57,4 +58,4 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checksigninmyaccount();
     }
-}
+   }
