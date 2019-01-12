@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
+        <module name="Netflix.com" />
         <module name="UnitedHealthCare" />
         <module name="Walmart" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eBay" target="1.10" />
-      <module name="Netflix.com" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
