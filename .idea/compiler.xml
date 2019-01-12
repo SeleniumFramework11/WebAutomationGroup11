@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Netflix.com" />
+        <module name="UnitedHealthCare" />
         <module name="Walmart" />
       </profile>
     </annotationProcessing>
