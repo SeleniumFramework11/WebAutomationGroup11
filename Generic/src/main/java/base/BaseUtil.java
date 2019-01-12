@@ -36,11 +36,11 @@ public class BaseUtil {
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait;
-    public String URL ;
+    public String URL = null;
 
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Bulldog\\Desktop\\GroupFrameworkTeam11\\Generic\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "...Generic\\Driver\\chromedriver.exe");
        // setUpBrowserStack();
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
