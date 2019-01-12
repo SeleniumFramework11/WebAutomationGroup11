@@ -1,6 +1,7 @@
 package homepage;
 
 import base.BaseUtil;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
@@ -213,6 +214,36 @@ public class MainPage extends BaseUtil {
 
     @FindBy (xpath = "//a[@title='Legal']")
     public static WebElement legalIssue;
+
+    @FindBy (xpath = "//a[@title='Privacy']")
+    public static WebElement privacy;
+
+    @FindBy (xpath = "//a[@title='Terms of Use']")
+    public static WebElement termsofUse;
+
+    @FindBy (xpath = "//a[@title='Accessibility']")
+    public static WebElement accessibility;
+
+    @FindBy (xpath = "//a[@class='english-link lang-toggle']")
+    public static WebElement spanishlanguage;
+
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[1]/header[1]/div[3]/a[1]/font[1]/font[1]")
+    public static WebElement englishLanguage;
+
+    @FindBy (id = "loginmenubutton")
+    public static WebElement trytoSignIn;
+
+    @FindBy (css = "body.lang-en div.viewport-wrapper:nth-child(7) div.uhc-wrapper:nth-child(2) div.header:nth-child(1) header.main-header.container.lang-header.en-header div.loginIpar.iparsys.parsys:nth-child(6) div.login.section div.login-wrapper div.login-content ul:nth-child(1) li.login-dropdown-link-text:nth-child(1) > a:nth-child(1)")
+    public static WebElement UHCsignin;
+
+    @FindBy (xpath = "//*[@id=\"hsid-username\"]")
+    public static WebElement userName;
+
+    @FindBy (xpath = "//*[@id=\"hsid-password\"]")
+    public static WebElement passWord;
+
+    @FindBy (name = "rememberMe")
+    public static WebElement rememberMe;
 
 
     public void checkseeLogo() {
@@ -547,12 +578,30 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         legalIssue.click();
     }
-
-
-
-
-
-
-
+    public void checkprivacy() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        privacy.click();
+    }
+    public void checktermsofUse() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        termsofUse.click();
+    }
+    public void checkaccessibility() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        accessibility.click();
+    }
+    public void checklanguage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        spanishlanguage.click();
+        englishLanguage.click();
+    }
+    public void checktrytoSignIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        trytoSignIn.click();
+        UHCsignin.click();
+        userName.sendKeys("orfatt11@gmail.com", Keys.ENTER);
+        passWord.sendKeys("Shadowdirge12", Keys.ENTER);
+        rememberMe.click();
+    }
 
 }

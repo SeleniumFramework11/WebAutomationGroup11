@@ -16,7 +16,8 @@ public class TestWelcomePage extends MainPage {
 
         welcome = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.uhc.com/");
-        //setUrl("https://www.uhone.com/shop/#/census");
+        //setUrl("https://www.uhc.com/es/home");
+        //setUrl("https://www.myuhc.com/member/prewelcome.do");
 
     }
     @Test
@@ -473,23 +474,34 @@ public class TestWelcomePage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         welcome.checklegalIssue();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Test
+    public void testprivacy() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkprivacy();
+    }
+    @Test
+    public void testtermsofUse() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checktermsofUse();
+    }
+    @Test
+    public void testaccessibility() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkaccessibility();
+    }
+    @Test
+    public void testlanguage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checklanguage();
+    }
+    @Test
+    public void testtrytosignIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checktrytoSignIn();
+    }
 }
