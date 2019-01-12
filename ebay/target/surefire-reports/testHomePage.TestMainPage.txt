@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: testHomePage.TestMainPage
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 20, Time elapsed: 1.197 s <<< FAILURE! - in testHomePage.TestMainPage
+setup(testHomePage.TestMainPage)  Time elapsed: 1.022 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: /Users/alrafifahd96gmail.com/Desktop/GroupFrameworkTeam11/ebay/C:\Users\orfat\Desktop\GroupFrameworkTeam11\Generic\Driver\chromedriver.exe
+
