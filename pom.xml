@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Walmart</module>
         <module>UnitedHealthCare</module>
+        <module>Netflix.com</module>
     </modules>
 
     <dependencyManagement>
