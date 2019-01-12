@@ -184,6 +184,36 @@ public class MainPage extends BaseUtil {
     @FindBy (linkText = "Just Plain Clear® Glossary")
     public static WebElement plainGlossary;
 
+    @FindBy (linkText = "Language Assistance/ Nondiscrimination Notice")
+    public static WebElement languageNotice;
+
+    @FindBy (linkText = "Find a Doctor")
+    public static WebElement findanyDoctor;
+
+    @FindBy (xpath = "//a[contains(text(),'Print ID Card')]")
+    public static WebElement printidCard;
+
+    @FindBy (xpath = "//a[contains(text(),'View Claim/Account')]")
+    public static WebElement viewclaimAccount;
+
+    @FindBy (xpath = "//a[contains(text(),'Check Benefits')]")
+    public static WebElement checkBenefits;
+
+    @FindBy (xpath = "//a[@title='Newsroom']")
+    public static WebElement newsRoom;
+
+    @FindBy (xpath = "//a[@title='Contact Us']")
+    public static WebElement contactUs;
+
+    @FindBy (xpath = "//a[@title='Careers']")
+    public static WebElement career;
+
+    @FindBy (xpath = "//a[@title='Health Care Fraud']")
+    public static WebElement healthcareFraud;
+
+    @FindBy (xpath = "//a[@title='Legal']")
+    public static WebElement legalIssue;
+
 
     public void checkseeLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -473,6 +503,53 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         plainGlossary.click();
     }
+    public void checklanguageNotice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        languageNotice.click();
+    }
+    public void checkfindanyDoctor() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        findanyDoctor.click();
+
+    }
+    public void checkprintidCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        printidCard.click();
+
+    }
+    public void checkviewclaimAccount() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        viewclaimAccount.click();
+
+    }
+    public void checkcheckBenefits() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        checkBenefits.click();
+
+    }
+    public void checknewsRoom() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        newsRoom.click();
+    }
+    public void checkcontactUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        contactUs.click();
+    }
+    public void checkcareer() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        career.click();
+    }
+    public void checkhealthcareFraud() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        healthcareFraud.click();
+    }
+    public void checklegalIssue() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        legalIssue.click();
+    }
+
+
+
 
 
 

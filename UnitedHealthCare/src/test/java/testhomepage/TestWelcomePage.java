@@ -413,6 +413,69 @@ public class TestWelcomePage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         welcome.checkplainGlossary();
     }
+    @Test
+    public void testlanguageNotice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checklanguageNotice();
+    }
+    @Test
+    public void testfindanyDoctor() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkfindanyDoctor();
+    }
+    @Test
+    public void testprintidCard() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkprintidCard();
+    }
+    @Test
+    public void testviewclaimAccount() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkviewclaimAccount();
+    }
+    @Test
+    public void testcheckBenefits() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkcheckBenefits();
+    }
+    @Test
+    public void testnewsRoom() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checknewsRoom();
+    }
+    @Test
+    public void testcontactUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkcontactUs();
+    }
+    @Test
+    public void testcareer() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkcareer();
+    }
+    @Test
+    public void testhealthcareFraud() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checkhealthcareFraud();
+    }
+    @Test
+    public void testlegalIssue() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        welcome.checklegalIssue();
+    }
+
+
+
 
 
 
