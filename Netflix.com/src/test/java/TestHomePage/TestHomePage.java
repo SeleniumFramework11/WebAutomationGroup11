@@ -92,7 +92,7 @@ public class TestHomePage extends HomePage {
     public void testJobsLink(){
         clickJobs();
     }
-    @Test (priority =22)
-    public void testLanguageSelector(){ clickLanguageSelector();
-    }
+//    @Test (priority =22)
+//    public void testLanguageSelector(){ clickLanguageSelector();
+ //   }
 }
