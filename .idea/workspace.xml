@@ -2,73 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$35.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$37.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$41.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$42.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$43.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$44.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$48.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$49.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$50.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$51.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$52.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$53.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$54.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$55.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$56.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$57.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$58.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$59.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$60.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$61.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$62.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$26.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$27.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$30.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$31.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$33.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$34.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$36.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$37.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$38.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$39.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$42.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$43.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$44.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$45.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$46.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$47.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$48.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$49.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$50.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$51.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$52.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$53.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$54.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$55.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$56.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$57.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$58.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$59.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$60.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$61.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$62.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$63.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$63.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$64.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$65.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$65.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$66.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$67.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$68.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$68.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$69.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$70.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$70.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$71.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$71.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$72.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$72.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$73.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$73.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestWelcomePage.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,24 +97,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1276">
@@ -115,31 +109,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="232" column="34" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
+            <state relative-caret-position="149">
+              <caret line="80" column="49" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="80" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -168,11 +144,59 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="505" column="5" lean-forward="true" selection-start-line="505" selection-start-column="5" selection-end-line="505" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="24" column="54" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,8 +239,12 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ViewPlan.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java" />
       </list>
     </option>
   </component>
@@ -349,7 +377,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547274343660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547279513182" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -382,7 +410,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestWelcomePage.testtrytosignIn">
+  <component name="RunManager" selected="TestNG.TestSearchPage.testsearch">
+    <configuration name="TestRegisterPage.testRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhomepage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhomepage" />
+      <option name="MAIN_CLASS_NAME" value="testhomepage.TestRegisterPage" />
+      <option name="METHOD_NAME" value="testRegistration" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchPage.testsearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhomepage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhomepage" />
+      <option name="MAIN_CLASS_NAME" value="testhomepage.TestSearchPage" />
+      <option name="METHOD_NAME" value="testsearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestWelcomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -399,7 +463,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWelcomePage.testaccessibility" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWelcomePage.testsearchName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -409,7 +473,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhomepage" />
       <option name="MAIN_CLASS_NAME" value="testhomepage.TestWelcomePage" />
-      <option name="METHOD_NAME" value="testaccessibility" />
+      <option name="METHOD_NAME" value="testsearchName" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -417,7 +481,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWelcomePage.testlanguage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWelcomePage.testviewindividualAndFamily" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -427,43 +491,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testhomepage" />
       <option name="MAIN_CLASS_NAME" value="testhomepage.TestWelcomePage" />
-      <option name="METHOD_NAME" value="testlanguage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWelcomePage.testseeLogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhomepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhomepage" />
-      <option name="MAIN_CLASS_NAME" value="testhomepage.TestWelcomePage" />
-      <option name="METHOD_NAME" value="testseeLogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWelcomePage.testtrytosignIn" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhomepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhomepage" />
-      <option name="MAIN_CLASS_NAME" value="testhomepage.TestWelcomePage" />
-      <option name="METHOD_NAME" value="testtrytosignIn" />
+      <option name="METHOD_NAME" value="testviewindividualAndFamily" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -473,11 +501,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestWelcomePage.testtrytosignIn" />
-        <item itemvalue="TestNG.TestWelcomePage.testaccessibility" />
+        <item itemvalue="TestNG.TestSearchPage.testsearch" />
+        <item itemvalue="TestNG.TestRegisterPage.testRegistration" />
         <item itemvalue="TestNG.TestWelcomePage" />
-        <item itemvalue="TestNG.TestWelcomePage.testlanguage" />
-        <item itemvalue="TestNG.TestWelcomePage.testseeLogo" />
+        <item itemvalue="TestNG.TestWelcomePage.testviewindividualAndFamily" />
+        <item itemvalue="TestNG.TestWelcomePage.testsearchName" />
       </list>
     </recent_temporary>
   </component>
@@ -498,35 +526,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestWelcomePage_testlanguage - 2019.01.11 at 20h 31m 50s.xml">
-      <configuration name="TestWelcomePage.testlanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testlanguage - 2019.01.11 at 20h 33m 34s.xml">
-      <configuration name="TestWelcomePage.testlanguage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage - 2019.01.11 at 20h 39m 06s.xml">
-      <configuration name="TestWelcomePage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 02m 42s.xml">
-      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 05m 23s.xml">
-      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 08m 47s.xml">
-      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testaccessibility - 2019.01.11 at 22h 15m 04s.xml">
-      <configuration name="TestWelcomePage.testaccessibility" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 15m 38s.xml">
-      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 17m 27s.xml">
-      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 23m 13s.xml">
       <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestWelcomePage_testtrytosignIn - 2019.01.11 at 22h 26m 06s.xml">
+      <configuration name="TestWelcomePage.testtrytosignIn" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRegisterPage_testRegistration - 2019.01.11 at 23h 24m 21s.xml">
+      <configuration name="TestRegisterPage.testRegistration" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRegisterPage_testRegistration - 2019.01.11 at 23h 25m 49s.xml">
+      <configuration name="TestRegisterPage.testRegistration" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestWelcomePage_testmenubutton - 2019.01.11 at 23h 33m 16s.xml">
+      <configuration name="TestWelcomePage.testmenubutton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestWelcomePage_testsearchName - 2019.01.11 at 23h 33m 47s.xml">
+      <configuration name="TestWelcomePage.testsearchName" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestWelcomePage_testviewindividualAndFamily - 2019.01.11 at 23h 34m 11s.xml">
+      <configuration name="TestWelcomePage.testviewindividualAndFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestWelcomePage - 2019.01.11 at 23h 34m 27s.xml">
+      <configuration name="TestWelcomePage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRegisterPage_testRegistration - 2019.01.11 at 23h 35m 41s.xml">
+      <configuration name="TestRegisterPage.testRegistration" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestRegisterPage_testRegistration - 2019.01.11 at 23h 36m 40s.xml">
+      <configuration name="TestRegisterPage.testRegistration" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +626,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java</url>
-          <line>23</line>
+          <line>22</line>
           <properties class="testhomepage.TestWelcomePage" method="testseeLogo">
             <option name="EMULATED" value="true" />
           </properties>
@@ -606,7 +634,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java</url>
-          <line>149</line>
+          <line>148</line>
           <properties class="testhomepage.TestWelcomePage" method="testlearnmoreMedicare">
             <option name="EMULATED" value="true" />
           </properties>
@@ -744,16 +772,6 @@
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1276">
@@ -774,10 +792,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="232" column="34" selection-start-line="232" selection-start-column="34" selection-end-line="232" selection-end-column="34" />
+        <state relative-caret-position="149">
+          <caret line="80" column="49" lean-forward="true" selection-start-line="79" selection-start-column="3" selection-end-line="80" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -786,8 +844,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="505" column="5" lean-forward="true" selection-start-line="505" selection-start-column="5" selection-end-line="505" selection-end-column="5" />
+        <state relative-caret-position="408">
+          <caret line="24" column="54" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
