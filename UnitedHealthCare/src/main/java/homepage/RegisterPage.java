@@ -28,6 +28,5 @@ public class RegisterPage extends BaseUtil {
         memberNumber.click();
         socialSecurityNumber.sendKeys("825231");
         zip.sendKeys("11101");
-
     }
 }

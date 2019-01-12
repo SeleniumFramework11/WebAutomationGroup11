@@ -15,16 +15,12 @@ public class TestWelcomePage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         welcome = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.uhc.com/");
-        //setUrl("https://www.uhc.com/es/home");
-        //setUrl("https://www.myuhc.com/member/prewelcome.do");
-
     }
-    @Test
+        @Test
     public void testseeLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         welcome.checkseeLogo();
-
     }
     @Test
     public void testmenubutton() {
