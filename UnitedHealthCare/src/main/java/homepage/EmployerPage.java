@@ -76,6 +76,12 @@ public class EmployerPage extends BaseUtil {
     @FindBy(how = How.XPATH, using = "//a[contains(text(),'Critical Illness Protection Plan')]")
     public static WebElement criticalIllnessPlan;
 
+    @FindBy(how = How.LINK_TEXT, using = "Communication Resource")
+    public static WebElement communicationResource;
+
+    @FindBy(how = How.LINK_TEXT, using = "Getting Started Toolkit")
+    public static WebElement gettingStartedToolkit;
+
     public void checkgroupBenefitPlan() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         groupBenefitPlan.click();
@@ -167,5 +173,13 @@ public class EmployerPage extends BaseUtil {
     public void checkcriticalIllnessPlan() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         criticalIllnessPlan.click();
+    }
+    public void checkcommunicationResource() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        communicationResource.click();
+    }
+    public void checkgettingStartedToolkit() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        gettingStartedToolkit.click();
     }
 }

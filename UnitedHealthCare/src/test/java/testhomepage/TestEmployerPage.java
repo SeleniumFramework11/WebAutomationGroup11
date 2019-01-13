@@ -157,4 +157,16 @@ public class TestEmployerPage extends EmployerPage {
         }.getClass().getEnclosingMethod().getName()));
         employerPage.checkcriticalIllnessPlan();
     }
+    @Test
+    public void testcommunicationResource() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        employerPage.checkcommunicationResource();
+    }
+    @Test
+    public void testgettingStartedToolkit() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        employerPage.checkgettingStartedToolkit();
+    }
 }
