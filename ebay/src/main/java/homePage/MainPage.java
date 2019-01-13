@@ -52,6 +52,14 @@ public class MainPage extends BaseUtil {
     @FindBy (id = "gh-ac")
     public static WebElement findiphonexsmax;
 
+    @FindBy (xpath = "//*[@id=\"mainContent\"]/div[1]/ul/li[2]/a")
+    public static WebElement findsaved;
+
+    @FindBy (xpath = "//a[@id='gh-as-a']")
+    public static WebElement findAdvanced;
+
+    @FindBy (xpath= "//a[@class='gf-bttl thrd'][contains(text(),'Sell')]")
+    public static WebElement findsell;
 
 
     //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
@@ -126,6 +134,22 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findiphonexsmax.click();
     }
+    public void checkfindsaved() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findsaved.click();
+    }
+    public void checkfindAdvanced() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findAdvanced.click();
+    }
+    public void checkfindsell() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findsell.click();
+    }
+
 
 
 

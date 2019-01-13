@@ -14,7 +14,7 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
-        setUrl("https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR12.TRC2.A0.H0.Xiphone+xs+max.TRS0&_nkw=iphone+xs+max&_sacat=0");
+        setUrl("https://www.ebay.com/");
     }
     @Test
     public void testsearchButton() {
@@ -89,7 +89,24 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindiphonexsmax();
     }
-
+    @Test
+    public void testfindsaved(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindsaved();
+    }
+    @Test
+    public void testfindAdvancedd(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindAdvanced();
+    }
+    @Test
+    public void testfindsell(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindsell();
+    }
 
 
 
