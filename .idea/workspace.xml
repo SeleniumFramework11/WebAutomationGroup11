@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/src/main/java/homePage/TestMainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Driver/chromedriver" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,56 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
+            <state relative-caret-position="219">
+              <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,29 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebay/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="276">
+              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="69">
+              <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +95,9 @@
         <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/ebay/pom.xml" />
-        <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
       </list>
     </option>
@@ -322,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547336981301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343106382" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -357,52 +307,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testsearchButton">
-    <configuration name="ConnectToMongoDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToMongoDB" />
-      <module name="Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConnectToSqlDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="databases.ConnectToSqlDB" />
-      <module name="Generic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="databases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHomePage.testSignInLink" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Netflix.com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestHomePage" />
-      <option name="MAIN_CLASS_NAME" value="TestHomePage.TestHomePage" />
-      <option name="METHOD_NAME" value="testSignInLink" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMainPage.testfindElectronics" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMainPage.testfindiphonexsmax">
+    <configuration name="TestMainPage.testfindLogo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
         <pattern>
@@ -412,7 +318,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testfindElectronics" />
+      <option name="METHOD_NAME" value="testfindLogo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -420,7 +326,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testsearchButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testfindiphonexsmax" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
         <pattern>
@@ -430,7 +336,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testsearchButton" />
+      <option name="METHOD_NAME" value="testfindiphonexsmax" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testsearchapple" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testsearchapple" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testsearchiphonex" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testsearchiphonex" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testsignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testsignIn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -440,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMainPage.testsearchButton" />
-        <item itemvalue="TestNG.TestMainPage.testfindElectronics" />
-        <item itemvalue="TestNG.TestHomePage.testSignInLink" />
-        <item itemvalue="Application.ConnectToMongoDB" />
-        <item itemvalue="Application.ConnectToSqlDB" />
+        <item itemvalue="TestNG.TestMainPage.testfindiphonexsmax" />
+        <item itemvalue="TestNG.TestMainPage.testsignIn" />
+        <item itemvalue="TestNG.TestMainPage.testfindLogo" />
+        <item itemvalue="TestNG.TestMainPage.testsearchiphonex" />
+        <item itemvalue="TestNG.TestMainPage.testsearchapple" />
       </list>
     </recent_temporary>
   </component>
@@ -465,39 +425,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSearchPage_testsearch - 2019.01.11 at 23h 49m 11s.xml">
-      <configuration name="TestSearchPage.testsearch" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsearchapple - 2019.01.12 at 19h 23m 52s.xml">
+      <configuration name="TestMainPage.testsearchapple" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchPage_testsearch - 2019.01.11 at 23h 50m 31s.xml">
-      <configuration name="TestSearchPage.testsearch" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsearchiphonex - 2019.01.12 at 19h 27m 35s.xml">
+      <configuration name="TestMainPage.testsearchiphonex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchPage_testsearch - 2019.01.11 at 23h 51m 03s.xml">
-      <configuration name="TestSearchPage.testsearch" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsearchiphonex - 2019.01.12 at 19h 30m 52s.xml">
+      <configuration name="TestMainPage.testsearchiphonex" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearchPage_testsearch - 2019.01.11 at 23h 52m 11s.xml">
-      <configuration name="TestSearchPage.testsearch" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testfindLogo - 2019.01.12 at 19h 36m 27s.xml">
+      <configuration name="TestMainPage.testfindLogo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestHomePage_testSignInLink - 2019.01.12 at 13h 30m 40s.xml">
-      <configuration name="TestHomePage.testSignInLink" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testfindLogo - 2019.01.12 at 19h 38m 23s.xml">
+      <configuration name="TestMainPage.testfindLogo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsearchButton - 2019.01.12 at 18h 39m 57s.xml">
-      <configuration name="TestMainPage.testsearchButton" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testfindLogo - 2019.01.12 at 19h 40m 23s.xml">
+      <configuration name="TestMainPage.testfindLogo" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsearchButton - 2019.01.12 at 18h 40m 47s.xml">
-      <configuration name="TestMainPage.testsearchButton" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsignIn - 2019.01.12 at 19h 44m 36s.xml">
+      <configuration name="TestMainPage.testsignIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsearchButton - 2019.01.12 at 18h 45m 05s.xml">
-      <configuration name="TestMainPage.testsearchButton" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsignIn - 2019.01.12 at 19h 46m 33s.xml">
+      <configuration name="TestMainPage.testsignIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testfindElectronics - 2019.01.12 at 18h 46m 10s.xml">
-      <configuration name="TestMainPage.testfindElectronics" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsignIn - 2019.01.12 at 19h 48m 19s.xml">
+      <configuration name="TestMainPage.testsignIn" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsearchButton - 2019.01.12 at 18h 49m 02s.xml">
-      <configuration name="TestMainPage.testsearchButton" configurationId="TestNG" />
+    <history-entry file="TestMainPage_testsignIn - 2019.01.12 at 19h 50m 17s.xml">
+      <configuration name="TestMainPage.testsignIn" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="23" width="1440" height="816" extended-state="6" />
+    <frame x="7" y="23" width="1440" height="814" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
@@ -509,12 +469,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32458565" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32409972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3277311" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32825485" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
@@ -640,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/service/DriverService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -751,16 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -789,27 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ebay/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -817,10 +739,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="69">
           <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="123" column="25" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,8 +799,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="276">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
         </state>
       </provider>
     </entry>
