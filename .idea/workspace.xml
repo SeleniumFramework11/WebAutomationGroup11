@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+            <state relative-caret-position="-842">
+              <caret line="16" column="149" selection-start-line="16" selection-start-column="149" selection-end-line="16" selection-end-column="149" />
             </state>
           </provider>
         </entry>
@@ -272,7 +272,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343106382" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547343112346" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -425,12 +425,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testsearchapple - 2019.01.12 at 19h 23m 52s.xml">
-      <configuration name="TestMainPage.testsearchapple" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testsearchiphonex - 2019.01.12 at 19h 27m 35s.xml">
-      <configuration name="TestMainPage.testsearchiphonex" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testsearchiphonex - 2019.01.12 at 19h 30m 52s.xml">
       <configuration name="TestMainPage.testsearchiphonex" configurationId="TestNG" />
     </history-entry>
@@ -455,10 +449,15 @@
     <history-entry file="TestMainPage_testsignIn - 2019.01.12 at 19h 50m 17s.xml">
       <configuration name="TestMainPage.testsignIn" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testfindiphonexsmax - 2019.01.12 at 20h 30m 58s.xml">
+      <configuration name="TestMainPage.testfindiphonexsmax" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindiphonexsmax - 2019.01.12 at 20h 31m 58s.xml">
+      <configuration name="TestMainPage.testfindiphonexsmax" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1440" height="814" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24892704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -799,8 +798,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+        <state relative-caret-position="-842">
+          <caret line="16" column="149" selection-start-line="16" selection-start-column="149" selection-end-line="16" selection-end-column="149" />
         </state>
       </provider>
     </entry>
