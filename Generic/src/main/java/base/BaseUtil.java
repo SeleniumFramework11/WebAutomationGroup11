@@ -49,7 +49,6 @@ public class BaseUtil {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
        // driver.get("https://www.walmart.com/");
         driver.manage().window().fullscreen();
-
     }
     @Parameters
     public void setUrl(String URL){
@@ -97,12 +96,7 @@ public class BaseUtil {
         DateFormat df = new SimpleDateFormat("MM.dd.yyyy-HH:mma");
         Date date = new Date();
         df.format(date);
-
-
-
-
     }
-
     @AfterSuite
     public void generateReport() { extent.close();}
     private Date getTime(long millis) {
