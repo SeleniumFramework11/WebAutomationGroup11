@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class TestWelcomePage extends MainPage {
+public class TestHomePage extends MainPage {
     MainPage welcome;
 
     @BeforeMethod
