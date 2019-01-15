@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
@@ -24,7 +26,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
+            <state relative-caret-position="111">
               <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+            <state relative-caret-position="179">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -45,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            <state relative-caret-position="1071">
+              <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,9 +98,9 @@
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/SearchPage.java" />
         <option value="$PROJECT_DIR$/ebay/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
       </list>
@@ -147,9 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="119" />
     <option name="y" value="23" />
-    <option name="width" value="874" />
+    <option name="width" value="914" />
     <option name="height" value="811" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -244,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547580433868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547582467952" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -284,25 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testfindGiftCards">
-    <configuration name="TestHoverOver.testBusinessIndustrial" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testBusinessIndustrial" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TestMainPage.testfindHelpandContact">
     <configuration name="TestHoverOver.testDeals" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
@@ -375,13 +358,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMainPage.testfindHelpandContact" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testfindHelpandContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testfindHelpandContact" />
         <item itemvalue="TestNG.TestMainPage.testfindGiftCards" />
         <item itemvalue="TestNG.TestMainPage.testfindDailyDeals" />
         <item itemvalue="TestNG.TestHoverOver.testDeals" />
         <item itemvalue="TestNG.TestHoverOver.testMusic" />
-        <item itemvalue="TestNG.TestHoverOver.testBusinessIndustrial" />
       </list>
     </recent_temporary>
   </component>
@@ -402,15 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHoverOver_testHomeGarden - 2019.01.15 at 13h 22m 04s.xml">
-      <configuration name="TestHoverOver.testHomeGarden" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testSportingGoods - 2019.01.15 at 13h 26m 12s.xml">
-      <configuration name="TestHoverOver.testSportingGoods" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testBusinessIndustrial - 2019.01.15 at 13h 31m 57s.xml">
-      <configuration name="TestHoverOver.testBusinessIndustrial" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHoverOver_testBusinessIndustrial - 2019.01.15 at 13h 33m 02s.xml">
       <configuration name="TestHoverOver.testBusinessIndustrial" configurationId="TestNG" />
     </history-entry>
@@ -431,6 +423,15 @@
     </history-entry>
     <history-entry file="TestMainPage_testfindDailyDeals - 2019.01.15 at 14h 23m 10s.xml">
       <configuration name="TestMainPage.testfindDailyDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindGiftCards - 2019.01.15 at 14h 27m 21s.xml">
+      <configuration name="TestMainPage.testfindGiftCards" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindHelpandContact - 2019.01.15 at 14h 59m 16s.xml">
+      <configuration name="TestMainPage.testfindHelpandContact" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindHelpandContact - 2019.01.15 at 14h 59m 57s.xml">
+      <configuration name="TestMainPage.testfindHelpandContact" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -759,7 +760,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
+        <state relative-caret-position="111">
           <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -769,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        <state relative-caret-position="1071">
+          <caret line="124" column="40" selection-start-line="124" selection-start-column="40" selection-end-line="124" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -779,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        <state relative-caret-position="179">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="48" selection-end-line="51" selection-end-column="48" />
         </state>
       </provider>
     </entry>

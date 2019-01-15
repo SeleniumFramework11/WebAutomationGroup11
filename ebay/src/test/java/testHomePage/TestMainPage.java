@@ -118,6 +118,12 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindGiftCards();
     }
+    @Test
+    public void testfindHelpandContact() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindHelpandContact();
+    }
 
 
 
