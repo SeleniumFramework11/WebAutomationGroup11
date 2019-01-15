@@ -28,30 +28,23 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindElectronics();
     }
-
     @Test
     public void testsearchPhone() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checksearchPhone();
-
     }
-
-
-
     @Test
     public void testfindDeals() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindDeals();
     }
-
     @Test
     public void testsearchToys(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checksearchToys();
-
+        mainPage.checkfindToys();
     }
     @Test
     public void testclickmusic(){
@@ -106,6 +99,12 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindsell();
+    }
+    @Test
+    public void testfindOptions() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindOptions();
     }
 
 

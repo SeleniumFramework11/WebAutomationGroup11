@@ -17,8 +17,49 @@ public class TestHoverOver extends HoverOver {
         setUrl("https://www.ebay.com/");
     }
     @Test(enabled = true, priority = 3)
+    public void testmotors () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkmotors();
+    }
+    @Test(enabled = true, priority = 3)
     public void testFashion () throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkFashion();
     }
+    @Test(enabled = true, priority = 3)
+    public void testElectronics () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkElectronics();
+    }
+    @Test(enabled = true, priority = 3)
+    public void tesToys () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkToys();
+    }
+    @Test(enabled = true, priority = 3)
+    public void testCollectiblesArt () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkCollectiblesArt();
+    }
+    @Test(enabled = true, priority = 3)
+    public void testHomeGarden () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkHomeGarden();
+    }
+    @Test(enabled = true, priority = 3)
+    public void testSportingGoods () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkSportingGoods();
+    }
+    @Test(enabled = true, priority = 3)
+    public void testBusinessIndustrial () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkBusinessIndustrial();
+    }
+    @Test(enabled = true, priority = 3)
+    public void testMusic () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkMusic();
+    }
+
 }

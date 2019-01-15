@@ -2,64 +2,48 @@ package homePage;
 
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
-
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class MainPage extends BaseUtil {
     @FindBy(id = "gh-btn")
     public static WebElement searchButton;
-
     @FindBy(linkText = "Electronics")
     public static WebElement findElectronics;
-
     @FindBy(xpath = "//*[@id=\"gh-ac\"]")
     public static WebElement searchPhone;
-
-    @FindBy(linkText = "Deals")
+    @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/ul/li[12]/a")
     public static WebElement findDeals;
-
-    @FindBy(linkText = "Books")
+    @FindBy(xpath = "//input[@id='gh-ac']")
     public static WebElement findBooks;
-
-    @FindBy(linkText = "Toys")
-    public static WebElement searchToys;
-
+    @FindBy(xpath = "/html[1]/body[1]/div[5]/div[1]/ul[1]/li[9]/a[1]")
+    public static WebElement findToys;
     @FindBy(xpath = "//*[@id=\"mainContent\"]/div[1]/ul/li[11]/a")
     public static WebElement findmusic;
-
     @FindBy(xpath = "//input[@id='gh-ac']")
     public static WebElement searchapple;
-
     @FindBy(xpath = "//*[@id=\"gh-ac\"]")
     public static WebElement searchiphonex;
-
     @FindBy(id = "gh-logo")
     public static WebElement findLogo;
-
     @FindBy (linkText = "Sign in")
     public static WebElement signIn;
-
     @FindBy (name = "userid")
     public static WebElement userID;
-
     @FindBy(name = "pass")
     public static WebElement passWord;
-
     @FindBy (id = "sgnBt")
     public static WebElement signinButton;
-
     @FindBy (id = "gh-ac")
     public static WebElement findiphonexsmax;
-
     @FindBy (xpath = "//*[@id=\"mainContent\"]/div[1]/ul/li[2]/a")
     public static WebElement findsaved;
-
     @FindBy (xpath = "//a[@id='gh-as-a']")
     public static WebElement findAdvanced;
-
-    @FindBy (xpath= "//a[@class='gf-bttl thrd'][contains(text(),'Sell')]")
+    @FindBy (xpath = "//a[@class='gf-bttl thrd'][contains(text(),'Sell')]")
     public static WebElement findsell;
+    @FindBy (xpath = "//*[@id=\"gh-shop-ei\"]")
+    public static WebElement findOptions;
 
 
     //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
@@ -70,36 +54,30 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         searchButton.click();
     }
-
     public void checkfindElectronics() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         findElectronics.click();
     }
-
     public void checksearchPhone() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         searchPhone.click();
-
     }
-
     public void checkfindDeals() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         findDeals.click();
     }
-
     public void checkfindBooks() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         findBooks.click();
     }
-
-    public void checksearchToys() {
+    public void checkfindToys() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchToys.click();
+        findToys.click();
     }
     public void checkfindmusic() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -148,6 +126,11 @@ public class MainPage extends BaseUtil {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         findsell.click();
+    }
+    public void checkfindOptions() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findOptions.click();
     }
 
 
