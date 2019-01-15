@@ -106,6 +106,19 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindOptions();
     }
+    @Test
+    public void testfindDailyDeals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindDailyDeals();
+    }
+    @Test
+    public void testfindGiftCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindGiftCards();
+    }
+
 
 
 

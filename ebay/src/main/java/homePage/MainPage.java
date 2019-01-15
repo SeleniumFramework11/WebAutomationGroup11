@@ -44,6 +44,10 @@ public class MainPage extends BaseUtil {
     public static WebElement findsell;
     @FindBy (xpath = "//*[@id=\"gh-shop-ei\"]")
     public static WebElement findOptions;
+    @FindBy(xpath = "//a[@class='gh-p'][contains(text(),'Daily Deals')]")
+    public static WebElement findDailyDeals;
+    @FindBy(xpath = "/html[1]/body[1]/header[1]/div[1]/ul[1]/li[3]/a[1]")
+    public static WebElement findGiftCards;
 
 
     //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
@@ -132,7 +136,16 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findOptions.click();
     }
-
+    public void checkfindDailyDeals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findDailyDeals.click();
+    }
+    public void checkfindGiftCards() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findGiftCards.click();
+    }
 
 
 

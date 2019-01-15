@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+            <state relative-caret-position="1">
+              <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,22 +34,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java">
+        <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="183">
+              <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+        <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="42" column="159" selection-start-line="42" selection-start-column="159" selection-end-line="42" selection-end-column="159" />
+            <state relative-caret-position="336">
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +96,11 @@
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/SearchPage.java" />
         <option value="$PROJECT_DIR$/ebay/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
-        <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
-        <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java" />
+        <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
       </list>
     </option>
   </component>
@@ -248,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547579226081" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547580433868" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -288,7 +284,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestHoverOver.testDeals">
+  <component name="RunManager" selected="TestNG.TestMainPage.testfindGiftCards">
     <configuration name="TestHoverOver.testBusinessIndustrial" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
@@ -325,24 +321,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHoverOver.testHomeGarden" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testHomeGarden" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestHoverOver.testMusic" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
@@ -361,7 +339,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHoverOver.testSportingGoods" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMainPage.testfindDailyDeals" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ebay" />
       <extension name="coverage">
         <pattern>
@@ -370,8 +348,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestHoverOver" />
-      <option name="METHOD_NAME" value="testSportingGoods" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testfindDailyDeals" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMainPage.testfindGiftCards" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ebay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testfindGiftCards" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -381,11 +377,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.testfindGiftCards" />
+        <item itemvalue="TestNG.TestMainPage.testfindDailyDeals" />
         <item itemvalue="TestNG.TestHoverOver.testDeals" />
         <item itemvalue="TestNG.TestHoverOver.testMusic" />
         <item itemvalue="TestNG.TestHoverOver.testBusinessIndustrial" />
-        <item itemvalue="TestNG.TestHoverOver.testSportingGoods" />
-        <item itemvalue="TestNG.TestHoverOver.testHomeGarden" />
       </list>
     </recent_temporary>
   </component>
@@ -406,15 +402,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHoverOver_tesCollectiblesArt - 2019.01.15 at 13h 10m 37s.xml">
-      <configuration name="TestHoverOver.tesCollectiblesArt" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testHomeGarden - 2019.01.15 at 13h 20m 10s.xml">
-      <configuration name="TestHoverOver.testHomeGarden" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestHoverOver_testHomeGarden - 2019.01.15 at 13h 21m 01s.xml">
-      <configuration name="TestHoverOver.testHomeGarden" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestHoverOver_testHomeGarden - 2019.01.15 at 13h 22m 04s.xml">
       <configuration name="TestHoverOver.testHomeGarden" configurationId="TestNG" />
     </history-entry>
@@ -435,6 +422,15 @@
     </history-entry>
     <history-entry file="TestHoverOver_testDeals - 2019.01.15 at 14h 06m 36s.xml">
       <configuration name="TestHoverOver.testDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindDailyDeals - 2019.01.15 at 14h 20m 24s.xml">
+      <configuration name="TestMainPage.testfindDailyDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindDailyDeals - 2019.01.15 at 14h 22m 00s.xml">
+      <configuration name="TestMainPage.testfindDailyDeals" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindDailyDeals - 2019.01.15 at 14h 23m 10s.xml">
+      <configuration name="TestMainPage.testfindDailyDeals" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -741,20 +737,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+        <state relative-caret-position="223">
+          <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="393">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -768,23 +767,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/HoverOver.java">
+    <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="118" column="32" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
+        <state relative-caret-position="336">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestHoverOver.java">
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="183">
+          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
         </state>
       </provider>
     </entry>
