@@ -61,5 +61,10 @@ public class TestHoverOver extends HoverOver {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
         hoverOver.checkMusic();
     }
+    @Test(enabled = true, priority = 3)
+    public void testDeals () throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {}.getClass().getEnclosingMethod().getName()));
+        hoverOver.checkDeals();
+    }
 
 }

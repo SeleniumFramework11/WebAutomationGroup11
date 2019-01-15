@@ -108,6 +108,17 @@ public class HoverOver extends BaseUtil {
         Thread.sleep(2000);
         System.out.println(Music.getText());
     }
+    public void checkDeals() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        Actions builder = new Actions(driver); //already USED IN BASEUTIL
+        WebElement Deals = driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/ul[1]/li[12]/a[1]"));
+        Thread.sleep(2000);
+        builder.moveToElement(Deals).build().perform();
+        Thread.sleep(2000);
+        System.out.println(Deals.getText());
+    }
+
 
 
 
