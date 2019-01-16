@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            <state relative-caret-position="232">
+              <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+            <state relative-caret-position="406">
+              <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +126,8 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/resources/runner" />
         <option value="$PROJECT_DIR$/ebay/src/test/resources/runner.xml" />
-        <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java" />
       </list>
     </option>
   </component>
@@ -268,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547677498326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547677519875" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -426,18 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testfindSell - 2019.01.15 at 23h 25m 22s.xml">
-      <configuration name="TestMainPage.testfindSell" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testfindMyeBay - 2019.01.15 at 23h 30m 24s.xml">
-      <configuration name="TestMainPage.testfindMyeBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testfindAbouteBay - 2019.01.15 at 23h 36m 03s.xml">
-      <configuration name="TestMainPage.testfindAbouteBay" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testfindAnnouncements - 2019.01.16 at 16h 30m 48s.xml">
-      <configuration name="TestMainPage.testfindAnnouncements" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testfindAbouteBay - 2019.01.16 at 16h 39m 23s.xml">
       <configuration name="TestMainPage.testfindAbouteBay" configurationId="TestNG" />
     </history-entry>
@@ -456,10 +444,21 @@
     <history-entry file="TestMainPage_testAnnouncements - 2019.01.16 at 17h 20m 31s.xml">
       <configuration name="TestMainPage.testAnnouncements" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_testAnnouncements - 2019.01.16 at 17h 21m 43s.xml">
+      <configuration name="TestMainPage.testAnnouncements" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testAnnouncements - 2019.01.16 at 17h 22m 50s.xml">
+      <configuration name="TestMainPage.testAnnouncements" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindAnnouncements - 2019.01.16 at 17h 24m 14s.xml">
+      <configuration name="TestMainPage.testfindAnnouncements" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testfindMyeBay - 2019.01.16 at 17h 25m 18s.xml">
+      <configuration name="TestMainPage.testfindMyeBay" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15522175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -470,12 +469,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32168674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32168674" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32684284" />
@@ -807,15 +806,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        <state relative-caret-position="232">
+          <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="138" column="9" lean-forward="true" selection-start-line="138" selection-start-column="9" selection-end-line="138" selection-end-column="9" />
+        <state relative-caret-position="406">
+          <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
