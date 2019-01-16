@@ -122,8 +122,26 @@ public class TestMainPage extends MainPage {
     public void testfindHelpandContact() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkfindHelpandContact();
+        mainPage.checkfindHelpandcontact();
     }
+    @Test
+    public void testfindMyeBay() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindMyeBay();
+    }
+    /*@Test
+    public void testfindAbouteBay() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkclickAbouteBay();
+    }
+    @Test
+    public void testfindAnnouncements() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindAnnouncements ();
+    }*/
 
 
 

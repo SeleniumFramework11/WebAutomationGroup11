@@ -48,8 +48,17 @@ public class MainPage extends BaseUtil {
     public static WebElement findDailyDeals;
     @FindBy(xpath = "/html[1]/body[1]/header[1]/div[1]/ul[1]/li[3]/a[1]")
     public static WebElement findGiftCards;
-    @FindBy(xpath = "//div[@class='hl-pushdown__overlay']")
-    public static WebElement findHelpandContact;
+    @FindBy(xpath = "//a[@class='gh-p'][contains(text(),'Help & Contact')]")
+    public static WebElement findHelpandcontact;
+    @FindBy(xpath = "//a[@class='gh-p'][contains(text(),'Sell')]")
+    public static WebElement findSell;
+    @FindBy(xpath = "//a[@class='gh-eb-li-a'][contains(text(),'My eBay')]")
+    public static WebElement findMyeBay;
+    @FindBy(xpath = "//a[@class='thrd gf-bar-a'][contains(text(),'About eBay')]")
+    public static WebElement clickAbouteBay;
+    @FindBy(name = "//a[@class='thrd gf-bar-a'][contains(text(),'Announcements')]")
+    public static WebElement findAnnouncements;
+
 
 
     //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
@@ -148,10 +157,30 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findGiftCards.click();
     }
-    public void checkfindHelpandContact() {
+    public void checkfindHelpandcontact() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        findHelpandContact.click();
+        findHelpandcontact.click();
+    }
+    public void checkfindSell() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findSell.click();
+    }
+    public void checkfindMyeBay() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findMyeBay.click();
+    }
+    public void checkclickAbouteBay() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickAbouteBay.click();
+    }
+    public void checkfindAnnouncements() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findAnnouncements.click();
     }
 
 
