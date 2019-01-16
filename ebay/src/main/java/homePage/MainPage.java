@@ -58,6 +58,8 @@ public class MainPage extends BaseUtil {
     public static WebElement clickAbouteBay;
     @FindBy(name = "//a[@class='thrd gf-bar-a'][contains(text(),'Announcements')]")
     public static WebElement findAnnouncements;
+    @FindBy(xpath = "//img[@id='gh-logo']")
+
 
 
 
