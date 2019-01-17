@@ -5,11 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-
-
 public class WelcomePage extends BaseUtil {
-
-    @FindBy (xpath = "//a[@class='BubbleLink display-inline-block text-center GlobalHeaderBubblesNav-cartBubble']//div[@class='BubbleLink-wrapper']//span[@class='BubbleLink-hoverLabel font-bold']")
+    @FindBy(xpath = "//a[@class='BubbleLink display-inline-block text-center GlobalHeaderBubblesNav-cartBubble']//div[@class='BubbleLink-wrapper']//span[@class='BubbleLink-hoverLabel font-bold']")
     public static WebElement goForGrocery;
 
     public void checkgoForGrocery() {
@@ -18,4 +15,3 @@ public class WelcomePage extends BaseUtil {
 
     }
 }
-

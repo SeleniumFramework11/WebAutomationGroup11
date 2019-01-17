@@ -11,6 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>Walmart</module>
+        <module>UnitedHealthCare</module>
+        <module>Netflix.com</module>
+        <module>ebay</module>
     </modules>
 
     <dependencyManagement>
@@ -81,9 +84,19 @@
                 <version>3.0.6</version>
             </dependency>
             <dependency>
-                <groupId>com.googlecode.json-simple</groupId>
-                <artifactId>json-simple</artifactId>
-                <version>1.1.1</version>
+                <groupId>com.google.api-client</groupId>
+                <artifactId>google-api-client</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.oauth-client</groupId>
+                <artifactId>google-oauth-client-jetty</artifactId>
+                <version>1.22.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.apis</groupId>
+                <artifactId>google-api-services-sheets</artifactId>
+                <version>v4-rev483-1.22.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
