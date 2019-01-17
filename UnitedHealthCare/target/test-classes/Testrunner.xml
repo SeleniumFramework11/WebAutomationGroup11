@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="NYPost API Automation Script " parallel="tests">
+<suite name="WebAutomationGroup11 " parallel="tests">
 
     <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
@@ -13,7 +13,7 @@
 
     <test name = "Search ">
         <classes>
-             <class name="testhomepage.TestWelcomePage"/>
+             <class name="testhomepage.TestHomePage"/>
         </classes>
     </test>
 

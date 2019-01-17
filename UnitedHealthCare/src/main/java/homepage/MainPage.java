@@ -89,7 +89,7 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//a[contains(text(),'Hospital and Doctor Insurance')]")
     public static WebElement hospitalAndDoctorInsurance;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/span[1]/a[1]")
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]")
     public static WebElement visionInsurance;
 
     @FindBy (xpath = "//a[contains(text(),'Term Life Insurance')]")
@@ -233,7 +233,7 @@ public class MainPage extends BaseUtil {
     @FindBy (id = "loginmenubutton")
     public static WebElement trytoSignIn;
 
-    @FindBy (css = "body.lang-en div.viewport-wrapper:nth-child(7) div.uhc-wrapper:nth-child(2) div.header:nth-child(1) header.main-header.container.lang-header.en-header div.loginIpar.iparsys.parsys:nth-child(6) div.login.section div.login-wrapper div.login-content ul:nth-child(1) li.login-dropdown-link-text:nth-child(1) > a:nth-child(1)")
+    @FindBy (css = "body.lang-en div.viewport-wrapper:nth-child(7) div.uhc-wrapper:nth-child(2) div.header:nth-child(1)")
     public static WebElement UHCsignin;
 
     @FindBy (xpath = "//*[@id=\"hsid-username\"]")
