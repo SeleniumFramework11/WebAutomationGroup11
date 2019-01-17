@@ -3,10 +3,7 @@ package base;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 import org.apache.commons.lang3.StringUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -53,7 +50,53 @@ public class BaseUtil {
     @Parameters
     public void setUrl(String URL){
         this.URL = URL;
-        driver.get(URL);}
+        driver.get(URL);
+    }
+    public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator) {
+        boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
+        return value;
+    }
+    public void clickOnElement(String locator) {
+        try {
+            driver.findElement(By.cssSelector(locator)).click();
+        } catch (Exception ex1) {
+            ex1.printStackTrace();
+        }
+        try {
+            driver.findElement(By.xpath(locator)).click();
+        } catch (Exception ex2) {
+            ex2.printStackTrace();
+        }
+        try {
+            driver.findElement(By.id(locator)).click();
+        } catch (Exception ex3) {
+            ex3.printStackTrace();
+        }
+        try {
+            driver.findElement(By.className(locator)).click();
+        } catch (Exception ex4) {
+            ex4.printStackTrace();
+        }
+    }
+    public void navigateBack() {
+        driver.navigate().back();
+    }
+    public void navigateForward() {
+        driver.navigate().forward();
+    }
+    public void okAlert() {
+        Alert alert = driver.switchTo().alert();
+        alert.accept();
+    }
+    public void cancelAlert() {
+        Alert alert = driver.switchTo().alert();
+        alert.dismiss();
+    }
+    //iFrame Handle
+    public void iframeHandle(WebElement element) {
+        driver.switchTo().frame(element);
+    }
+
 
     public static ExtentReports extent;
     @BeforeSuite
