@@ -17,9 +17,7 @@ public class TestHomePage extends HomePage {
         setUrl("http://www.Netflix.com");
     }
     @Test (priority=1)
-    public void testSignInLink() {
-            clickSignInButton();
-    }
+    public void testSignInLink() { clickSignInButton(); }
     @Test (priority=2)
     public void testJoinLink(){ clickJoinButton(); }
     @Test (priority=3)

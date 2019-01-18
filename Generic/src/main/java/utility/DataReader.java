@@ -19,12 +19,12 @@ public class DataReader {
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
 
-    public String[][] fileReader1(String path,int sheetIndex) throws IOException {
+    public String[][] fileReader1(String path) throws IOException {
         String[][] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
-        sheet = wb.getSheetAt(sheetIndex);
+        sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1][numberOfCol + 1];
@@ -40,18 +40,38 @@ public class DataReader {
         return data;
     }
 
-    public String[] fileReader2(String path, int sheetIndex) throws IOException {
+    public String[] fileReader(String path) throws IOException {
         String[] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
-        sheet = wb.getSheetAt(sheetIndex);
+        sheet = wb.getSheetAt(0);
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
 
         for (int i = 1; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
+            for (int j = 0; j < numberOfCol; j++) {
+                HSSFCell cell = rows.getCell(j);
+                String cellData = getCellValue(cell);
+                data[i] = cellData;
+            }
+        }
+        return data;
+    }
+    public String[] colReader(String path, int col) throws IOException {
+        String[] data = {};
+        File file = new File(path);
+        FileInputStream fis = new FileInputStream(file);
+        wb = new HSSFWorkbook(fis);
+        sheet = wb.getSheetAt(0);
+        numberOfRows = sheet.getLastRowNum();
+        numberOfCol = col;
+        data = new String[numberOfRows];
+
+        for (int i = 0; i < data.length; i++) {
+            HSSFRow rows = sheet.getRow(i + 1);
             for (int j = 0; j < numberOfCol; j++) {
                 HSSFCell cell = rows.getCell(j);
                 String cellData = getCellValue(cell);
@@ -77,7 +97,6 @@ public class DataReader {
                 break;
         }
         return value.toString();
-
     }
 
     public void writeBack(String value) throws IOException {
@@ -93,6 +112,6 @@ public class DataReader {
             cell.setCellValue(value);
         }
         fio.close();
-        wb.close();
+        //wb.close();
     }
 }

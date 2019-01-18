@@ -31,6 +31,9 @@ public class SheetsQuickStart {
     private static final List<String> SCOPES = Collections.singletonList(SheetsScopes.SPREADSHEETS_READONLY);
     private static final String CREDENTIALS_FILE_PATH = "/client_secret.json";
 
+    public SheetsQuickStart() throws GeneralSecurityException, IOException {
+    }
+
     /**
      * Creates an authorized Credential object.
      * @param HTTP_TRANSPORT The network HTTP Transport.
@@ -59,9 +62,9 @@ public class SheetsQuickStart {
     public static void main(String... args) throws IOException, GeneralSecurityException {
         // Build a new authorized API client service.
         final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
-        //final String spreadsheetId = "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms";<--Original
+       // final String spreadsheetId = "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms";             <--Original
         final String spreadsheetId = "1h-FtsfIBgUhA8woZUw8DuxY92KQcO_n-vxjPSuugG-s";
-        //final String range = "Class Data!A2:E"; <--Original
+       // final String range = "Class Data!A2:E";                                                  <--Original
         final String range = "Sheet1";
         Sheets service = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
                 .setApplicationName(APPLICATION_NAME)
@@ -73,13 +76,38 @@ public class SheetsQuickStart {
         if (values == null || values.isEmpty()) {
             System.out.println("No data found.");
         } else {
-            //System.out.println("Name, Major");                                  <--Original
-            System.out.println("Reading Data From Google Sheets");
+            //System.out.println("Name, Major");                                                     <--Original
+            System.out.println("Data From Google Sheets");
             for (List row : values) {
                 // Print columns A and E, which correspond to indices 0 and 4.
-               // System.out.printf("%s, %s\n", row.get(0), row.get(4));          <--Original
+               // System.out.printf("%s, %s\n", row.get(0), row.get(4));                             <--Original
                 System.out.printf("%s, %s\n", row.get(0), row.get(1));
             }
         }
+    }
+    public NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
+    public String spreadsheetId;
+    public String range;
+
+    public List<List<Object>> getDataFromGSheet(String spreadsheetId, String range) throws IOException {
+        this.spreadsheetId = spreadsheetId;
+        this.range = range;
+        Sheets service = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
+                .setApplicationName(APPLICATION_NAME)
+                .build();
+        ValueRange response = service.spreadsheets().values()
+                .get(spreadsheetId, range)
+                .execute();
+        List<List<Object>> values = response.getValues();
+        if (values == null || values.isEmpty()) {
+            System.out.println("No data found.");
+        } else {
+            System.out.println("Data From Google Sheets");
+            for (List row : values) {
+                // Print columns A and E, which correspond to indices 0 and 1.
+                System.out.printf("%s, %s\n", row.get(0), row.get(1));
+            }
+        }
+        return values;
     }
 }
