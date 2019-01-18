@@ -31,7 +31,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
+            <state relative-caret-position="697">
               <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="85">
               <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,10 +65,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-122">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="408">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="221">
               <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -198,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,110 +223,16 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ReadingFromXlsTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547847121562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547847373106" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -463,9 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testfindElectronics - 2019.01.12 at 18h 46m 10s.xml">
-      <configuration name="TestMainPage.testfindElectronics" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testsearchButton - 2019.01.12 at 18h 49m 02s.xml">
       <configuration name="TestMainPage.testsearchButton" configurationId="TestNG" />
     </history-entry>
@@ -493,12 +413,14 @@
     <history-entry file="TestEmployerPage - 2019.01.14 at 12h 19m 00s.xml">
       <configuration name="TestEmployerPage" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSigninWithGoogleSheet_loginEmailAndPassword - 2019.01.18 at 16h 32m 28s.xml">
+      <configuration name="TestSigninWithGoogleSheet.loginEmailAndPassword" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="3833" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24858299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,16 +428,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32342657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Favorites" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32692307" />
       <window_info anchor="bottom" id="SQL" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.3295302" />
@@ -835,31 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/DataBaseOperation.java" />
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -888,16 +786,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="340">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
+        <state relative-caret-position="697">
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -907,8 +805,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="85">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -918,10 +840,24 @@
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
