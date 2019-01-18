@@ -15,7 +15,6 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
-
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.lang.reflect.Method;
@@ -37,8 +36,8 @@ public class BaseUtil {
 
     @BeforeMethod
     public void setup() throws MalformedURLException {
-        System.setProperty("webdriver.chrome.driver", "...Generic/Driver/chromedriver.exe");
-        //setUpBrowserStack();
+        System.setProperty("webdriver.chrome.driver", "Q:\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
+       // setUpBrowserStack();
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         builder = new Actions(driver);
@@ -188,5 +187,4 @@ public class BaseUtil {
         }
         return text;
     }
-
 }

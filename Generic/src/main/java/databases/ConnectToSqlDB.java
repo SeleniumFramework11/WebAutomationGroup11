@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class ConnectToSqlDB {
+public class ConnectToSqlDB{
 
     public static Connection connect = null;
     public static Statement statement = null;
@@ -17,7 +17,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\UnitedHealthCare\\secret.properties");
+        InputStream ism = new FileInputStream("Q:\\WebAutomationGroup11\\Netflix.com\\secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -208,5 +208,8 @@ public class ConnectToSqlDB {
         for(User user:list){
             System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
         }
+    }
+
+    public void insertStringDataFromArrayListToMySql(List<String> list, String headerList, String headers) {
     }
 }
