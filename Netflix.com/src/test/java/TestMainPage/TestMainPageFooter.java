@@ -1,5 +1,4 @@
 package TestMainPage;
-
 import HomePage.HomePage;
 import MainPage.MainPage;
 import MainPage.MainPageFooter;
@@ -11,7 +10,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class TestMainPageFooter extends MainPageFooter {
     SignInPage SignInPage;
     HomePage HomePage;
