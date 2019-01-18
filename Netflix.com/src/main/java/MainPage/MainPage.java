@@ -1,5 +1,4 @@
 package MainPage;
-
 import base.BaseUtil;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -9,9 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import javax.swing.text.Element;
 import javax.swing.text.html.CSS;
 import java.security.cert.CertStoreSpi;
-
 public class MainPage extends BaseUtil {
-
     @FindBy(xpath = "//a[.='TV Shows']")
     public static WebElement tvShowsLink;
     public void clickTvShowsLink(){
