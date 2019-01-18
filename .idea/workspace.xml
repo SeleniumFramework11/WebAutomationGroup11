@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/XlsDataReaderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/ReadingFromXlsTest/ReadingTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
@@ -33,6 +37,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2107">
+              <caret line="39" column="137" selection-start-line="39" selection-start-column="137" selection-end-line="39" selection-end-column="137" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="65" column="6" lean-forward="true" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
@@ -48,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="604">
-              <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="604">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,7 +126,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="254">
               <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,11 +204,11 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/pageobject/LogInBox.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testgooglesheet/TestGoogleAPI.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java" />
       </list>
     </option>
   </component>
@@ -251,6 +306,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="excelutility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +359,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="GoogleSheet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -304,7 +368,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -355,7 +419,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547852748254" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547854042234" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -395,7 +459,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ReadingTest">
+  <component name="RunManager" selected="TestNG.TestSignInWithGooglesheet">
     <configuration name="ReadingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -446,22 +510,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testhomepage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testhomepage" />
-      <option name="MAIN_CLASS_NAME" value="testhomepage.TestHomePage" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestHomePage.testsearchName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -480,13 +528,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSignInWithGooglesheet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPage" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPage.TestSignInWithGooglesheet" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSignInWithGooglesheet" />
         <item itemvalue="TestNG.ReadingTest" />
         <item itemvalue="TestNG.TestEmployerPage.testgroupBenefitPlan" />
         <item itemvalue="TestNG.TestHomePage.testsearchName" />
         <item itemvalue="TestNG.TestEmployerPage" />
-        <item itemvalue="TestNG.TestHomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -507,12 +571,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEmployerPage_testgroupBenefitPlan - 2019.01.12 at 22h 54m 52s.xml">
-      <configuration name="TestEmployerPage.testgroupBenefitPlan" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestEmployerPage - 2019.01.12 at 22h 56m 30s.xml">
-      <configuration name="TestEmployerPage" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestEmployerPage_testgroupHealthInsurance - 2019.01.12 at 23h 01m 19s.xml">
       <configuration name="TestEmployerPage.testgroupHealthInsurance" configurationId="TestNG" />
     </history-entry>
@@ -537,12 +595,17 @@
     <history-entry file="ReadingTest - 2019.01.17 at 17h 04m 27s.xml">
       <configuration name="ReadingTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 15h 17m 49s.xml">
+      <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 15h 23m 26s.xml">
+      <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,13 +613,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3243626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Favorites" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
@@ -829,23 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="39" column="137" selection-start-line="39" selection-start-column="137" selection-end-line="39" selection-end-column="137" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -913,42 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="65" column="6" lean-forward="true" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -992,17 +1002,7 @@
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1019,9 +1019,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2107">
+          <caret line="39" column="137" selection-start-line="39" selection-start-column="137" selection-end-line="39" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="65" column="6" lean-forward="true" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="62" column="82" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="35" column="66" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="254">
           <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
