@@ -77,7 +77,7 @@ public class SheetsQuickStart {
             System.out.println("Reading Data From Google Sheets");
             for (List row : values) {
                 // Print columns A and E, which correspond to indices 0 and 4.
-               // System.out.printf("%s, %s\n", row.get(0), row.get(4));          <--Original
+                // System.out.printf("%s, %s\n", row.get(0), row.get(4));          <--Original
                 System.out.printf("%s, %s\n", row.get(0), row.get(1));
             }
         }
