@@ -1,5 +1,6 @@
 package SearchMoviesExcel;
 import base.BaseUtil;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import java.io.IOException;
@@ -27,20 +28,19 @@ public WebElement getSearchInputField(){
 public void setSearchInputField(WebElement searchInputField){
     this.searchInputField = searchInputField;
 }
-public void clckSearchIcon(){}
-public void loginEmail(String value){
-        //searchInputField().sendKeys(value);
-    }
+@FindBy(css = "span.icon-search")
+public static WebElement searchButton;
+public void clickSearchIcon(){
+    searchButton.click();
+}
+public void searchFor(String value){
+  getSearchInputField().sendKeys(value, Keys.ENTER);
+}
 public void loginExcelSheet() throws IOException {
         ReadFiles read = new ReadFiles();
         String[] value = read.getDataFromExcelFile();
         for(int i=1; i<value.length; i++){
-            loginEmail(value[i]);
+           searchFor(value[i]);
         }
     }
-//        public void testExcel() throws IOException {
-//        ArrayList<String> loginWithExcel = dataFromExcel("Q:\\WebAutomationGroup11\\Netflix.com\\src\\main\\java\\SearchMoviesExcel\\LoginWithExcelSheet.xlsx","Sheet1",1);
-//        for (int i = 0; i < loginWithExcel.size(); i++) {
-//            typeEmailAddress("id_userLoginId", loginWithExcel.get(i));
-//        }}
 }
