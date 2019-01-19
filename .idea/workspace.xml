@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+            <state relative-caret-position="470">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2924">
+            <state relative-caret-position="1779">
               <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="238">
               <caret line="14" column="123" selection-start-line="14" selection-start-column="123" selection-end-line="14" selection-end-column="123" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            <state relative-caret-position="275">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,8 +201,8 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" />
       </list>
     </option>
   </component>
@@ -386,7 +385,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547883024347" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547883863431" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -535,15 +534,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 15h 27m 47s.xml">
-      <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 15h 31m 00s.xml">
-      <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 15h 32m 32s.xml">
-      <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 17h 31m 25s.xml">
       <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
     </history-entry>
@@ -565,12 +555,21 @@
     <history-entry file="TestLogInByXls - 2019.01.18 at 23h 25m 28s.xml">
       <configuration name="TestLogInByXls" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestLogInByXls - 2019.01.18 at 23h 30m 41s.xml">
+      <configuration name="TestLogInByXls" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogInByXls - 2019.01.18 at 23h 35m 54s.xml">
+      <configuration name="TestLogInByXls" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogInByXls - 2019.01.18 at 23h 42m 58s.xml">
+      <configuration name="TestLogInByXls" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="7" y="0" width="1536" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24899329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,13 +577,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3243626" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31284153" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Favorites" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" weight="0.32650274" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
@@ -1021,9 +1020,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="123" selection-start-line="14" selection-start-column="123" selection-end-line="14" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2924">
+        <state relative-caret-position="1779">
           <caret line="172" column="1" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1041,20 +1050,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="14" column="123" selection-start-line="14" selection-start-column="123" selection-end-line="14" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="275">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1063,8 +1062,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        <state relative-caret-position="470">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
