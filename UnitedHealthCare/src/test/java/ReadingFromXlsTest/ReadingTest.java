@@ -1,5 +1,6 @@
 package ReadingFromXlsTest;
 
+import SearchDB.SearchPage;
 import base.BaseUtil;
 
 import excelutility.XlsDataReaderUtil;

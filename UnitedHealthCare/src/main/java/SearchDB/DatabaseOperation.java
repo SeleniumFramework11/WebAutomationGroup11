@@ -13,9 +13,9 @@ public class DatabaseOperation extends ConnectToSqlDB {
         List<String> list = getHeaderValue();
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 
-        //connectToSqlDB.();
+        //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
 
-        //connectToSqlDB.();
+        //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
     }
     public static List<String> getHeaderValue() {
         List<String> headerList = new ArrayList<>();
