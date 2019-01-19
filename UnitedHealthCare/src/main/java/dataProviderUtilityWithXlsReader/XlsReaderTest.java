@@ -10,7 +10,6 @@ import java.io.FileInputStream;
 import java.util.Iterator;
 
 public class XlsReaderTest {
-
     public static void main(String[] args) throws Exception{
         String excelFilePath = "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\UnitedHealthCare\\src\\ExcelFile\\data.xls";
         FileInputStream fileInputStream = new FileInputStream(excelFilePath);
@@ -22,10 +21,8 @@ public class XlsReaderTest {
         while (rowIterator.hasNext()){
             Row nextRow = rowIterator.next();
             Iterator<Cell> cellIterator = nextRow.cellIterator();
-
             while (cellIterator.hasNext()){
                 Cell cell = cellIterator.next();
-
                 switch (cell.getCellType()){
                     case Cell.CELL_TYPE_STRING:
                         System.out.print(cell.getStringCellValue());
@@ -33,10 +30,9 @@ public class XlsReaderTest {
                         System.out.println(cell.getBooleanCellValue());*/
                     /*case Cell.CELL_TYPE_NUMERIC:
                         System.out.println(cell.getNumericCellValue());*/
-
-                        break;
+                    break;
                 }
-                System.out.print("         ");
+                System.out.print("");
             }
             System.out.println("");
         }

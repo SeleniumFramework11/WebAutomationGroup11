@@ -37,5 +37,4 @@ public class LogInByXls extends BaseUtil {
         passwordField.sendKeys(password);
         signInSubmitButton.click();
     }
-
 }

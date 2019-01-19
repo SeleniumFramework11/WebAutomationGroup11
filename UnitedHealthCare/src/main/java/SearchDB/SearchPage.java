@@ -10,13 +10,8 @@ public class SearchPage extends BaseUtil {
     public static WebElement learnHeathInsurance;
     @FindBy (className = "search-button")
     public static WebElement searchButton;
-
-
-
     public void checksearch() {
         searchButton.sendKeys("Health Insurance", Keys.ENTER);
         searchButton.sendKeys("Vision Insurance",Keys.ENTER);
-
-
     }
 }

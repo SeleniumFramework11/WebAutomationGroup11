@@ -5,9 +5,7 @@ import java.util.ArrayList;
 public class XlsDataReaderUtil {
 
     static XlsReader reader;
-
     public static ArrayList<Object[]> getDataFromExcel(){
-
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
             reader = new XlsReader("C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\UnitedHealthCare\\src\\ExcelFile\\data.xls");

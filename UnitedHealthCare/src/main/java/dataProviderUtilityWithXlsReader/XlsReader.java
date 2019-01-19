@@ -42,7 +42,6 @@ public class XlsReader {
         }
     }
     // returns the data from a cell
-
     public String getCellData(String sheetName, String colName, int rowNum) {
         try {
             if (rowNum <= 0)
@@ -88,18 +87,14 @@ public class XlsReader {
                     cellText = cal.get(Calendar.DAY_OF_MONTH) + "/" +
                             cal.get(Calendar.MONTH) + 1 + "/" +
                             cellText;
-
                     //System.out.println(cellText);
                 }
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
             else
                 return String.valueOf(cell.getBooleanCellValue());
-
         } catch (Exception e) {
-
             e.printStackTrace();
             return "row " + rowNum + " or column " + colName + " does not exist in xls";
         }
@@ -145,7 +140,6 @@ public class XlsReader {
             return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
         }
     }
-
     // find whether sheets exists
    public boolean isSheetExist(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);

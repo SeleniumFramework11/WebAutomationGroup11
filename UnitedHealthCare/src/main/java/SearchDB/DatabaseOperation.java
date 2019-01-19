@@ -8,7 +8,6 @@ import java.util.List;
 
 public class DatabaseOperation extends ConnectToSqlDB {
     public static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-
     public static void insertDataIntoDB() {
         List<String> list = getHeaderValue();
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
