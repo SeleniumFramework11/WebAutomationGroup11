@@ -77,7 +77,7 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental']")
     public static WebElement viewDental;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/p[2]/a[1]")
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]")
     public static WebElement learnHeathInsurance;
 
     @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM']")
@@ -179,7 +179,7 @@ public class MainPage extends BaseUtil {
     @FindBy (linkText = "Download Health4Me App")
     public static WebElement downloadApp;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[8]/a[1]")
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[4]")
     public static WebElement brokerLink;
 
     @FindBy (linkText = "Just Plain Clear® Glossary")
@@ -249,7 +249,6 @@ public class MainPage extends BaseUtil {
     public void checkseeLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeLogo.click();
-
     }
     public void checkmenubutton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -259,7 +258,6 @@ public class MainPage extends BaseUtil {
     public void checksearchName() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchName.click();
-
     }
     public void checkbuttonSearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -268,237 +266,190 @@ public class MainPage extends BaseUtil {
     public void checksearchText() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchText.click();
-
     }
     public void checkkeySearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         keySearch.click();
-
     }
     public void checkhomeButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homeButton.click();
-
     }
     public void checkindividualandFamilies() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         indiviualandFamilies.click();
-
     }
     public void checkemployerMenu() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         employerMenu.click();
-
     }
     public void checkmedicareMenu() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         medicareMenu.click();
-
     }
     public void checkfindaDoctor() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         findaDoctor.click();
-
     }
     public void checkimageHealth() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         imageHealth.click();
-
     }
     public void checkloginButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         loginButton.click();
-
     }
     public void checksigninUHC() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signinUHC.click();
-
     }
     public void checknearbyClinic() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         nearbyClinic.click();
-
     }
     public void checklearnMore() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnMore.click();
-
     }
     public void checklearnmoreBusiness() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnmoreBusiness.click();
-
     }
     public void checkindividualPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         individualPlans.click();
-
     }
     public void checkemployerPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         employerPlans.click();
-
     }
     public void checklearnmoreMedicare() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnmoreMedicare.click();
-
     }
     public void checkviewindividualAndFamily() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         viewindividualAndFamily.click();
-
     }
     public void checklearnDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnDental.click();
-
     }
     public void checkviewDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         viewDental.click();
-
     }
     public void checklearnHealthInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnHeathInsurance.click();
-
     }
     public void checkviewHealthInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         viewHealthInsurance.click();
-
     }
     public void checklearnMedicaidPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         learnMedicaidPlans.click();
-
     }
     public void checkhospitalAndDoctorInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         hospitalAndDoctorInsurance.click();
-
     }
     public void checkvisionInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         visionInsurance.click();
-
     }
     public void checktermLifeInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         termLifeInsurance.click();
-
     }
     public void checkillnessInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         illnessInsurance.click();
-
     }
     public void checkaccidentInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         accidentInsurance.click();
-
     }
     public void checkhospitalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         hospitalInsurance.click();
-
     }
     public void checksupplementInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         supplementInsurance.click();
-
     }
     public void checkglobalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         globalInsurance.click();
-
     }
     public void checktravelInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         travelInsurance.click();
-
     }
     public void checkproviderPortal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         providerPortal.click();
-
     }
     public void checkbrokerResources() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         brokerResources.click();
-
     }
     public void checkmarketplaceInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         marketplaceInsurance.click();
-
     }
     public void checkmedicareLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         medicareLink.click();
-
     }
     public void checkmedicaidProduct() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         medicaidProduct.click();
-
     }
     public void checkemployerGroup() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         employerGroup.click();
-
     }
     public void checkdentalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         dentalInsurance.click();
-
     }
     public void checkvisionProduct() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         visionProduct.click();
-
     }
     public void checkshorttermHealth() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         shorttermHealth.click();
-
     }
     public void checkfitnessLiving() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         fitnessLiving.click();
-
     }
     public void checknutritionLiving() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         nutritionLiving.click();
-
     }
     public void checkhealthTopics() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         healthTopics.click();
-
     }
     public void checkcontrolCare() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         careControl.click();
-
     }
     public void checkhealthWellness() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         careControl.click();
-
     }
     public void checkprogramandTools() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         seeLogo.click();
-
     }
     public void checkopenEnrollment() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         openEnrollment.click();
-
     }
     public void checkmemberResource() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -519,12 +470,10 @@ public class MainPage extends BaseUtil {
     public void checkviewdrugList() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         viewdrugList.click();
-
     }
     public void checkdownloadApp() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         downloadApp.click();
-
     }
     public void checkbrokerLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -541,22 +490,18 @@ public class MainPage extends BaseUtil {
     public void checkfindanyDoctor() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         findanyDoctor.click();
-
     }
     public void checkprintidCard() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         printidCard.click();
-
     }
     public void checkviewclaimAccount() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         viewclaimAccount.click();
-
     }
     public void checkcheckBenefits() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         checkBenefits.click();
-
     }
     public void checknewsRoom() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -603,5 +548,4 @@ public class MainPage extends BaseUtil {
         passWord.sendKeys("Shadowdirge12", Keys.ENTER);
         rememberMe.click();
     }
-
 }
