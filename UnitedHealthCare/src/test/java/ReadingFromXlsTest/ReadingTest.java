@@ -3,7 +3,6 @@ package ReadingFromXlsTest;
 import base.BaseUtil;
 
 import excelutility.XlsDataReaderUtil;
-import homepage.SearchPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;

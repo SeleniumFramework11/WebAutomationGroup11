@@ -3,19 +3,25 @@ import base.BaseUtil;
 import com.google.api.services.sheets.v4.Sheets;
 import com.google.api.services.sheets.v4.model.ValueRange;
 import org.openqa.selenium.By;
+import org.testng.Assert;
+
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import static GoogleSheets.GoogleSheetReader.getSheetsService;
 public class SignInWithGoogleSheet extends BaseUtil {
-    public void typeEmailAddress(String locator,String value){
+    public void typeEmailAddress(String locator, String value) {
         driver.findElement(By.id(locator)).sendKeys(value);
     }
-    public void typePasswords(String locator,String value){
+
+    public void typePasswords(String locator, String value) {
         driver.findElement(By.id(locator)).sendKeys(value);
     }
-    public void clickSignInGS(String locator){
+
+    public void clickSignInGS(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
+
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
         Sheets service = getSheetsService();
@@ -29,11 +35,12 @@ public class SignInWithGoogleSheet extends BaseUtil {
             return values;
         }
     }
+
     public void enterUserNameAndPassword(String spreadsheetId, String range) throws IOException, InterruptedException {
         List<List<Object>> values = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : values) {
-            typeEmailAddress("//input[@id='hsid-username']",row.get(0).toString());
-            typePasswords("//input[@id='hsid-password']",row.get(1).toString());
+            typeEmailAddress("//input[@id='hsid-username']", row.get(0).toString());
+            typePasswords("//input[@id='hsid-password']", row.get(1).toString());
             clickSignInGS("#hsid-submit");
         }
     }

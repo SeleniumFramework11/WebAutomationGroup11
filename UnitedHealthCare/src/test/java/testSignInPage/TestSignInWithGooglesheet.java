@@ -17,7 +17,7 @@ public class TestSignInWithGooglesheet extends SignInWithGoogleSheet {
         SignInPage = PageFactory.initElements(driver, SignInPage.class);
         welcome = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
-        //HomePage.clickSignInButton();
+        welcome.checksigninUHC();
     }
     @Test
     public void loginEmailAndPassword() throws IOException, InterruptedException {
