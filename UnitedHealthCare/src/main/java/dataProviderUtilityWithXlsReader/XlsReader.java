@@ -105,7 +105,7 @@ public class XlsReader {
         }
     }
     // returns the data from a cell
-/*    public String getCellData(String sheetName, int colNum, int rowNum) {
+   public String getCellData(String sheetName, int colNum, int rowNum) {
         try {
             if (rowNum <= 0)
                 return "";
@@ -144,10 +144,10 @@ public class XlsReader {
             e.printStackTrace();
             return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
         }
-    }*/
+    }
 
     // find whether sheets exists
-   /* public boolean isSheetExist(String sheetName) {
+   public boolean isSheetExist(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);
         if (index == -1) {
             index = workbook.getSheetIndex(sheetName.toUpperCase());
@@ -157,10 +157,10 @@ public class XlsReader {
                 return true;
         } else
             return true;
-    }*/
+    }
 
     // returns number of columns in a sheet
-    /*public int getColumnCount(String sheetName) {
+    public int getColumnCount(String sheetName) {
         // check if sheet exists
         if (!isSheetExist(sheetName))
             return -1;
@@ -169,5 +169,5 @@ public class XlsReader {
         if (row == null)
             return -1;
         return row.getLastCellNum();
-    }*/
+    }
 }
