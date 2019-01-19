@@ -9,12 +9,19 @@
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/src/main/resources/client_secret.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/GoogleSheetReader.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/SheetsQuickStart.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/target/classes/client_secret.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/XlsDataReaderUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generic/target/classes/utility/DataReader.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSinginWithGoogleSheet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter$1.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSinginWithGoogleSheet$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSinginWithGoogleSheet$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSinginWithGoogleSheet.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/secret.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/EmployerPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java" afterDir="false" />
@@ -72,6 +79,15 @@
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$9.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ebay/src/main/java/GoogleSheet/SinginWithGoogleSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/classes/GoogleSheet/SinginWithGoogleSheet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/classes/homePage/MainPage$24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/classes/homePage/MainPage$25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/classes/homePage/MainPage$26.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/testHomePage/TestMainPage$21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/testHomePage/TestMainPage$22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/testHomePage/TestMainPage$23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/testHomePage/TestMainPage$24.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ebay/target/test-classes/testHomePage/TestMainPage$25.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
@@ -249,8 +265,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSinginWithGoogleSheet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="30" column="76" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="76" />
+            <state relative-caret-position="274">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -478,59 +494,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="excelutility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GoogleSheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -540,7 +503,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547867087760" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547867356855" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -696,9 +659,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testsearchWomensDreeses - 2019.01.16 at 19h 54m 12s.xml">
-      <configuration name="TestMainPage.testsearchWomensDreeses" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testsearchMensShoes - 2019.01.16 at 23h 03m 34s.xml">
       <configuration name="TestMainPage.testsearchMensShoes" configurationId="TestNG" />
     </history-entry>
@@ -726,12 +686,14 @@
     <history-entry file="TestSinginWithGoogleSheet_loginEmailAndPassword - 2019.01.18 at 21h 52m 18s.xml">
       <configuration name="TestSinginWithGoogleSheet.loginEmailAndPassword" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSinginWithGoogleSheet_loginEmailAndPassword - 2019.01.18 at 22h 05m 16s.xml">
+      <configuration name="TestSinginWithGoogleSheet.loginEmailAndPassword" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="36" y="23" width="842" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -740,12 +702,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.320442" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.320442" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32596686" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32596686" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32596686" />
@@ -1200,8 +1162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSinginWithGoogleSheet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="30" column="76" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="76" />
+        <state relative-caret-position="274">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
