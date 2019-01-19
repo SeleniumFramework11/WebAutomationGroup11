@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" afterDir="false" />
@@ -200,39 +201,158 @@
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/MacysModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/GoogleSheet/SigninWithGoogleSheet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/Movies.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/SearchMovies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInUsers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/SheetsQuickStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/SheetsQuickStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macy's Module/target/test-classes/testrunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/secret.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestProfileSelectionPage/TestProfileSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestProfileSelectionPage/TestProfileSelectionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokens/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Walmart/target/" />
-    <ignored path="$PROJECT_DIR$/UnitedHealthCare/target/" />
-    <ignored path="$PROJECT_DIR$/Netflix.com/target/" />
-    <ignored path="$PROJECT_DIR$/ebay/target/" />
+    <ignored path="$PROJECT_DIR$/MacysModule/target/" />
+    <ignored path="$PROJECT_DIR$/Macy's Module/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-218">
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+=======
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5809#5810#0" expanded="true" />
+                <element signature="e#5888#5889#0" expanded="true" />
+                <element signature="e#6226#6227#0" expanded="true" />
+                <element signature="e#8242#8243#0" expanded="true" />
+                <element signature="e#8310#8311#0" expanded="true" />
+                <element signature="e#9538#9539#0" expanded="true" />
+                <element signature="e#9572#9573#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
+=======
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,11 +360,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
               <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -252,11 +380,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="326">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,6 +401,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -272,11 +409,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/resources/client_secret.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -332,6 +476,12 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
             </state>
           </provider>
         </entry>
@@ -353,10 +503,9 @@
       <list>
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Walmart/src/test/java/testhomepage/TestWelcomePage.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/WelcomePage.java" />
         <option value="$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ViewPlan.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java" />
@@ -402,6 +551,24 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" />
+=======
+        <option value="$PROJECT_DIR$/MacysModule/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/MacysModule/pom.xml" />
+        <option value="$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Macy's Module/pom.xml" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Dropdown.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/FindProduct.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       </list>
     </option>
   </component>
@@ -427,25 +594,38 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="Walmart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Walmart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Walmart" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="8" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="307" />
+    <option name="y" value="99" />
+    <option name="width" value="1280" />
+    <option name="height" value="788" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -453,7 +633,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -462,27 +641,154 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="Driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="homePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547939705247" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547939206017" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\UnitedHealthCare\src\ExcelFile" />
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\Generic\src\main\java\utility" />
       <recent name="$PROJECT_DIR$/Generic/Driver" />
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\Generic\Driver" />
       <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
+=======
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test\java" />
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\MacysModule\src\test\java" />
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11" />
+      <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
+      <recent name="C:\Users\orfat\Desktop\GroupFrameworkTeam11\Generic\Driver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testHomePage" />
+      <recent name="homePage" />
+      <recent name="utility" />
+      <recent name="testingpage" />
+      <recent name="base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testSearchPage" />
@@ -509,6 +815,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.TestHomePage.testtrytosignIn">
     <configuration name="DatabaseOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SearchDB.DatabaseOperation" />
@@ -519,21 +826,47 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+=======
+  <component name="RunManager" selected="TestNG.TestMainPage.testLogo">
+    <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walmart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingpage" />
+      <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
+      <properties />
+      <listeners />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestHomePage.testtrytosignIn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
+=======
+    <configuration name="TestMainPage.testLogo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacysModule" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testhomepage.*" />
+          <option name="PATTERN" value="testHomePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="PACKAGE_NAME" value="testhomepage" />
       <option name="MAIN_CLASS_NAME" value="testhomepage.TestHomePage" />
       <option name="METHOD_NAME" value="testtrytosignIn" />
+=======
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testLogo" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -541,6 +874,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestLogInByXls" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -551,12 +885,27 @@
       </extension>
       <option name="PACKAGE_NAME" value="ReadingFromXlsTest" />
       <option name="MAIN_CLASS_NAME" value="testDataProviderUtilityWithXlsReader.TestLogInByXls" />
+=======
+    <configuration name="TestMainPage.testgoForGrocery" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Walmart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingpage" />
+      <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
+      <option name="METHOD_NAME" value="testgoForGrocery" />
+      <option name="TEST_OBJECT" value="METHOD" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestLogInByXls.loginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -568,6 +917,19 @@
       <option name="PACKAGE_NAME" value="testDataProviderUtilityWithXlsReader" />
       <option name="MAIN_CLASS_NAME" value="testDataProviderUtilityWithXlsReader.TestLogInByXls" />
       <option name="METHOD_NAME" value="loginTestWithDataProvider" />
+=======
+    <configuration name="TestMainPage.testsignin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacysModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
+      <option name="METHOD_NAME" value="testsignin" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -575,6 +937,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TestSignInWithGooglesheet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -585,6 +948,20 @@
       </extension>
       <option name="PACKAGE_NAME" value="testSignInPage" />
       <option name="MAIN_CLASS_NAME" value="testSignInPage.TestSignInWithGooglesheet" />
+=======
+    <configuration name="TestSiginRegs.testsigninRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacysModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSiginRegs" />
+      <option name="METHOD_NAME" value="testsigninRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <properties />
       <listeners />
       <method v="2">
@@ -593,11 +970,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="TestNG.TestHomePage.testtrytosignIn" />
         <item itemvalue="TestNG.TestLogInByXls.loginTestWithDataProvider" />
         <item itemvalue="TestNG.TestLogInByXls" />
         <item itemvalue="TestNG.TestSignInWithGooglesheet" />
         <item itemvalue="Application.DatabaseOperation" />
+=======
+        <item itemvalue="TestNG.TestMainPage.testLogo" />
+        <item itemvalue="TestNG.TestSiginRegs.testsigninRegister" />
+        <item itemvalue="TestNG.TestMainPage.testsignin" />
+        <item itemvalue="TestNG.TestMainPage.testgoForGrocery" />
+        <item itemvalue="TestNG.TestMainPage" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       </list>
     </recent_temporary>
   </component>
@@ -618,6 +1003,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 17h 48m 24s.xml">
       <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
     </history-entry>
@@ -654,12 +1040,52 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
+=======
+    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 55m 44s.xml">
+      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 56m 16s.xml">
+      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 57m 10s.xml">
+      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testsignin - 2019.01.12 at 09h 33m 54s.xml">
+      <configuration name="TestMainPage.testsignin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testLogo - 2019.01.12 at 09h 35m 40s.xml">
+      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testsignin - 2019.01.12 at 09h 39m 30s.xml">
+      <configuration name="TestMainPage.testsignin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 16m 55s.xml">
+      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 19m 38s.xml">
+      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testLogo - 2019.01.19 at 17h 56m 29s.xml">
+      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_testLogo - 2019.01.19 at 17h 57m 36s.xml">
+      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37431693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -672,36 +1098,49 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32650274" />
       <window_info anchor="bottom" id="SQL" order="12" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="SQL" order="11" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Maven" order="1" weight="0.3295302" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2490242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="SQL" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3277311" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3277311" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3277311" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32733223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
+      <window_info anchor="bottom" id="SQL" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -713,6 +1152,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
+<<<<<<< HEAD
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -760,26 +1200,59 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/resources/testrunner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java" />
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testingpage/Account.java" />
+    <entry file="file://$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/MacysModule/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/Account.java" />
+    <entry file="file://$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/TestMainPage.java" />
+    <entry file="file://$PROJECT_DIR$/MacysModule/src/main/java/homePage/MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -787,6 +1260,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -798,12 +1272,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -857,12 +1338,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+=======
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testgooglesheet/TestGoogleAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -924,12 +1412,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3073">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/Account.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -959,9 +1481,14 @@
           </folding>
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
@@ -1028,12 +1555,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+=======
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/FindProduct.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Dropdown.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -1108,12 +1653,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1128,14 +1687,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+=======
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5809#5810#0" expanded="true" />
+            <element signature="e#5888#5889#0" expanded="true" />
+            <element signature="e#6226#6227#0" expanded="true" />
+            <element signature="e#8242#8243#0" expanded="true" />
+            <element signature="e#8310#8311#0" expanded="true" />
+            <element signature="e#9538#9539#0" expanded="true" />
+            <element signature="e#9572#9573#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="323">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
@@ -1148,87 +1721,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+=======
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+>>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>UnitedHealthCare</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
