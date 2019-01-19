@@ -14,7 +14,6 @@ public class TestSignInPage extends SignInPage{
         }.getClass().getEnclosingMethod().getName()));
         sign = PageFactory.initElements(driver, SignInPage.class);
         setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
-
     }
     @Test
     public void testUserName() {
