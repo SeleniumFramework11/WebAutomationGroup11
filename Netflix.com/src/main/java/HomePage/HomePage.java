@@ -1,11 +1,9 @@
 package HomePage;
-
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import reporting.TestLogger;
-
 public class HomePage extends BaseUtil {
     @FindBy(linkText = "Sign In")
     public static WebElement signInButton;

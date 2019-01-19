@@ -1,16 +1,8 @@
 package ProfileSelectionPage;
-
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class ProfileSelectionPage extends BaseUtil {
-//    @FindBy (xpath = "//a[@id='appMountPoint']")
-//            //(linkText = "/browse")
-//    public static WebElement netflixLogo;
-//    public void clickNetflixLogoLink(){
-//        netflixLogo.click();
-//    }
     @FindBy(xpath = "//span[.='Add Profile']")
     public static WebElement addProfile;
     public void clickAddProfile(){

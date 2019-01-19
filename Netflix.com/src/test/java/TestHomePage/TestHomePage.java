@@ -1,14 +1,11 @@
 package TestHomePage;
-
 import HomePage.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class TestHomePage extends HomePage {
     HomePage HomePage;
-
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -17,9 +14,7 @@ public class TestHomePage extends HomePage {
         setUrl("http://www.Netflix.com");
     }
     @Test (priority=1)
-    public void testSignInLink() {
-            clickSignInButton();
-    }
+    public void testSignInLink() { clickSignInButton(); }
     @Test (priority=2)
     public void testJoinLink(){ clickJoinButton(); }
     @Test (priority=3)
