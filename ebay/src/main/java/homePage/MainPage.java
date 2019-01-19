@@ -58,7 +58,16 @@ public class MainPage extends BaseUtil {
     public static WebElement clickAbouteBay;
     @FindBy(name = "//a[@class='thrd gf-bar-a'][contains(text(),'Announcements')]")
     public static WebElement findAnnouncements;
-    @FindBy(xpath = "//img[@id='gh-logo']")
+    @FindBy(xpath = "/html[1]/body[1]/div[3]/div[2]/h1[1]/span[1]")
+    public static WebElement searchWomensclothing;
+    @FindBy(xpath = "//*[@id=\"w1-w0\"]/ul/li[5]/a")
+    public static WebElement searchWomensDreeses;
+    @FindBy(xpath = "//span[@class='b-pageheader__text']")
+    public static WebElement searchMensShoes;
+    @FindBy(xpath = "//*[@id=\"w1-w0\"]/ul/li[4]/a")
+    public static WebElement searchMensBoots;
+    @FindBy(xpath = "//*[@id=\"w1-w0\"]/ul/li[5]/a")
+    public static WebElement searchMensCasualShoes;
 
 
 
@@ -174,16 +183,40 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findMyeBay.click();
     }
-    public void checkclickAbouteBay() {
+    public void checksearchWomensclothing() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        clickAbouteBay.click();
+        searchWomensclothing.click();
     }
-    public void checkfindAnnouncements() {
+    public void checksearchWomensDreeses() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        findAnnouncements.click();
+        searchWomensDreeses.click();
     }
+    public void checksearchMensShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchMensShoes.click();
+    }
+    public void checksearchMensBoots() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchMensBoots.click();
+    }
+    public void checksearchMensCasualShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchMensCasualShoes.click();
+    }
+    /*public void checksearchMensCasualShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchMensCasualShoes.click();
+    }
+
+
+
+
 
 
 

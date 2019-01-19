@@ -15,6 +15,8 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.ebay.com/");
+        setUrl("https://www.ebay.com/b/Womens-Clothing/15724/bn_661783");
+        setUrl("https://www.ebay.com/b/Mens-Shoes/93427/bn_61999");
     }
     @Test
     public void testsearchButton() {
@@ -130,18 +132,43 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindMyeBay();
     }
-    /*@Test
-    public void testfindAbouteBay() {
+    @Test
+    public void testsearchWomensclothing() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkclickAbouteBay();
+        mainPage.checksearchWomensclothing();
     }
     @Test
-    public void testfindAnnouncements() {
+    public void testsearchWomensDreeses() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkfindAnnouncements ();
-    }*/
+        mainPage.checksearchWomensDreeses();
+    }
+    @Test
+    public void testsearchMensShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchMensShoes();
+    }
+    @Test
+    public void testsearchMensBoots() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchMensBoots();
+    }
+    @Test
+    public void testsearchMensCasualShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchMensCasualShoes();
+    }
+    /*@Test
+    public void testsearchMensCasualShoes() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchMensCasualShoes();
+    }
+
 
 
 

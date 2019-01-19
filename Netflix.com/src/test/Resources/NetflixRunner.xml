@@ -15,9 +15,9 @@
     <parameter name="browserName" value="chrome"/>
     <classes>
         <class name="TestHomePage.TestHomePage"/>
-        <class name="TestMainPage.TestMainPage"/>
-        <class name="TestProfileSelectionPage.TestProfileSelectionPage"/>
-        <class name="TestSignInPage.TestSignInPage"/>
+        <!--<class name="TestMainPage.TestMainPage"/>-->
+        <!--<class name="TestProfileSelectionPage.TestProfileSelectionPage"/>-->
+        <!--<class name="TestSignInPage.TestSignInPage"/>-->
     </classes>
 </test>
 

@@ -4,6 +4,9 @@ import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SignInPage extends BaseUtil {
     @FindBy(id = "id_userLoginId")
     public static WebElement emailTextBox;
@@ -51,5 +54,8 @@ public class SignInPage extends BaseUtil {
     public void signInButtonSIPButton(){
         signInButtonSIP.click();
     }
+//    public List<String> getItemValue(){
+//        List<String> itemList = new ArrayList<>();
+//    }
 }
 
