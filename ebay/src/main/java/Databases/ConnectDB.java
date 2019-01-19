@@ -1,4 +1,4 @@
-package Databases;
+/*package Databases;
 
 import databases.ConnectToSqlDB;
 import org.openqa.selenium.WebElement;
@@ -59,4 +59,4 @@ public class ConnectDB extends ConnectToSqlDB {
             System.out.println(st);
         }
     }
-}
+}*/
