@@ -39,8 +39,8 @@ public class SignInWithGoogleSheet extends BaseUtil {
     public void enterUserNameAndPassword(String spreadsheetId, String range) throws IOException, InterruptedException {
         List<List<Object>> values = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : values) {
-            typeEmailAddress("//input[@id='hsid-username']", row.get(0).toString());
-            typePasswords("//input[@id='hsid-password']", row.get(1).toString());
+            typeEmailAddress("hsid-username", row.get(0).toString());
+            typePasswords("hsid-password", row.get(1).toString());
             clickSignInGS("#hsid-submit");
         }
     }

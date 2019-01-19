@@ -77,7 +77,7 @@ public class MainPage extends BaseUtil {
     @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental']")
     public static WebElement viewDental;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/p[2]/a[1]")
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/main[1]/div[1]")
     public static WebElement learnHeathInsurance;
 
     @FindBy (xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM']")
@@ -179,7 +179,7 @@ public class MainPage extends BaseUtil {
     @FindBy (linkText = "Download Health4Me App")
     public static WebElement downloadApp;
 
-    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[3]/div[1]/ul[1]/li[8]/a[1]")
+    @FindBy (xpath = "/html[1]/body[1]/div[1]/div[2]/div[4]")
     public static WebElement brokerLink;
 
     @FindBy (linkText = "Just Plain Clear® Glossary")

@@ -15,12 +15,12 @@ public class TestSignInWithGooglesheet extends SignInWithGoogleSheet {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         SignInPage = PageFactory.initElements(driver, SignInPage.class);
-        //welcome = PageFactory.initElements(driver, MainPage.class);
+        welcome = PageFactory.initElements(driver, MainPage.class);
         setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
         //welcome.checksigninUHC();
     }
     @Test
-    public void loginEmailAndPassword() throws IOException, InterruptedException {
+    public void testsignIn() throws IOException, InterruptedException {
         TestLogger.log(convertToString("C: " + getClass().getSimpleName()) + " - M: " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         String spreadsheetId = "1h-FtsfIBgUhA8woZUw8DuxY92KQcO_n-vxjPSuugG-s";
