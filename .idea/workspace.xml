@@ -55,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -175,7 +175,6 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/DataBaseOperation.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/XlsDataReaderUtil.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java" />
       </list>
     </option>
   </component>
@@ -398,7 +398,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547884580120" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547909792390" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -581,7 +581,7 @@
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1536" height="864" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -595,7 +595,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Favorites" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32650274" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32650274" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32650274" />
@@ -1077,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
       </provider>
     </entry>

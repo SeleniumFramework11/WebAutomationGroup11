@@ -19,12 +19,12 @@ public class DatabaseOperation extends ConnectToSqlDB {
     }
     public static List<String> getHeaderValue() {
         List<String> headerList = new ArrayList<>();
-        headerList.add("ABOUT");
-        headerList.add("WAYS TO GET");
-        headerList.add("HELP");
+        headerList.add("Employer");
+        headerList.add("Dental Insurance");
+        headerList.add("Vision Insurance");
         headerList.add("SHOP");
         headerList.add("CAREERS");
-        headerList.add("HBO INSPIRES");
+        headerList.add("Car Insurance");
         return headerList;
     }
     public List<String> getUserDatafromDB() throws Exception {
@@ -33,17 +33,17 @@ public class DatabaseOperation extends ConnectToSqlDB {
         System.out.println(list);
         return list;
     }
-    @FindBy(xpath = "//a[contains(text(),'About')]")
+    @FindBy(xpath = "//a[contains(text(),'Employer')]")
     WebElement ABOUT;
-    @FindBy(xpath = "//a[contains(text(),'Ways to Get')]")
+    @FindBy(xpath = "//a[contains(text(),'Dental Insurance')]")
     WebElement WAYS_TO_GET;
-    @FindBy(xpath = "//a[contains(text(),'Help')]")
+    @FindBy(xpath = "//a[contains(text(),'Vision Insurance')]")
     WebElement HELP;
     @FindBy(xpath = "//a[contains(text(),'Shop')]")
     WebElement SHOP;
     @FindBy(xpath = "//a[contains(text(),'Careers')]")
     WebElement CAREERS;
-    @FindBy(xpath = "//a[contains(text(),'HBO Inspires')]")
+    @FindBy(xpath = "//a[contains(text(),'Car insurance')]")
     WebElement HBOINSPIRES;
 
     public List getHeadersValue1() {
