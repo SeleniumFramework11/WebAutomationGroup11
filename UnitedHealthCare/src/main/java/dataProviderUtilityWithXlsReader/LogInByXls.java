@@ -1,9 +1,10 @@
 package dataProviderUtilityWithXlsReader;
 
 import base.BaseUtil;
-import homePage.SignInAndPopUpHandling;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.testng.annotations.DataProvider;
 import reporting.TestLogger;
 
@@ -11,8 +12,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public class LogInByXls extends BaseUtil {
-    @FindBy(xpath = "//a[text()='Login or Register']")
+    @FindBy(how = How.ID, using = "loginmenubutton")
     public static WebElement logInKey;
+    @FindBy(how = How.)
     @FindBy(xpath = "//input[@name='loginName']")
     public static WebElement emailAddressOrLogIn;
     @FindBy(xpath = "//input[@name='password']")

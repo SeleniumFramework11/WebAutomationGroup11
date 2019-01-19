@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class XlsReaderTest {
 
     public static void main(String[] args) throws Exception{
-        String excelFilePath = "/Users/mohammadsharkar/Desktop/Rest 11172018/newTofael/FrameWorkTofaelSeptember2018/H&M/data/HnMDataReader.xls";
+        String excelFilePath = "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\UnitedHealthCare\\src\\ExcelFile\\data.xls";
         FileInputStream fileInputStream = new FileInputStream(excelFilePath);
 
         Workbook workbook = new HSSFWorkbook(fileInputStream);
