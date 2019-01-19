@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/FindProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/META-INF/Generic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/testrunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macy's Module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Macy's Module/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,102 +32,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/Account.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -146,11 +58,20 @@
         <option value="$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/MacysModule/src/main/java/homePage/MainPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/MacysModule/pom.xml" />
         <option value="$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Macy's Module/pom.xml" />
         <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java" />
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Dropdown.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/FindProduct.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java" />
+        <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java" />
       </list>
     </option>
   </component>
@@ -197,10 +118,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="595" />
-    <option name="y" value="54" />
-    <option name="width" value="781" />
-    <option name="height" value="623" />
+    <option name="x" value="307" />
+    <option name="y" value="99" />
+    <option name="width" value="1280" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,42 +142,6 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -315,43 +202,34 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547305912731" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547846578858" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="homePage" />
-      <recent name="utility" />
-      <recent name="testingpage" />
-      <recent name="base" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test\java" />
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\MacysModule\src\test\java" />
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11" />
       <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
       <recent name="C:\Users\orfat\Desktop\GroupFrameworkTeam11\Generic\Driver" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testHomePage" />
+      <recent name="homePage" />
+      <recent name="utility" />
+      <recent name="testingpage" />
+      <recent name="base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testsignin">
+  <component name="RunManager" selected="TestNG.TestSiginRegs.testsigninRegister">
     <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Walmart" />
       <extension name="coverage">
@@ -437,8 +315,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSiginRegs.testsigninRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MacysModule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testHomePage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSiginRegs" />
+      <option name="METHOD_NAME" value="testsigninRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSiginRegs.testsigninRegister" />
         <item itemvalue="TestNG.TestMainPage.testsignin" />
         <item itemvalue="TestNG.TestMainPage.testLogo" />
         <item itemvalue="TestNG.TestMainPage.testgoForGrocery" />
@@ -463,12 +360,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 43m 11s.xml">
-      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 48m 47s.xml">
-      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 54m 03s.xml">
       <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
     </history-entry>
@@ -493,11 +384,47 @@
     <history-entry file="TestMainPage_testsignin - 2019.01.12 at 09h 39m 30s.xml">
       <configuration name="TestMainPage.testsignin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 16m 55s.xml">
+      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 19m 38s.xml">
+      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
+      <window_info anchor="bottom" id="SQL" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,49 +452,12 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24886535" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3277311" />
-      <window_info anchor="bottom" id="SQL" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3295302" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Mongo Explorer" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/resources/testrunner.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Walmart/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
@@ -605,46 +495,6 @@
     <entry file="file://$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/Account.java" />
     <entry file="file://$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/TestMainPage.java" />
     <entry file="file://$PROJECT_DIR$/MacysModule/src/main/java/homePage/MainPage.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/Account.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -659,9 +509,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="170">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -669,10 +539,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/Account.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="60" column="3" selection-start-line="60" selection-start-column="3" selection-end-line="60" selection-end-column="3" />
+        <state relative-caret-position="34">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/FindProduct.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Dropdown.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
