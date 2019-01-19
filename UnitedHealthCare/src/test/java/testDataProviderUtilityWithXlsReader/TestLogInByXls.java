@@ -19,6 +19,7 @@ public class TestLogInByXls extends LogInByXls {
     public void initializePageObject() {
         logInByXls = PageFactory.initElements(driver, LogInByXls.class);
         //signInAndPopUpHandling = PageFactory.initElements(driver, SignInAndPopUpHandling.class);
+        setUrl("https://www.uhc.com/");
     }
 
     @Test(dataProvider = "supplyDataExcel")

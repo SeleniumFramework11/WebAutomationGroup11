@@ -4,10 +4,7 @@
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/EmployerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/EmployerPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/ReadingFromXlsTest/ReadingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="332">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="206">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -203,10 +200,10 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/EmployerPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" />
       </list>
     </option>
   </component>
@@ -247,7 +244,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -346,6 +344,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dataProviderUtilityWithXlsReader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
+              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="signIn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +386,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547882725746" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547883024347" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1014,16 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="14" column="123" selection-start-line="14" selection-start-column="123" selection-end-line="14" selection-end-column="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2924">
@@ -1044,10 +1041,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="14" column="123" selection-start-line="14" selection-start-column="123" selection-end-line="14" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="206">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1056,8 +1063,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="332">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
