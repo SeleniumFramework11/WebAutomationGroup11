@@ -1,11 +1,9 @@
 package Databases;
-
 import databases.ConnectToSqlDB;
 import org.openqa.selenium.WebElement;
 import java.util.ArrayList;
 import java.util.List;
 import static HomePage.HomePage.*;
-
 public class ConnectDB extends ConnectToSqlDB {
     public static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
     public static void insertDataIntoDB() {
@@ -13,7 +11,6 @@ public class ConnectDB extends ConnectToSqlDB {
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
        connectToSqlDB.insertStringDataFromArrayListToMySql(list,"netflixfooters", "footers");
     }
-
     public static List<String> getFooterValues() {
         List<String> footerList = new ArrayList<>();
         footerList.add("FAQ");
@@ -38,7 +35,6 @@ public class ConnectDB extends ConnectToSqlDB {
         headerList1.add(accountLink);
         headerList1.add(jobsLink);
         headerList1.add(legalNoticesLink);
-
         List<String> list = new ArrayList<>();
         for (int i = 0; i<headerList1.size();i++){
             list.add(headerList1.get(i).getText());

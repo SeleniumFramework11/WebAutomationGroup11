@@ -44,6 +44,5 @@ public class SignInPage extends BaseUtil {
     public void signInButtonSIPButton(){
         signInButtonSIP.click();
     }
-
 }
 

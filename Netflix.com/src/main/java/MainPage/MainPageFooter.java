@@ -1,9 +1,7 @@
 package MainPage;
-
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 public class MainPageFooter extends BaseUtil {
     @FindBy(xpath = "//span[.='Audio And Subtitles']")
     public static WebElement audioAndSubtitles;
