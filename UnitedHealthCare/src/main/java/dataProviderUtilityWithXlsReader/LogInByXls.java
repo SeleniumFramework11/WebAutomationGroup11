@@ -14,12 +14,13 @@ import java.util.Iterator;
 public class LogInByXls extends BaseUtil {
     @FindBy(how = How.ID, using = "loginmenubutton")
     public static WebElement logInKey;
-    @FindBy(how = How.)
-    @FindBy(xpath = "//input[@name='loginName']")
+    @FindBy(how = How.XPATH, using = "//a[@onclick=\"publishPostPageData('exitLink',{'actions': {'linkName': 'Sign In to myuhc.com - https://www.myuhc.com/member/prewelcome.do'}});\"]")
+    public static WebElement logInUHC;
+    @FindBy(how = How.ID, using = "hsid-username")
     public static WebElement emailAddressOrLogIn;
-    @FindBy(xpath = "//input[@name='password']")
+    @FindBy(xpath = "hsid-password")
     public static WebElement passwordField;
-    @FindBy(xpath = "//input[@class='btn rounded w100 primary js_loginBtn']")
+    @FindBy(how = How.ID, using = "hsid-submit")
     public static WebElement signInSubmitButton;
 
     @DataProvider
@@ -31,6 +32,7 @@ public class LogInByXls extends BaseUtil {
     public void signInByDataProvider(String email, String password) throws Exception{
         Thread.sleep(3000);
         logInKey.click();
+        logInUHC.click();
         emailAddressOrLogIn.sendKeys(email);
         passwordField.sendKeys(password);
         signInSubmitButton.click();
