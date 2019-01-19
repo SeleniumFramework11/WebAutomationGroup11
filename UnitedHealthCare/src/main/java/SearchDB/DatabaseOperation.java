@@ -12,9 +12,7 @@ public class DatabaseOperation extends ConnectToSqlDB {
     public static void insertDataIntoDB() {
         List<String> list = getHeaderValue();
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-
         //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
-
         //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
     }
     public static List<String> getHeaderValue() {

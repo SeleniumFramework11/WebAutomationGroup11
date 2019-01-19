@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="408">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,19 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ViewPlan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="357">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,6 +47,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="281" column="4" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -170,7 +176,6 @@
         <option value="$PROJECT_DIR$/secret.properties" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/secret.properties" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/DataBaseOperation.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml" />
@@ -188,17 +193,18 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/ReadingFromXlsTest/ReadingTest.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/GoogleSheet/SignInWithGoogleSheet.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/EmployerPage.java" />
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java" />
       </list>
     </option>
   </component>
@@ -365,7 +371,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +404,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547909792390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547916169945" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -580,8 +586,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1536" height="864" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -595,7 +602,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Favorites" order="6" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32650274" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932885" visible="true" weight="0.32650274" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32650274" />
@@ -968,40 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ViewPlan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1079,6 +1056,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/DatabaseOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/RegisterPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="281" column="4" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
