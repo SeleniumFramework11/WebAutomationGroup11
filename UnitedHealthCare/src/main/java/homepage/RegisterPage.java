@@ -19,7 +19,6 @@ public class RegisterPage extends BaseUtil {
     @FindBy (name = "zip")
     public static WebElement zip;
 
-
     public void checkRegistration() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         firstName.sendKeys("Orfatt");

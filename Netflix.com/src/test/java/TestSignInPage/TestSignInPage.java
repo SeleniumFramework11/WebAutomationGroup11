@@ -1,16 +1,14 @@
 package TestSignInPage;
-
 import HomePage.HomePage;
 import SignInPage.SignInPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class TestSignInPage extends SignInPage{
     SignInPage SignInPage;
     HomePage HomePage;
-    @BeforeMethod
+   @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -21,8 +19,7 @@ public class TestSignInPage extends SignInPage{
     }
     @Test (priority=1)
         public void testEnterEmailAddress(){
-        enterEmail("Ilias@yahoo.com");
-    }
+        enterEmail("Ilias@yahoo.com"); }
     @Test (priority=2)
         public void testEnterSignInPassword(){ enterPassword("abc123"); }
     @Test (priority=3)

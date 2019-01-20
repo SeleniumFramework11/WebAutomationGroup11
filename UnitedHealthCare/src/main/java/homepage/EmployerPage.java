@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 import reporting.TestLogger;
 
 public class EmployerPage extends BaseUtil {
-    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/escleftnavnutch[1]/ul[1]/li[1]/ul[1]/li[2]/ul[1]/li[1]/a[1]")
+    @FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[1]")
     public static WebElement groupBenefitPlan;
 
     @FindBy(how = How.LINK_TEXT, using = "Group Health Insurance Basics")

@@ -69,9 +69,6 @@ public class MainPage extends BaseUtil {
     @FindBy(xpath = "//*[@id=\"w1-w0\"]/ul/li[5]/a")
     public static WebElement searchMensCasualShoes;
 
-
-
-
     //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
     //public static WebElement logo;
 

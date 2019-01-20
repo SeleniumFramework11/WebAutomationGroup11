@@ -1,5 +1,5 @@
 package TestSignInPage;
-import GoogleSheet.SinginWithGoogleSheet;
+import GoogleSheet.SignInWithGoogleSheetEbay;
 import base.BaseUtil;
 import homePage.MainPage;
 import org.openqa.selenium.support.PageFactory;
@@ -10,7 +10,7 @@ import reporting.TestLogger;
 import java.io.IOException;
 
 //import SignInPage.SignInPage;
-public class TestSinginWithGoogleSheet extends SinginWithGoogleSheet {
+public class TestSinginWithGoogleSheet extends SignInWithGoogleSheetEbay {
     MainPage mainPage;
     MainPage HomePage;
     private Object MainPage;

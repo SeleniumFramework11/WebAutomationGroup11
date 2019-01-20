@@ -26,12 +26,12 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-java</artifactId>
-                <version>3.14.0</version>
+                <version>3.141.59</version>
             </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-server</artifactId>
-                <version>3.14.0</version>
+                <version>3.141.59</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.poi</groupId>
@@ -77,26 +77,6 @@
                 <groupId>com.aventstack</groupId>
                 <artifactId>extentreports</artifactId>
                 <version>3.0.7</version>
-            </dependency>
-            <dependency>
-                <groupId>io.rest-assured</groupId>
-                <artifactId>rest-assured</artifactId>
-                <version>3.0.6</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.api-client</groupId>
-                <artifactId>google-api-client</artifactId>
-                <version>1.22.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.oauth-client</groupId>
-                <artifactId>google-oauth-client-jetty</artifactId>
-                <version>1.22.0</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.apis</groupId>
-                <artifactId>google-api-services-sheets</artifactId>
-                <version>v4-rev483-1.22.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

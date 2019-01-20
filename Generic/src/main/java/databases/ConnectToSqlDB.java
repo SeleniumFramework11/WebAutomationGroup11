@@ -8,11 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by mrahman on 04/02/18.
- */
-
-public class ConnectToSqlDB {
+public class ConnectToSqlDB{
 
     public static Connection connect = null;
     public static Statement statement = null;
@@ -21,7 +17,7 @@ public class ConnectToSqlDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/ebay/secret.properties");
+        InputStream ism = new FileInputStream("Q:\\WebAutomationGroup11\\Netflix.com\\secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -214,5 +210,6 @@ public class ConnectToSqlDB {
         }
     }
 
-
+    public void insertStringDataFromArrayListToMySql(List<String> list, String headerList, String headers) {
+    }
 }

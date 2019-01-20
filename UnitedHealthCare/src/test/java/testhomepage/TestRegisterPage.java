@@ -22,7 +22,4 @@ public class TestRegisterPage extends RegisterPage {
         }.getClass().getEnclosingMethod().getName()));
         registerPage.checkRegistration();
     }
-
-
-
 }

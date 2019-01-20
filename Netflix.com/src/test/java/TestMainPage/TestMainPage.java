@@ -18,7 +18,6 @@ public class TestMainPage extends MainPage {
     TestSignInPage TestSignInPage;
     ProfileSelectionPage ProfileSelectionPage;
     TestProfileSelectionPage TestProfileSelectionPage;
-
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -32,9 +31,7 @@ public class TestMainPage extends MainPage {
         setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
-        TestProfileSelectionPage.testSelectProfile();
-    }
-
+        TestProfileSelectionPage.testSelectProfile(); }
     @Test (priority = 1)
     public void testTvShowsLink(){ clickTvShowsLink(); }
     @Test (priority = 2)
@@ -47,4 +44,19 @@ public class TestMainPage extends MainPage {
     public void testHomeLink(){ clickHomeLink(); }
     @Test (priority = 6)
     public void testSearch(){ clickSearchButton(); }
+    //"Search For ITEMS"
+    @Test (priority = 7)
+    public void searchBox(){clickSearchBox("Bird Box"); }
+    @Test (priority = 8)
+    public void testDVDLink(){ clickDVDLink(); }
+    @Test
+    public void testNotificationBell(){ clickNotificationBell(); }
+    @Test
+    public void testNewReleases(){ clickNewRelease(); }
+    @Test
+    public void testNetflixOriginals(){ clickNetflixOriginals(); }
+    @Test
+    public void testCategoriesOddballs(){ clickCategoriesOddballs(); }
+
+
 }
