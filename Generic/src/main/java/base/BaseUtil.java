@@ -9,12 +9,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -147,8 +149,92 @@ public class BaseUtil {
     public void iframeHandle(WebElement element) {
         driver.switchTo().frame(element);
     }
+    public String getTextByCss(String locator){
+        String st = driver.findElement(By.cssSelector(locator)).getText();
+        return st;
+    }
+    public String getTextByXpath(String locator){
+        String st = driver.findElement(By.xpath(locator)).getText();
+        return st;
+    }
+    public String getTextById(String locator){
+        return driver.findElement(By.id(locator)).getText();
+    }
+    public String getTextByName(String locator){
+        String st = driver.findElement(By.name(locator)).getText();
+        return st;
+    }
 
+    public List<String> getListOfString(List<WebElement> list) {
+        List<String> items = new ArrayList<String>();
+        for (WebElement element : list) {
+            items.add(element.getText());
+        }
+        return items;
+    }
+    public void selectOptionByVisibleText(WebElement element, String value) {
+        Select select = new Select(element);
+        select.selectByVisibleText(value);
+    }
+    public void mouseHoverByCSS(String locator){
+        try {
+            WebElement element = driver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(driver);
+            Actions hover = action.moveToElement(element);
+        }catch(Exception ex){
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        }
+    }
+    public void mouseHoverByXpath(String locator){
+        try {
+            WebElement element = driver.findElement(By.xpath(locator));
+            Actions action = new Actions(driver);
+            Actions hover = action.moveToElement(element);
+        }catch(Exception ex){
+            System.out.println("First attempt has been done, This is second try");
+            WebElement element = driver.findElement(By.cssSelector(locator));
+            Actions action = new Actions(driver);
+            action.moveToElement(element).perform();
+        }
+    }
+    public void waitUntilClickAble(WebElement locator){ //previously it was By instead of WebElement
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeClickable(locator));
+    }
+    public void waitUntilVisible(By locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+    public void waitUntilSelectable(WebElement locator){
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+    public void typeByCss(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
+    }
+    public void typeByCssNEnter(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
+    }
+    public void takeEnterKeys(String locator) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
+    }
 
+    public void clearInputField(String locator){
+        driver.findElement(By.cssSelector(locator)).clear();
+    }
+    public List<WebElement> getListOfWebElementsById(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.id(locator));
+        return list;
+    }
+    public List<WebElement> getListOfWebElementsByCss(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        list = driver.findElements(By.cssSelector(locator));
+        return list;
+    }
     public static ExtentReports extent;
     @BeforeSuite
     public void extentSetup(ITestContext context) { extent = ExtentManager.getInstance();}
