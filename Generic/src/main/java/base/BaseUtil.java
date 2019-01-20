@@ -30,10 +30,10 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
-    public String browserstack_username= "";
-    public String browserstack_accesskey = "";
+    public String saucelabs_username = "OrfattChowdhury";
+    public String saucelabs_accesskey = "c53481e2-7bb0-4b78-84f5-31ce581bbb53";
+    public String browserstack_username= "orfattchowdhury1";
+    public String browserstack_accesskey = "6qWJ9DshfBGDJ3j7a5Lc";
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait;

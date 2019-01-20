@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment=""><change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/Xls_Reader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/SearchDB/DatabaseOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/SearchDB/DatabaseOperation.class" afterDir="false" />
@@ -298,12 +296,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-218">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="-218"/>
               <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-=======
+
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -324,12 +322,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestLogInByXls.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="351"/>
               <caret line="29" selection-start-line="29" selection-end-line="29" />
-=======
+
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -352,7 +350,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -360,19 +358,19 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+
+      <file pinned="false" current-in-tab="true"/>
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="391"/>
               <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-=======
+
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -380,19 +378,19 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
+
+      <file pinned="false" current-in-tab="false"/>
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="326"/>
               <caret line="39" selection-start-line="39" selection-end-line="39" />
-=======
+
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -401,10 +399,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="391"/>
               <caret line="450" column="1" selection-start-line="450" selection-start-column="1" selection-end-line="450" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -414,13 +412,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="31" selection-start-column="31" selection-end-column="31" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
+
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -469,9 +467,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="323"/>
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -481,7 +479,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
             </state>
           </provider>
         </entry>
@@ -505,7 +503,7 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/testingpage/TestMainPage.java" />
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ViewPlan.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/SearchPage.java" />
@@ -568,7 +566,7 @@
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java" />
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       </list>
     </option>
   </component>
@@ -614,18 +612,18 @@
       <select />
     </treeState>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds">
+
+  <component name="ProjectFrameBounds"/>
     <option name="x" value="8" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
-=======
+
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="307" />
     <option name="y" value="99" />
     <option name="width" value="1280" />
     <option name="height" value="788" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -641,8 +639,8 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
-=======
+
+
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
@@ -743,7 +741,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
             </path>
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
           </expand>
           <select />
         </subPane>
@@ -752,7 +750,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
+
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547939705247" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../GroupBlueFrameWork" />
     <property name="project.structure.last.edited" value="Project" />
@@ -761,18 +759,18 @@
 =======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547939206017" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
+
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\UnitedHealthCare\src\ExcelFile" />
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\Generic\src\main\java\utility" />
       <recent name="$PROJECT_DIR$/Generic/Driver" />
       <recent name="C:\Users\orfat\Desktop\WebAutomationGroup11\Generic\Driver" />
       <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
-=======
+
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test\java" />
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\MacysModule\src\test\java" />
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11" />
@@ -788,7 +786,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testSearchPage" />
@@ -815,9 +813,9 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="TestNG.TestHomePage.testtrytosignIn">
-    <configuration name="DatabaseOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+
+  <component name="RunManager" selected="TestNG.TestHomePage.testtrytosignIn"/>
+    <configuration name="DatabaseOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true"/>
       <option name="MAIN_CLASS_NAME" value="SearchDB.DatabaseOperation" />
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -826,7 +824,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-=======
+
   <component name="RunManager" selected="TestNG.TestMainPage.testLogo">
     <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Walmart" />
@@ -840,25 +838,25 @@
       <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
       <properties />
       <listeners />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestHomePage.testtrytosignIn" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestHomePage.testtrytosignIn" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
-=======
+
     <configuration name="TestMainPage.testLogo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MacysModule" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="testHomePage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-<<<<<<< HEAD
+
       <option name="PACKAGE_NAME" value="testhomepage" />
       <option name="MAIN_CLASS_NAME" value="testhomepage.TestHomePage" />
       <option name="METHOD_NAME" value="testtrytosignIn" />
@@ -866,7 +864,7 @@
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <option name="METHOD_NAME" value="testLogo" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -874,8 +872,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestLogInByXls" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestLogInByXls" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -885,7 +883,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ReadingFromXlsTest" />
       <option name="MAIN_CLASS_NAME" value="testDataProviderUtilityWithXlsReader.TestLogInByXls" />
-=======
+
     <configuration name="TestMainPage.testgoForGrocery" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Walmart" />
       <extension name="coverage">
@@ -898,15 +896,15 @@
       <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
       <option name="METHOD_NAME" value="testgoForGrocery" />
       <option name="TEST_OBJECT" value="METHOD" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestLogInByXls.loginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestLogInByXls.loginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -929,7 +927,7 @@
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <option name="METHOD_NAME" value="testsignin" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -937,8 +935,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestSignInWithGooglesheet" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestSignInWithGooglesheet" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -970,7 +968,7 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
+
         <item itemvalue="TestNG.TestHomePage.testtrytosignIn" />
         <item itemvalue="TestNG.TestLogInByXls.loginTestWithDataProvider" />
         <item itemvalue="TestNG.TestLogInByXls" />
@@ -1003,7 +1001,7 @@
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< HEAD
+
     <history-entry file="TestSignInWithGooglesheet - 2019.01.18 at 17h 48m 24s.xml">
       <configuration name="TestSignInWithGooglesheet" configurationId="TestNG" />
     </history-entry>
@@ -1038,7 +1036,7 @@
   <component name="ToolWindowManager">
     <frame x="7" y="0" width="1536" height="864" extended-state="0" />
     <editor active="true" />
-    <layout>
+    <layout/>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25135502" />
 =======
     <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 55m 44s.xml">
@@ -1085,7 +1083,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-<<<<<<< HEAD
+
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37431693" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -1110,7 +1108,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
       <window_info anchor="bottom" id="SQL" order="11" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1152,7 +1150,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
-<<<<<<< HEAD
+
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -1173,7 +1171,7 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="editorHistoryManager">
+  <component name="editorHistoryManager"/>
     <entry file="file://$PROJECT_DIR$/Generic/Driver/chromedriver.exe">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1199,7 +1197,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java"/>
 =======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
@@ -1239,7 +1237,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
 =======
     <entry file="file://$PROJECT_DIR$/MacysModule/pom.xml" />
     <entry file="file://$PROJECT_DIR$/MacysModule/src/test/java/testHomePage/Account.java" />
@@ -1260,7 +1258,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1268,9 +1266,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestSearchPage.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="289"/>
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
@@ -1284,7 +1282,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -1334,9 +1332,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/pageobject/LogInBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/pageobject/LogInBox.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="170"/>
           <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
@@ -1350,7 +1348,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testgooglesheet/TestGoogleAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1408,9 +1406,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3073">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="-3073"/>
           <caret line="11" selection-start-line="11" selection-end-line="11" />
 =======
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/Account.java">
@@ -1451,7 +1449,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/secret.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1472,7 +1470,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java"/>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
@@ -1488,7 +1486,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/SigninRegs.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state relative-caret-position="238">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
         </state>
@@ -1553,7 +1551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="269"/>
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
 =======
         <state relative-caret-position="204">
@@ -1578,7 +1576,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -1649,9 +1647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="147"/>
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
 =======
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java">
@@ -1672,7 +1670,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1683,9 +1681,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="-204"/>
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
@@ -1708,7 +1706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
+
         <state relative-caret-position="323">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
@@ -1719,12 +1717,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="391"/>
           <caret line="54" column="47" lean-forward="true" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-=======
+
         <state relative-caret-position="120">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
->>>>>>> a48754ab96d0568e3afb2d0bad7ddefef5869846
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

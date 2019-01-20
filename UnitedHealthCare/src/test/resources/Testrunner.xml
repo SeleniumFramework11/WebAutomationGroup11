@@ -3,8 +3,9 @@
 
 <suite name="WebAutomationGroup11 " parallel="tests">
 
-    <parameter name="useCloudEnv" value="false"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="useCloudEnv" value="true"/>
+    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+    <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="MacOS"/>
     <parameter name="os_version" value="10.14"/>
     <parameter name="browserName" value="chrome"/>
