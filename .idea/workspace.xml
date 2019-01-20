@@ -2,82 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Macy's Module/MacysModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/GoogleSheet/SigninWithGoogleSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/Movies.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/SearchMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInUsers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/SheetsQuickStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/GoogleSheets/SheetsQuickStart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Macy's Module/target/test-classes/testrunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/excelutility/ExcelReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/excelutility/ExcelReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/testrunner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/secret.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/secret.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPageFooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestProfileSelectionPage/TestProfileSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestProfileSelectionPage/TestProfileSelectionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/HomePage/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPageFooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestProfileSelectionPage/TestProfileSelectionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tokens/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,6 +22,9 @@
     <ignored path="$PROJECT_DIR$/Walmart/target/" />
     <ignored path="$PROJECT_DIR$/MacysModule/target/" />
     <ignored path="$PROJECT_DIR$/Macy's Module/target/" />
+    <ignored path="$PROJECT_DIR$/ebay/target/" />
+    <ignored path="$PROJECT_DIR$/UnitedHealthCare/target/" />
+    <ignored path="$PROJECT_DIR$/Netflix.com/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,92 +37,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+            <state relative-caret-position="168">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5809#5810#0" expanded="true" />
-                <element signature="e#5888#5889#0" expanded="true" />
-                <element signature="e#6226#6227#0" expanded="true" />
-                <element signature="e#8242#8243#0" expanded="true" />
-                <element signature="e#8310#8311#0" expanded="true" />
-                <element signature="e#9538#9539#0" expanded="true" />
-                <element signature="e#9572#9573#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestDropdown.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/Hoverover.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-1121">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="136">
+              <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1258">
+              <caret line="188" column="31" lean-forward="true" selection-start-line="188" selection-start-column="31" selection-end-line="188" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/resources/client_secret.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macy's Module/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -196,6 +102,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HSSF</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -206,7 +117,6 @@
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java" />
@@ -226,7 +136,12 @@
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestFindProduct.java" />
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java" />
         <option value="$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestSiginRegs.java" />
+        <option value="$PROJECT_DIR$/Generic/pom.xml" />
+        <option value="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java" />
+        <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java" />
+        <option value="$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" />
       </list>
     </option>
   </component>
@@ -273,10 +188,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="307" />
-    <option name="y" value="99" />
-    <option name="width" value="1280" />
-    <option name="height" value="788" />
+    <option name="x" value="1909" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,12 +215,6 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,86 +239,59 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="excelutility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
+              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Macy's Module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchMoviesExcel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547939206017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548008440040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test\java" />
-      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\MacysModule\src\test\java" />
-      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11" />
-      <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
-      <recent name="C:\Users\orfat\Desktop\GroupFrameworkTeam11\Generic\Driver" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="testHomePage" />
@@ -419,8 +300,12 @@
       <recent name="testingpage" />
       <recent name="base" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Q:\WebAutomationGroup11\Generic\src\main\java\excelutility" />
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\Macy's Module\src\test\java" />
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11\MacysModule\src\test\java" />
+      <recent name="C:\Users\Nahida\IdeaProjects\WebAutomationGroup11" />
+      <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -435,19 +320,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.testLogo">
-    <configuration name="TestMainPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Walmart" />
+  <component name="RunManager" selected="TestNG.TestSearchMoviesXcel.TestExcel">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="excelutility.ExcelReader" />
+      <module name="Generic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testingpage.*" />
+          <option name="PATTERN" value="excelutility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testingpage" />
-      <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -470,24 +352,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testgoForGrocery" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Walmart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testingpage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testingpage" />
-      <option name="MAIN_CLASS_NAME" value="testingpage.TestMainPage" />
-      <option name="METHOD_NAME" value="testgoForGrocery" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMainPage.testsignin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MacysModule" />
       <extension name="coverage">
@@ -499,6 +363,24 @@
       <option name="PACKAGE_NAME" value="testHomePage" />
       <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
       <option name="METHOD_NAME" value="testsignin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSearchMoviesXcel.TestExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Netflix.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestMainPage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestMainPage" />
+      <option name="MAIN_CLASS_NAME" value="TestMainPage.TestSearchMoviesXcel" />
+      <option name="METHOD_NAME" value="TestExcel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -526,11 +408,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSearchMoviesXcel.TestExcel" />
+        <item itemvalue="Application.ExcelReader" />
         <item itemvalue="TestNG.TestMainPage.testLogo" />
         <item itemvalue="TestNG.TestSiginRegs.testsigninRegister" />
         <item itemvalue="TestNG.TestMainPage.testsignin" />
-        <item itemvalue="TestNG.TestMainPage.testgoForGrocery" />
-        <item itemvalue="TestNG.TestMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -551,42 +433,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 55m 44s.xml">
-      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 09h 56m 49s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 56m 16s.xml">
-      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 12h 21m 55s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testgoForGrocery - 2019.01.09 at 20h 57m 10s.xml">
-      <configuration name="TestMainPage.testgoForGrocery" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 12h 30m 53s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsignin - 2019.01.12 at 09h 33m 54s.xml">
-      <configuration name="TestMainPage.testsignin" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 00m 26s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testLogo - 2019.01.12 at 09h 35m 40s.xml">
-      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 02m 46s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testsignin - 2019.01.12 at 09h 39m 30s.xml">
-      <configuration name="TestMainPage.testsignin" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 03m 51s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 16m 55s.xml">
-      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 10m 21s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSiginRegs_testsigninRegister - 2019.01.18 at 16h 19m 38s.xml">
-      <configuration name="TestSiginRegs.testsigninRegister" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 12m 02s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testLogo - 2019.01.19 at 17h 56m 29s.xml">
-      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 14m 39s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMainPage_testLogo - 2019.01.19 at 17h 57m 36s.xml">
-      <configuration name="TestMainPage.testLogo" configurationId="TestNG" />
+    <history-entry file="TestSearchMoviesXcel_TestExcel - 2019.01.20 at 13h 17m 28s.xml">
+      <configuration name="TestSearchMoviesXcel.TestExcel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1913" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21619433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -594,16 +475,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32569557" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32517484" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49959514" weight="0.7465035" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.13811189" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32733223" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32692307" />
       <window_info anchor="bottom" id="SQL" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -738,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="21" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestHoverover.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -801,23 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5809#5810#0" expanded="true" />
-            <element signature="e#5888#5889#0" expanded="true" />
-            <element signature="e#6226#6227#0" expanded="true" />
-            <element signature="e#8242#8243#0" expanded="true" />
-            <element signature="e#8310#8311#0" expanded="true" />
-            <element signature="e#9538#9539#0" expanded="true" />
-            <element signature="e#9572#9573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -825,6 +682,122 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/GoogleSheet/SigninWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="592" selection-start-line="592" selection-end-line="592" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/SearchMoviesExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1121">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/SearchMoviesExcel/ReadFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="188" column="31" lean-forward="true" selection-start-line="188" selection-start-column="31" selection-end-line="188" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestSearchMoviesXcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
         </state>
       </provider>
     </entry>

@@ -3,28 +3,15 @@ import base.BaseUtil;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 import java.io.IOException;
 
 public class SearchMoviesExcel extends BaseUtil{
-
-//    public ArrayList<String> dataFromExcel(String path, String sheetName, int columnNo) throws IOException {
-//        FileInputStream fis = new FileInputStream(path);
-//        HSSFWorkbook wb = new HSSFWorkbook(fis);
-//        HSSFSheet s = wb.getSheet(sheetName);
-//        Iterator<Row> rowIT = s.iterator();
-//        ArrayList<String> list = new ArrayList<String>();
-//        while (rowIT.hasNext()) {
-//            list.add(rowIT.next().getCell(columnNo).getStringCellValue());
-//           // list.add(rowIT.next().getCell(columnNo2).getStringCellValue());
-//        }
-//        return list;
-//        }
 @FindBy(xpath = "//input[@type='text']")
 public WebElement searchInputField;
 public WebElement getSearchInputField(){
     return searchInputField;
     }
-
 public void setSearchInputField(WebElement searchInputField){
     this.searchInputField = searchInputField;
 }

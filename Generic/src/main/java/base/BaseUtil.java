@@ -43,7 +43,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setup(@Optional ("useCloudEnv")boolean useCloudEnv, @Optional ("cloudEnvName") String cloudEnvName,@Optional("url") String url, @Optional ("browser") String browser, @Optional ("browserVersion") String browserVersion,
                       @Optional ("OS") String OS, @Optional ("os_version") String os_version) throws IOException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\Nahida\\IdeaProjects\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","Q:\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,OS,os_version, browser, browserVersion);
@@ -84,7 +84,6 @@ public class BaseUtil {
             driver = new ChromeDriver();}
         return driver;
     }
-
     public WebDriver getCloudDriver(String envName,String envUsername, String envAccessKey,String OS, String os_version,String browser,
                                     String browserVersion)throws IOException {
         DesiredCapabilities cap = new DesiredCapabilities();
@@ -184,7 +183,6 @@ public class BaseUtil {
             captureScreenshot(driver, result.getName());
         }
         driver.quit();
-
     }
     public void captureScreenshot(WebDriver driver, String screenshotName) {
         DateFormat df = new SimpleDateFormat("MM.dd.yyyy-HH:mma");

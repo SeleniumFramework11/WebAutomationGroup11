@@ -1,5 +1,4 @@
 package TestMainPage;
-
 import HomePage.HomePage;
 import MainPage.MainPage;
 import ProfileSelectionPage.ProfileSelectionPage;
@@ -13,7 +12,6 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 import java.io.IOException;
-
 public class TestSearchMoviesXcel extends SearchMoviesExcel {
     SignInPage SignInPage;
     HomePage HomePage;
