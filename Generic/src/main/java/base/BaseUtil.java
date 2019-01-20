@@ -45,7 +45,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setup(@Optional ("useCloudEnv")boolean useCloudEnv, @Optional ("cloudEnvName") String cloudEnvName,@Optional("url") String url, @Optional ("browser") String browser, @Optional ("browserVersion") String browserVersion,
                       @Optional ("OS") String OS, @Optional ("os_version") String os_version) throws IOException {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/Driver/chromedriver");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")) {
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,OS,os_version, browser, browserVersion);

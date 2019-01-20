@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TableAutomation/TableAutomation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAutomation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAutomation/src/main/resources/TestTableAutomation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="544">
               <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,10 +41,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
                 <element signature="e#9056#9057#0" expanded="true" />
                 <element signature="e#9131#9132#0" expanded="true" />
@@ -131,8 +135,8 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/pom.xml" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml" />
         <option value="$PROJECT_DIR$/TableAutomation/pom.xml" />
-        <option value="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" />
         <option value="$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java" />
+        <option value="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
       </list>
@@ -307,7 +311,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548026242027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548026783077" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -353,11 +357,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml">
+  <component name="RunManager" selected="TestNG.Group11TableAutomation">
     <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Group11TableAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TableAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tableAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tableAutomation" />
+      <option name="MAIN_CLASS_NAME" value="tableAutomation.Group11TableAutomation" />
       <properties />
       <listeners />
       <method v="2">
@@ -389,13 +409,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogInByXls" type="TestNG" temporary="true" nameIsGenerated="true">
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestLogInByXls.loginTestWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
       <properties />
       <listeners />
@@ -405,11 +418,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Group11TableAutomation" />
         <item itemvalue="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" />
         <item itemvalue="TestNG.TestHomePage.testseatchText" />
         <item itemvalue="TestNG.TestHomePage.testtrytosignIn" />
         <item itemvalue="TestNG.TestLogInByXls.loginTestWithDataProvider" />
-        <item itemvalue="TestNG.TestLogInByXls" />
       </list>
     </recent_temporary>
   </component>
@@ -430,9 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.19 at 22h 48m 23s.xml">
-      <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.19 at 22h 49m 45s.xml">
       <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -460,6 +470,9 @@
     <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.19 at 23h 43m 43s.xml">
       <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Group11TableAutomation - 2019.01.20 at 15h 20m 51s.xml">
+      <configuration name="Group11TableAutomation" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -473,13 +486,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3371105" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3371105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Favorites" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32577905" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32577905" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.329235" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32733223" />
@@ -873,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TableAutomation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -887,10 +893,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="236" column="5" selection-start-line="236" selection-start-column="5" selection-end-line="236" selection-end-column="5" />
+        <state relative-caret-position="218">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
             <element signature="e#9056#9057#0" expanded="true" />
             <element signature="e#9131#9132#0" expanded="true" />
@@ -900,16 +923,6 @@
             <element signature="e#9527#9528#0" expanded="true" />
             <element signature="e#9645#9657#0" expanded="true" />
             <element signature="e#9857#9869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

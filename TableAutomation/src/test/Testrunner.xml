@@ -10,9 +10,9 @@
     <parameter name="os_version" value="10"/>
     <parameter name="browserName" value="Chrome"/>
     <parameter name="browserVersion" value="71.0"/>
-    <parameter name="url" value="https://www.uhc.com//"/>
+    <parameter name="url" value="https://www.fishersci.com/shop/products/fisherbrand-sureone-beveled-pipet-tips-universal-fit-1-200-l-16/p-4332187#?keyword=tips>"
 
-    <test name = "Test">
+    <test name = "test">
         <classes>
              <class name="tableAutomation.Group11TableAutomation"/>
         </classes>
