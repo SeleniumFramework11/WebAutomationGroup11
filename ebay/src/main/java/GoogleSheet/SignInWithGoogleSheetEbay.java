@@ -8,13 +8,13 @@ import java.util.List;
 import static GoogleSheets.GoogleSheetReader.getSheetsService;
 public class SignInWithGoogleSheetEbay extends BaseUtil {
     public void typeEmailAddress(String locator,String value){
-        driver.findElement(By.name(locator)).sendKeys(value);
+        driver.findElement(By.xpath(locator)).sendKeys(value);
     }
     public void typePasswords(String locator,String value){
-        driver.findElement(By.name(locator)).sendKeys(value);
+        driver.findElement(By.xpath(locator)).sendKeys(value);
     }
     public void clickSignInGS(String locator){
-        driver.findElement(By.id(locator)).click();
+        driver.findElement(By.xpath(locator)).click();
     }
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
         // Build a new authorized API client service.
@@ -32,9 +32,9 @@ public class SignInWithGoogleSheetEbay extends BaseUtil {
     public void enterUserNameAndPassword(String spreadsheetId, String range) throws IOException{
         List<List<Object>> values = getSpreadSheetRecords(spreadsheetId, range);
         for (List row : values) {
-            typeEmailAddress("pass",row.get(0).toString());
-            typePasswords("sgnBt",row.get(1).toString());
-            clickSignInGS("gh-ac");
+            typeEmailAddress("//label[contains(text(),'Email or username')]",row.get(0).toString());
+            typePasswords("//input[@id='pass']",row.get(1).toString());
+            clickSignInGS("//button[@id='sgnBt']");
         }
     }
 }
