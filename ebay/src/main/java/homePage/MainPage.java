@@ -68,9 +68,14 @@ public class MainPage extends BaseUtil {
     public static WebElement searchMensBoots;
     @FindBy(xpath = "//*[@id=\"w1-w0\"]/ul/li[5]/a")
     public static WebElement searchMensCasualShoes;
-
-    //@FindBy(xpath = "//div[@class='table-cell logo hidden-xs hidden-sm hidden-md hidden-lg']")
-    //public static WebElement logo;
+    @FindBy(xpath = "/html[1]/body[1]/div[3]/div[2]/h1[1]/span[1]")
+    public static WebElement searchAdidasShoes;
+    @FindBy(xpath = "//p[contains(text(),'adidas NMD')]")
+    public static WebElement findAdidasNMD;
+    @FindBy(xpath = "//span[contains(text(),'8.5')]")
+    public static WebElement findSize;
+    @FindBy(xpath = "/html[1]/body[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[2]/div[1]/h3[1]")
+    public static WebElement findColor;
 
     public void checksearchButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -205,10 +210,25 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         searchMensCasualShoes.click();
     }
-    /*public void checksearchMensCasualShoes() {
+    public void checksearchAdidasShoes() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        searchMensCasualShoes.click();
+        searchAdidasShoes.click();
+    }
+    public void checkfindAdidasNMD() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findAdidasNMD.click();
+    }
+    public void checkfindSize() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findSize.click();
+    }
+    public void checkfindColor() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findColor.click();
     }
 
 
