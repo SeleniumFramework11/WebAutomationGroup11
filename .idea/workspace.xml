@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-<<<<<<< HEAD
+
       <change afterPath="$PROJECT_DIR$/Generic/Driver/IEDriverServer.exe" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/Driver/geckodriver" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generic/Driver/geckodriver.exe" afterDir="false" />
@@ -408,7 +408,7 @@
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/RegisterPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/homepage/SearchPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/Testrunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/Testrunner.xml" afterDir="false" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$11.class" afterDir="false" />
@@ -436,7 +436,7 @@
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage.class" afterDir="false" />
-<<<<<<< HEAD
+
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage$11.class" afterDir="false" />
@@ -519,12 +519,12 @@
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestSearchPage$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestSearchPage$2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestSearchPage.class" beforeDir="false" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" afterDir="false" />
-<<<<<<< HEAD
+
       <change beforePath="$PROJECT_DIR$/ebay/target/EBAY-1.0-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ebay/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
@@ -664,13 +664,13 @@
       <change beforePath="$PROJECT_DIR$/ebay/target/classes/homePage/SearchPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tokens/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/tokens/StoredCredential" afterDir="false" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
     <ignored path="$PROJECT_DIR$/Walmart/target/" />
-<<<<<<< HEAD
+
     <ignored path="$PROJECT_DIR$/MacysModule/target/" />
     <ignored path="$PROJECT_DIR$/Macy's Module/target/" />
     <ignored path="$PROJECT_DIR$/UnitedHealthCare/target/" />
@@ -690,13 +690,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+
+      <file pinned="false" current-in-tab="true"/>
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="279"/>
               <caret line="465" column="43" lean-forward="true" selection-end-line="500" selection-end-column="1" />
-              <folding>
+              <folding/>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1561#1562#0" expanded="true" />
                 <element signature="e#1613#1614#0" expanded="true" />
@@ -754,14 +754,14 @@
               <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="imports" expanded="true" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
+
         <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -771,9 +771,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="149"/>
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
 =======
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -786,10 +786,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="102"/>
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
 =======
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestMainPage.java">
@@ -805,15 +805,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestExcelreader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestExcelreader.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="202"/>
               <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
+
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1170">
@@ -824,10 +824,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="255"/>
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
 =======
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
@@ -843,10 +843,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestRegisterPage.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="194"/>
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -882,8 +882,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestSigninWithGSheetEbay.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="194">
+
+            <state relative-caret-position="194"/>
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
 =======
             <state relative-caret-position="398">
@@ -899,8 +899,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/Xls_Reader.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-            <state relative-caret-position="170">
+
+            <state relative-caret-position="170"/>
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
 =======
             <state relative-caret-position="705">
@@ -908,16 +908,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java"/>
+          <provider selected="true" editor-type-id="text-editor"/>
+            <state relative-caret-position="187"/>
               <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -958,7 +958,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
+
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReaderTest.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsReader.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/XlsDataReaderUtil.java" />
@@ -1102,8 +1102,8 @@
       <select />
     </treeState>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
+
+  <component name="ProjectFrameBounds" extendedState="6"/>
     <option name="x" value="10" />
     <option name="y" value="10" />
     <option name="width" value="830" />
@@ -1122,11 +1122,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
+
       <pane id="Scope" />
       <pane id="PackagesPane" />
-=======
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1134,14 +1133,13 @@
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
             </path>
-<<<<<<< HEAD
+
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="Generic" type="462c0819:PsiDirectoryNode" />
             </path>
-=======
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
@@ -1175,7 +1173,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1214,12 +1212,12 @@
               <item name="ExcelFile" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="testHomePage" type="462c0819:PsiDirectoryNode" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -1230,17 +1228,17 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -1255,7 +1253,7 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -1276,11 +1274,11 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
 =======
               <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -1289,7 +1287,7 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
+
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
@@ -1347,7 +1345,7 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
+
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1375,13 +1373,13 @@
       <recent name="C:\Users\Bulldog\Desktop\GroupFrameworkTeam11\Generic\src\main\java" />
       <recent name="C:\Users\orfat\Desktop\GroupFrameworkTeam11\Generic\Driver" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CopyClassDialog.RECENTS_KEY"/>
       <recent name="testDataProviderUtilityWithXlsReader" />
       <recent name="testSearchPage" />
       <recent name="SearchDB" />
       <recent name="ReadingFromXlsTest" />
       <recent name="testhomepage" />
-=======
+====<panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -1428,9 +1426,9 @@
       </list>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml">
-    <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/TableAutomation/src/test/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+
+  <component name="RunManager" selected="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml"/>
+    <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/TableAutomation/src/test/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="TableAutomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/TableAutomation/src/test/Testrunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -1455,8 +1453,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/Testrunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
@@ -1480,8 +1478,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="Group11TableAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="Group11TableAutomation" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="TableAutomation" />
       <extension name="coverage">
         <pattern>
@@ -1511,8 +1509,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestExcelreader" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestExcelreader" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -1540,8 +1538,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="TestSearchMoviesXcel.TestExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+
+    <configuration name="TestSearchMoviesXcel.TestExcel" type="TestNG" temporary="true" nameIsGenerated="true"/>
       <module name="Netflix.com" />
       <extension name="coverage">
         <pattern>
@@ -1574,7 +1572,7 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
+
         <item itemvalue="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" />
         <item itemvalue="TestNG.TestExcelreader" />
         <item itemvalue="TestNG.TestSearchMoviesXcel.TestExcel" />
@@ -1607,7 +1605,7 @@
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< HEAD
+
     <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 14m 32s.xml">
       <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -1642,7 +1640,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
-    <layout>
+    <layout/>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24765101" />
 =======
     <history-entry file="TestMainPage_testsearchMensBoots - 2019.01.16 at 23h 11m 41s.xml">
@@ -1688,7 +1686,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-<<<<<<< HEAD
+
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2917847" />
 =======
@@ -1699,7 +1697,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-<<<<<<< HEAD
+
       <window_info anchor="bottom" id="Favorites" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32577905" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -1758,10 +1756,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-<<<<<<< HEAD
+
           <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestHomePage.java</url>
           <line>126</line>
-          <properties class="testhomepage.TestHomePage" method="testlearnmoreMedicare">
+          <properties class="testhomepage.TestHomePage" method="testlearnmoreMedicare"/>
 =======
           <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestWelcomePage.java</url>
           <line>144</line>
@@ -1786,7 +1784,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-<<<<<<< HEAD
+
           <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java</url>
           <line>8</line>
 =======
@@ -1800,7 +1798,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/LogInByXls.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1818,9 +1816,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+    <entry file="file://$PROJECT_DIR$/Macy's Module/src/main/java/homePage/MainPage.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="357"/>
           <caret line="21" selection-start-line="21" selection-end-line="21" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
@@ -1834,7 +1832,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/Macy's Module/src/test/java/testHomePage/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1880,9 +1878,9 @@
     <entry file="file://$PROJECT_DIR$/TableAutomation/src/main/resources/TestTableAutomation.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="440"/>
           <caret line="36" column="84" selection-start-line="36" selection-start-column="84" selection-end-line="36" selection-end-column="84" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
@@ -1896,7 +1894,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/Walmart/Walmart.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2006,9 +2004,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/GoogleSheetReader.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="114"/>
           <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
 =======
     <entry file="file://$PROJECT_DIR$/Walmart/pom.xml" />
@@ -2139,7 +2137,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -2185,9 +2183,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader3.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="153"/>
           <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
@@ -2229,7 +2227,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4313">
@@ -2258,9 +2256,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/ExcelReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/ExcelReader.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="136"/>
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
@@ -2291,14 +2289,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="3" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
           <folding>
             <element signature="e#0#2103#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/ExcelReader2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -2311,9 +2309,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="124"/>
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
 =======
     <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/SearchPage.java" />
@@ -2328,7 +2326,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2363,9 +2361,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestExcelreader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestExcelreader.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="202"/>
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
 =======
     <entry file="file://$PROJECT_DIR$/ebay/src/main/java/homePage/MainPage.java">
@@ -2403,7 +2401,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="705">
           <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2412,8 +2410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsDataReaderUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="255">
+
+        <state relative-caret-position="255"/>
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2427,20 +2425,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/GoogleSheets/SheetsQuickStart.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="194">
+
+        <state relative-caret-position="194"/>
           <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
 =======
         <state relative-caret-position="-478">
           <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
->>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
+
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -2448,9 +2446,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="194"/>
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
 =======
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
@@ -2474,7 +2472,7 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
+
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2482,9 +2480,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="187"/>
           <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
 =======
     <entry file="file://$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestSigninWithGSheetEbay.java">
@@ -2514,10 +2512,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java"/>
+      <provider selected="true" editor-type-id="text-editor"/>
+        <state relative-caret-position="279"/>
           <caret line="465" column="43" lean-forward="true" selection-end-line="500" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2631,7 +2629,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-<<<<<<< HEAD
+
           <last-edited>TableAutomation</last-edited>
 =======
           <last-edited>ebay</last-edited>
@@ -2640,7 +2638,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-<<<<<<< HEAD
+
                 <option value="0.6" />
 =======
 >>>>>>> ed3d5697acd59c7be176f6cd1a9ec74a1d9b3989
