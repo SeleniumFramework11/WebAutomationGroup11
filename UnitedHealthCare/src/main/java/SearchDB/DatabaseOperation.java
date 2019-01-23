@@ -11,16 +11,16 @@ public class DatabaseOperation extends ConnectToSqlDB {
     public static void insertDataIntoDB() {
         List<String> list = getHeaderValue();
         ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-        //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
-        //connectToSqlDB.insertDataFromArrayListToSqlTable(String);
+        //connectToSqlDB.insertDataFromArrayListToSqlTable();
+        //connectToSqlDB.insertDataFromArrayListToSqlTable();
     }
     public static List<String> getHeaderValue() {
         List<String> headerList = new ArrayList<>();
         headerList.add("Employer");
         headerList.add("Dental Insurance");
         headerList.add("Vision Insurance");
-        headerList.add("SHOP");
-        headerList.add("CAREERS");
+        headerList.add("Medical Insurance");
+        //headerList.add("C");
         headerList.add("Car Insurance");
         return headerList;
     }
