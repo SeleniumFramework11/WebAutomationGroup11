@@ -14,7 +14,8 @@
     <test name = "Search ">
         <classes>
             <class name="testHomePage.TestMainPage"/>
-            <class name="testHomePage.Account"/>
+            <class name="testHomePage.TestMainPage"/>
+
         </classes>
     </test>
 
