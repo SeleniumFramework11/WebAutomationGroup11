@@ -40,8 +40,8 @@ public class BaseUtil {
     public static ExtentReports extent;
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
-    public String browserstack_username= "orfattchowdhury1";
-    public String browserstack_accesskey = "6qWJ9DshfBGDJ3j7a5Lc";
+    public String browserstack_username= "";
+    public String browserstack_accesskey = "";
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait;
