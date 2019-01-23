@@ -8,13 +8,15 @@
     <!--<parameter name="cloudEnvName" value="saucelabs"/>-->
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>
-    <parameter name="browserName" value="Chrome"/>
-    <parameter name="browserVersion" value="71.0"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.uhc.com//"/>
 
-    <test name = "Test">
+    <test name = "Test" enabled ="true">
         <classes>
              <class name="testhomepage.TestHomePage"/>
+            <!--<class name="testhomepage.TestEmployerPage"/>-->
+            <!--<class name="testhomepage.TestRegisterPage"/>-->
         </classes>
     </test>
 

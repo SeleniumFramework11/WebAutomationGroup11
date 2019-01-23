@@ -3,13 +3,13 @@
 
 <suite name="UHC Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
-    <parameter name="cloudEnvName" value="browserstack"/>
+    <!--<parameter name="useCloudEnv" value="false"/>-->
+    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
     <!--<parameter name="cloudEnvName" value="saucelabs"/>-->
-    <parameter name="os" value="Windows"/>
-    <parameter name="os_version" value="10"/>
-    <parameter name="browserName" value="Chrome"/>
-    <parameter name="browserVersion" value="71.0"/>
+    <!--<parameter name="os" value="Windows"/>-->
+    <!--<parameter name="os_version" value="10"/>-->
+    <!--<parameter name="browserName" value="Chrome"/>-->
+    <!--<parameter name="browserVersion" value="71.0"/>-->
     <parameter name="url" value="https://www.fishersci.com/shop/products/fisherbrand-sureone-beveled-pipet-tips-universal-fit-1-200-l-16/p-4332187#?keyword=tips>"
 
     <test name = "test">
