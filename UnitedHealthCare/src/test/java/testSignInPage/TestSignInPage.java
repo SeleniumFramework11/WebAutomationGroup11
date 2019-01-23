@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 import signIn.SignInPage;
 public class TestSignInPage extends SignInPage{
+    public String signIn;
     SignInPage sign;
 
     @BeforeMethod
@@ -38,10 +39,24 @@ public class TestSignInPage extends SignInPage{
         }.getClass().getEnclosingMethod().getName()));
         sign.checkSignIn();
     }
+
+    @Test
+    public void testSignInByENTERKeyword() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        signInByENTERKeyword(signIn);
+    }
+    @Test
+    public void testSignInBySubmitButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        signInBySubmitButton(signIn);
+    }
     @Test
     public void testsignIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         sign.checksignIn();
     }
+
 }
