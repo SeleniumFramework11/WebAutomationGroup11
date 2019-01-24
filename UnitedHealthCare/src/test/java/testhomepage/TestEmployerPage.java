@@ -1,7 +1,6 @@
 package testhomepage;
 
 import homepage.EmployerPage;
-import homepage.MainPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,7 +8,6 @@ import reporting.TestLogger;
 
 public class TestEmployerPage extends EmployerPage {
     EmployerPage employerPage;
-
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -17,14 +15,12 @@ public class TestEmployerPage extends EmployerPage {
         employerPage = PageFactory.initElements(driver, EmployerPage.class);
         setUrl("https://www.uhc.com/employer");
     }
-
     @Test
     public void testgroupBenefitPlan() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         employerPage.checkgroupBenefitPlan();
     }
-
     @Test
     public void testgroupHealthInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

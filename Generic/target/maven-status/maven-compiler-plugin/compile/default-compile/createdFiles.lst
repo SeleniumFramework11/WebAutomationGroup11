@@ -7,7 +7,9 @@ reporting\ExtentManager.class
 excelutility\XlsDataReaderUtil.class
 reporting\ExtentTestManager.class
 databases\Student.class
+GoogleSheets\GoogleSheetReader.class
 reporting\TestLogger.class
 utility\DataReader.class
+excelutility\ExcelReader.class
 databases\ConnectToSqlDB.class
 base\BaseUtil.class

@@ -1,6 +1,5 @@
 package testhomepage;
 
-import homepage.MainPage;
 import homepage.RegisterPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +21,4 @@ public class TestRegisterPage extends RegisterPage {
         }.getClass().getEnclosingMethod().getName()));
         registerPage.checkRegistration();
     }
-
-
-
 }

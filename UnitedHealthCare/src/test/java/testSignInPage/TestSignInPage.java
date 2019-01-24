@@ -1,10 +1,9 @@
 package testSignInPage;
-import homepage.MainPage;
-import signIn.SignInPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+import signIn.SignInPage;
 public class TestSignInPage extends SignInPage{
     SignInPage sign;
 
@@ -14,7 +13,6 @@ public class TestSignInPage extends SignInPage{
         }.getClass().getEnclosingMethod().getName()));
         sign = PageFactory.initElements(driver, SignInPage.class);
         setUrl("https://www.myuhc.com/member/prewelcome.do?currentLanguageFromPreCheck=en");
-
     }
     @Test
     public void testUserName() {

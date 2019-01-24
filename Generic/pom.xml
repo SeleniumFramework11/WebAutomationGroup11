@@ -34,7 +34,6 @@
         <dependency>
             <groupId>com.relevantcodes</groupId>
             <artifactId>extentreports</artifactId>
-
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -102,9 +101,14 @@
             <version>v4-rev516-1.23.0</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>3.17</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>3.141.59</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -118,17 +122,14 @@
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-safari-driver</artifactId>
+            <artifactId>selenium-ie-driver</artifactId>
             <version>3.141.59</version>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.6</version>
+            <version>20030203.000550</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

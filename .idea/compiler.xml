@@ -10,11 +10,13 @@
         <module name="Generic" />
         <module name="MacysModule" />
         <module name="Netflix.com" />
+        <module name="TableAutomation" />
         <module name="UnitedHealthCare" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eBay" target="1.10" />
+      <module name="Walmart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
