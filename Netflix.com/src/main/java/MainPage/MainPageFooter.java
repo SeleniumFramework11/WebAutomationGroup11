@@ -6,18 +6,15 @@ import org.openqa.selenium.support.FindBy;
 public class MainPageFooter extends BaseUtil {
     @FindBy(xpath = "//span[.='Audio And Subtitles']")
     public static WebElement audioAndSubtitles;
-    public void clickAudioAndSubtitles(){
-        audioAndSubtitles.click();
+    public void clickAudioAndSubtitles(){ audioAndSubtitles.click();
     }
     @FindBy(xpath = "//span[.='Audio Description']")
     public static WebElement audioDescriptionLink;
-    public void clickAudioDescriptionLink(){
-        audioDescriptionLink.click();
+    public void clickAudioDescriptionLink(){ audioDescriptionLink.click();
     }
     @FindBy(xpath = "//span[.='Gift Cards']")
     public static WebElement giftCardsLink;
-    public void clickGiftCardsLink(){
-        giftCardsLink.click();
+    public void clickGiftCardsLink(){ giftCardsLink.click();
     }
 }
 
