@@ -22,16 +22,20 @@ public class TestProfileSelectionPage extends ProfileSelectionPage {
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
-        TestSignInPage.testSignInButtonOnSignInPage();
-    }
+        TestSignInPage.testSignInButtonOnSignInPage(); }
     @Test (priority = 1)
         public void testAddProfile(){
-            clickAddProfile();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickAddProfile(); }
     @Test (priority = 3)
         public void testSelectProfile(){
-            clickSelectProfile();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickSelectProfile(); }
     @Test (priority = 2)
-        public void testManageProfiles(){clickManagedProfile();}
+        public void testManageProfiles(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickManagedProfile();}
 }

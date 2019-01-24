@@ -27,33 +27,74 @@ public class TestMainPageFooter extends MainPageFooter {
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
-        setUrl("https://www.netflix.com/browse");
+        setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
-        TestProfileSelectionPage.testSelectProfile();
-    }
+        TestProfileSelectionPage.testSelectProfile(); }
+
     @Test
     public void testAudioAndSubtitles(){
-    clickAudioAndSubtitles();
-}
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickAudioAndSubtitles(); }
     @Test
-    public void testLegalNoticesMP(){ HomePage.clickLegalNoticesLink(); }
+    public void testAudioDescription(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickAudioDescriptionLink(); }
     @Test
-    public void testJobsMP(){ HomePage.clickJobs(); }
+    public void testGiftCardsLinks(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickGiftCardsLink(); }
     @Test
-    public void testHelpCentersMP(){ HomePage.clickHelpCenter(); }
+    public void testLegalNoticesMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickLegalNoticesLink(); }
     @Test
-    public void testMediaCentersMP(){ HomePage.clickMediaCenter(); }
+    public void testJobsMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickJobs(); }
     @Test
-    public void testPrivacyMP(){ HomePage.clickPrivacy(); }
+    public void testHelpCentersMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickHelpCenter(); }
     @Test
-    public void testCookiesMP(){ HomePage.clickCookiePreferences(); }
+    public void testMediaCentersMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickMediaCenter(); }
     @Test
-    public void testContactUsMP(){ HomePage.clickContactUs(); }
+    public void testPrivacyMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickPrivacy(); }
     @Test
-    public void testInvestorRelationsMP(){ HomePage.clickInvestorRelationsLink(); }
+    public void testCookiesMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickCookiePreferences(); }
     @Test
-    public void testTermsOfUseMP(){ HomePage.clickTermsOfUse(); }
+    public void testContactUsMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickContactUs(); }
     @Test
-    public void testCorporateInfoMP(){ HomePage.clickCorporateInformation(); }
+    public void testInvestorRelationsMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickInvestorRelationsLink(); }
+    @Test
+    public void testTermsOfUseMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickTermsOfUse(); }
+    @Test
+    public void testCorporateInfoMP(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickCorporateInformation(); }
 }

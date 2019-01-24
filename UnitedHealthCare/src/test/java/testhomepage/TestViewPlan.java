@@ -1,6 +1,5 @@
 package testhomepage;
 
-import homepage.MainPage;
 import homepage.ViewPlan;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
@@ -18,26 +17,22 @@ public class TestViewPlan extends ViewPlan {
         welcome = PageFactory.initElements(driver, ViewPlan.class);
         setUrl("https://www.uhone.com/shop/#/census");
     }
-
-        @Test
+    @Test
         public void testzipCode () {
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()));
             welcome.checkzipCode();
-
-        }
+    }
         @Test
         public void testgenderMale () {
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()));
             welcome.checkgenderMale();
-
-        }
+    }
         @Test
         public void testdateofBirth () {
             TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
             }.getClass().getEnclosingMethod().getName()));
             welcome.checkdateofBirth();
-
-        }
+    }
     }
