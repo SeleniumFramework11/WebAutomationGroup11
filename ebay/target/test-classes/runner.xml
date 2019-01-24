@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="NYPost API Automation Script " parallel="tests">
+<suite name="ebay Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="useCloudEnv" value="true"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="MacOS"/>
-    <parameter name="os_version" value="10"/>
+    <!--<parameter name="cloudEnvName" value="Saucelabs"/>-->
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.ebay.com"/>
 
-    <test name = "Search ">
+    <test name = "ebay Home" enabled="true">
         <classes>
             <class name="testHomePage.TestMainPage"/>
-            <class name="testHomePage.TestMainPage"/>
-
         </classes>
     </test>
 

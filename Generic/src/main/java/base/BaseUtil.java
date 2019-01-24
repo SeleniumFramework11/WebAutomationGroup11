@@ -21,7 +21,6 @@ import org.testng.annotations.*;
 import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 import reporting.TestLogger;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -40,8 +39,8 @@ public class BaseUtil {
     public static ExtentReports extent;
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
-    public String browserstack_username= "orfattchowdhury1";
-    public String browserstack_accesskey = "6qWJ9DshfBGDJ3j7a5Lc";
+    public String browserstack_username= "";
+    public String browserstack_accesskey = "";
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait;
@@ -61,7 +60,7 @@ public class BaseUtil {
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
+                System.setProperty("webdriver.chrome.driver","/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/Driver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
@@ -125,8 +124,8 @@ public class BaseUtil {
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
-                      @Optional("Windows") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("") String url)throws IOException { //need to change to your url
+                      @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
+                              String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException { //need to change to your url
 
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){

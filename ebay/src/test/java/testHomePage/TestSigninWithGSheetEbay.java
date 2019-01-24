@@ -21,10 +21,10 @@ public class TestSigninWithGSheetEbay extends SignInWithGoogleSheetEbay {
     }
         @Test
         public void loginEmailAndPassword() throws IOException{
-//            TestLogger.log(convertToString("C: " + getClass().getSimpleName()) + " - M: " + convertToString(new Object() {
-//            }.getClass().getEnclosingMethod().getName()));
+            TestLogger.log(convertToString("C: " + getClass().getSimpleName()) + " - M: " + convertToString(new Object() {
+           }.getClass().getEnclosingMethod().getName()));
             String spreadsheetId = "1M-nWtjBcHpUoS9lga5lgJRXaSrgpglSps8fzj8fwKmY";
-            String range = "Sheet1!A2:B2";
+            String range = "RafiSheet!A2:B2";
             enterUserNameAndPassword(spreadsheetId, range);
         }
     }
