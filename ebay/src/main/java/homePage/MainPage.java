@@ -77,6 +77,10 @@ public class MainPage extends BaseUtil {
     @FindBy(xpath = "/html[1]/body[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[2]/div[1]/h3[1]")
     public static WebElement findColor;
 
+
+    public void clickOnSignInButton(){signIn.click();}
+    public void clickOnLogInButton(){signinButton.click();}
+
     public void checksearchButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
@@ -230,6 +234,8 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findColor.click();
     }
+
+
 
 
 

@@ -63,9 +63,9 @@ public class SheetsQuickStart {
         // Build a new authorized API client service.
         final NetHttpTransport HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
        // final String spreadsheetId = "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms";             <--Original
-        final String spreadsheetId = "1h-FtsfIBgUhA8woZUw8DuxY92KQcO_n-vxjPSuugG-s";
+        final String spreadsheetId = "1M-nWtjBcHpUoS9lga5lgJRXaSrgpglSps8fzj8fwKmY";
        // final String range = "Class Data!A2:E";                                                  <--Original
-        final String range = "Sheet1";
+        final String range = "RafiSheet";
         Sheets service = new Sheets.Builder(HTTP_TRANSPORT, JSON_FACTORY, getCredentials(HTTP_TRANSPORT))
                 .setApplicationName(APPLICATION_NAME)
                 .build();
