@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 
-public class MainPage extends BaseUtil {
+public class MainPage extends BaseUtil { //119-93=26
     @FindBy(xpath = "//a[.='TV Shows']")
     public static WebElement tvShowsLink;
     public void clickTvShowsLink(){ tvShowsLink.click();
