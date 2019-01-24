@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/resources/secret.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/BrowserStackSauceLabs/SauceLabBrowserStack" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/JobsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/excelutility/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/excelutility/XlsxExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/excelutility/ExcelReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/Movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/Movies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/ReadFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/ReadFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/SearchMoviesExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/SearchMoviesExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPageFooter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/ProfileSelectionPage/ProfileSelectionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/main/java/SignInPage/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/ExcelSheetSearchMovies/TestSearchMoviesXcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/GoogleSheetLoginTest/TestSigninWithGoogleSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/SearchMovies.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/SearchMovies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/Databases/ConnectDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/Databases/ConnectDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/MainPage/MainPageFooter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/ProfileSelectionPage/ProfileSelectionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SearchMoviesExcel/ReadFiles$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SearchMoviesExcel/ReadFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SearchMoviesExcel/SearchMoviesExcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/classes/SignInPage/SignInPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/NetflixRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestHomePage/TestHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/SearchMovies.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/SearchMovies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestSearchMoviesXcel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestSearchMoviesXcel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestMainPage/TestSearchMoviesXcel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSignInUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSigninWithGoogleSheet$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSigninWithGoogleSheet$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Netflix.com/target/test-classes/TestSignInPage/TestSigninWithGoogleSheet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,29 +25,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1278#1279#0" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/JobsPage.java">
+        <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
-                <element signature="e#2579#2580#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -175,7 +118,6 @@
         <option value="$PROJECT_DIR$/Generic/src/main/resources/secret.properties" />
         <option value="$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml" />
-        <option value="$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSignInUsers.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/HomePage.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestHomePage.java" />
@@ -185,8 +127,9 @@
         <option value="$PROJECT_DIR$/Netflix.com/src/main/java/MainPage/MainPage.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/main/java/ExcelSheet/SearchMoviesExcel.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestMainPage/TestMainPage.java" />
-        <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java" />
         <option value="$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/JobsPage.java" />
+        <option value="$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java" />
+        <option value="$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java" />
       </list>
     </option>
   </component>
@@ -243,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,34 +227,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelSheet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Netflix.com" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SignInPage" type="462c0819:PsiDirectoryNode" />
+              <item name="Databases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -334,7 +251,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestHomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="DatabaseTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -345,12 +262,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548304496586" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548342861299" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -386,7 +302,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestJobsPage.getTitleCulture">
+  <component name="RunManager" selected="TestNG.DatabaseTest.webElementName">
+    <configuration name="DatabaseTest.webElementName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Netflix.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DatabaseTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DatabaseTest" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseTest.DatabaseTest" />
+      <option name="METHOD_NAME" value="webElementName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJobsPage.getTitleCulture" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Netflix.com" />
       <extension name="coverage">
@@ -441,24 +375,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.playVideo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Netflix.com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestMainPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestMainPage" />
-      <option name="MAIN_CLASS_NAME" value="TestMainPage.TestMainPage" />
-      <option name="METHOD_NAME" value="playVideo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSearchMoviesXcel.TestExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Netflix.com" />
       <extension name="coverage">
@@ -479,11 +395,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DatabaseTest.webElementName" />
         <item itemvalue="TestNG.TestJobsPage.getTitleCulture" />
         <item itemvalue="TestNG.TestJobsPage.testWhatsNextLink" />
         <item itemvalue="TestNG.TestJobsPage.testReadCultureLink" />
         <item itemvalue="TestNG.TestSearchMoviesXcel.TestExcel" />
-        <item itemvalue="TestNG.TestMainPage.playVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -537,8 +453,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20404859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20404859" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -808,23 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/Resources/NetflixRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -926,26 +826,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/JobsPage.java">
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        <state relative-caret-position="320">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
-            <element signature="e#2579#2580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestHomePage/TestJobsPage.java">
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/HomePage/JobsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/main/java/Databases/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/DatabaseTest/DatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
           </folding>
         </state>
       </provider>
