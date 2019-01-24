@@ -35,30 +35,69 @@ public class TestMainPage extends MainPage {
         TestProfileSelectionPage.testSelectProfile();
     }
     @Test
-    public void testTvShowsLink() { clickTvShowsLink(); }
+    public void testTvShowsLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickTvShowsLink(); }
     @Test
-    public void testMoviesLink() { clickMoviesLink(); }
+    public void testMoviesLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickMoviesLink(); }
     @Test
-    public void testRecentlyAddedLink() { clickRecentlyAddedLink(); }
+    public void testRecentlyAddedLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickRecentlyAddedLink(); }
     @Test
-    public void testMyListLink() { clickMyListLink(); }
+    public void testMyListLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickMyListLink(); }
     @Test
-    public void testHomeLink() { clickHomeLink(); }
+    public void testHomeLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickHomeLink(); }
     @Test
-    public void testSearch() { clickSearchButton(); }
+    public void testSearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickSearchButton(); }
     //"Search For ITEMS"
     @Test
-    public void searchBox() { clickSearchBox("Bird Box"); }
+    public void searchBox() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickSearchBox("Bird Box"); }
     @Test
-    public void testDVDLink() { clickDVDLink(); }
+    public void testDVDLink() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickDVDLink(); }
     @Test
-    public void testNotificationBell() { clickNotificationBell(); }
+    public void testNotificationBell() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickNotificationBell(); }
     @Test
-    public void testNewReleases() { clickNewRelease(); }
+    public void testNewReleases() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickNewRelease(); }
     @Test
-    public void testNetflixOriginals() { clickNetflixOriginals(); }
+    public void testNetflixOriginals() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickNetflixOriginals(); }
     @Test
-    public void testCategoriesOddballs() { clickCategoriesOddballs(); }
+    public void testCategoriesOddballs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickCategoriesOddballs(); }
     @Test
-    public void playVideo() throws InterruptedException { clickSearchBox("Bird Box");clickPlayMovie(); }
+    public void playVideo() throws InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickSearchBox("Bird Box");clickPlayMovie(); }
 }
