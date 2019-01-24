@@ -10,6 +10,7 @@
         <module name="Generic" />
         <module name="MacysModule" />
         <module name="Netflix.com" />
+        <module name="TableAutomation" />
         <module name="UnitedHealthCare" />
       </profile>
     </annotationProcessing>
