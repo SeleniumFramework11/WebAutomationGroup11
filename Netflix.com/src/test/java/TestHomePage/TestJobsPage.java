@@ -17,34 +17,47 @@ public class TestJobsPage extends JobsPage {
     }
     @Test
     public void testTeamLink(){
-        selectTeamsLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectTeamsLink(); }
     @Test
-    public void testLocationsLink(){ selectLocationsLink(); }
+    public void testLocationsLink(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectLocationsLink(); }
     @Test
     public void testDiversityLink(){
-        selectDiversityLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectDiversityLink(); }
     @Test
-    public void testWorkLifeLink(){ selectWorkLifeLink(); }
+    public void testWorkLifeLink(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectWorkLifeLink(); }
     @Test
     public void testWeAreNetflixLink(){
-        selectWeAreNetflixLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectWeAreNetflixLink(); }
     @Test
     public void testSearchLink(){
-        selectSearchJobsLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectSearchJobsLink(); }
     @Test
     public void testReadCultureLink(){
-        selectReadCultureLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectReadCultureLink(); }
     @Test
     public void testWhatsNextLink(){
-        selectWhatsNextLink();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        selectWhatsNextLink(); }
     @Test
     public void getTitleCulture(){
-        getTitleCulture();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        getTitleCulture(); }
 }
