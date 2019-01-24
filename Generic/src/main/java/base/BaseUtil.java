@@ -63,7 +63,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
@@ -73,7 +73,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
@@ -141,7 +141,7 @@ public class BaseUtil {
         wait = new WebDriverWait(driver,10);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get(url);
+        //driver.get(url);
         //driver.manage().window().maximize();
     }
     @Parameters

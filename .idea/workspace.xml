@@ -2,12 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d25c90c5-e730-4ecb-9c3b-2915e19bb69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchInsurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSearchInsurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ApplicationBasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/QuotesOnProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/YourInfoPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/BaseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TableAutomation/src/main/resources/TestTableAutomation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/SearchDB/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/SearchDB/SearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/signIn/SignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testDataProviderUtilityWithXlsReader/TestExcelreader.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testDataProviderUtilityWithXlsReader/TestExcelreader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSearchPage/TestSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSearchPage/TestSearchPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInWithGooglesheet.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testSignInPage/TestSignInWithGooglesheet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestEmployerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestRegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestRegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/testhomepage/TestViewPlan.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1311">
-              <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
+            <state relative-caret-position="287">
+              <caret line="143" column="10" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1561#1562#0" expanded="true" />
@@ -57,10 +84,10 @@
                 <element signature="e#13070#13071#0" expanded="true" />
                 <element signature="e#13114#13115#0" expanded="true" />
                 <element signature="e#13181#13182#0" expanded="true" />
-                <element signature="e#13881#13882#0" expanded="true" />
-                <element signature="e#14015#14016#0" expanded="true" />
-                <element signature="e#14296#14297#0" expanded="true" />
-                <element signature="e#14425#14426#0" expanded="true" />
+                <element signature="e#13962#13963#0" expanded="true" />
+                <element signature="e#14096#14097#0" expanded="true" />
+                <element signature="e#14377#14378#0" expanded="true" />
+                <element signature="e#14506#14507#0" expanded="true" />
                 <element signature="e#14511#14512#0" expanded="true" />
                 <element signature="e#14578#14579#0" expanded="true" />
                 <element signature="e#14342#14354#0" expanded="true" />
@@ -88,44 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestViewPlan.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3508">
-              <caret line="1105" column="45" selection-start-line="1105" selection-start-column="45" selection-end-line="1105" selection-end-column="45" />
-              <folding>
-                <element signature="e#196982#196986#0" expanded="true" />
-                <element signature="e#196986#196990#0" expanded="true" />
-                <element signature="e#196990#196994#0" expanded="true" />
-                <element signature="e#196994#196998#0" expanded="true" />
-                <element signature="e#196998#197002#0" expanded="true" />
-                <element signature="e#197002#197006#0" expanded="true" />
-                <element signature="e#197006#197010#0" expanded="true" />
-                <element signature="e#197248#197252#0" expanded="true" />
-                <element signature="e#197252#197256#0" expanded="true" />
-                <element signature="e#197256#197260#0" expanded="true" />
-                <element signature="e#197260#197264#0" expanded="true" />
-                <element signature="e#197264#197268#0" expanded="true" />
-                <element signature="e#197268#197272#0" expanded="true" />
-                <element signature="e#197272#197276#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSearchPage/TestSearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,66 +127,133 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInPage.java">
+        <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="48" selection-start-line="48" selection-end-line="50" />
+            <state relative-caret-position="187">
+              <caret line="18" column="144" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="144" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchInsurance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1047#1048#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1245#1246#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1311#1312#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourInfoPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/QuotesOnProducts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3094">
+              <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSearchInsurance.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/YourInfoPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#586#587#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ApplicationBasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="297" column="1" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1175#1176#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1429#1430#0" expanded="true" />
+                <element signature="e#1471#1472#0" expanded="true" />
+                <element signature="e#3337#3338#0" expanded="true" />
+                <element signature="e#3398#3399#0" expanded="true" />
+                <element signature="e#3450#3451#0" expanded="true" />
+                <element signature="e#3517#3518#0" expanded="true" />
+                <element signature="e#3577#3578#0" expanded="true" />
+                <element signature="e#3652#3653#0" expanded="true" />
+                <element signature="e#3864#3865#0" expanded="true" />
+                <element signature="e#3933#3934#0" expanded="true" />
+                <element signature="e#3982#3983#0" expanded="true" />
+                <element signature="e#4062#4063#0" expanded="true" />
+                <element signature="e#4112#4113#0" expanded="true" />
+                <element signature="e#4179#4180#0" expanded="true" />
+                <element signature="e#4297#4309#0" expanded="true" />
+                <element signature="e#4504#4516#0" expanded="true" />
+                <element signature="e#4561#4569#0" expanded="true" />
+                <element signature="e#4894#4906#0" expanded="true" />
+                <element signature="e#5117#5129#0" expanded="true" />
+                <element signature="e#5359#5360#0" expanded="true" />
+                <element signature="e#5402#5403#0" expanded="true" />
+                <element signature="e#6068#6069#0" expanded="true" />
+                <element signature="e#6135#6136#0" expanded="true" />
+                <element signature="e#6387#6395#0" expanded="true" />
+                <element signature="e#8230#8231#0" expanded="true" />
+                <element signature="e#8278#8279#0" expanded="true" />
+                <element signature="e#8317#8318#0" expanded="true" />
+                <element signature="e#8367#8368#0" expanded="true" />
+                <element signature="e#9673#9674#0" expanded="true" />
+                <element signature="e#9740#9741#0" expanded="true" />
+                <element signature="e#9783#9784#0" expanded="true" />
+                <element signature="e#9863#9864#0" expanded="true" />
+                <element signature="e#10045#10053#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourAddress.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java">
+        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSearchInsurance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,12 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSignInWithGooglesheet.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Walmart/src/test/java/testhomepage/TestWelcomePage.java" />
@@ -270,7 +324,6 @@
         <option value="$PROJECT_DIR$/ebay/src/main/java/Databases/ConnectDB.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/GoogleSheet/SinginWithGoogleSheet.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestSigninWithGoogleSheet.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
         <option value="$PROJECT_DIR$/ebay/src/test/java/testHomePage/TestSigninWithGSheetEbay.java" />
         <option value="$PROJECT_DIR$/ebay/src/main/java/GoogleSheet/SignInWithGoogleSheetEbay.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/signIn/SignInPage.java" />
@@ -278,6 +331,13 @@
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchPage.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/SearchDB/SearchInsurance.java" />
         <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSearchInsurance.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourAddress.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/Vehicle.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourInfoPage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/QuotesOnProducts.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ApplicationBasePage.java" />
+        <option value="$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/YourInfoPageTest.java" />
       </list>
     </option>
   </component>
@@ -347,64 +407,6 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="Driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GoogleSheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,13 +414,6 @@
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ExcelFile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -434,15 +429,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataProviderUtilityWithExcelReader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -458,24 +444,6 @@
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="SearchDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="signIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -485,15 +453,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testDataProviderUtilityWithXlsReader" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
@@ -507,32 +466,6 @@
             <path>
               <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testSearchPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testSignInPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
-              <item name="UnitedHealthCare" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebAutomationGroup11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebAutomationGroup11" type="462c0819:PsiDirectoryNode" />
               <item name="Walmart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -542,8 +475,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548270624094" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548297259138" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileAutomationFrameworkNov" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -582,7 +515,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml">
+  <component name="RunManager" selected="TestNG.TestEmployerPage.testgroupBenefitPlan">
     <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <properties />
       <listeners />
@@ -590,7 +523,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Group11TableAutomation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestEmployerPage.testgroupBenefitPlan" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhomepage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhomepage" />
+      <option name="MAIN_CLASS_NAME" value="testhomepage.TestEmployerPage" />
+      <option name="METHOD_NAME" value="testgroupBenefitPlan" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEmployerPage.testgroupHealthInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testhomepage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testhomepage" />
+      <option name="MAIN_CLASS_NAME" value="testhomepage.TestEmployerPage" />
+      <option name="METHOD_NAME" value="testgroupHealthInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -604,95 +566,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMainPage.testsearchMensCasualShoes" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestMainPage" />
-      <option name="METHOD_NAME" value="testsearchMensCasualShoes" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSearchMoviesXcel.TestExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSigninWithGSheetEbay.loginEmailAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ebay" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testHomePage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testHomePage" />
-      <option name="MAIN_CLASS_NAME" value="testHomePage.TestSigninWithGSheetEbay" />
-      <option name="METHOD_NAME" value="loginEmailAndPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSigninWithGoogleSheet.loginEmailAndPassword (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Netflix.com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSignInPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSignInPage" />
-      <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSigninWithGoogleSheet" />
-      <option name="METHOD_NAME" value="loginEmailAndPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSinginWithGoogleSheet" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Netflix.com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSignInPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSignInPage" />
-      <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSinginWithGoogleSheet" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSinginWithGoogleSheet.loginEmailAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Netflix.com" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSignInPage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSignInPage" />
-      <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSinginWithGoogleSheet" />
-      <option name="METHOD_NAME" value="loginEmailAndPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -701,15 +575,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestEmployerPage.testgroupBenefitPlan" />
+        <item itemvalue="TestNG.TestEmployerPage.testgroupHealthInsurance" />
         <item itemvalue="TestNG.C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" />
         <item itemvalue="TestNG.TestExcelreader" />
         <item itemvalue="TestNG.TestSearchMoviesXcel.TestExcel" />
-        <item itemvalue="TestNG.Group11TableAutomation" />
-        <item itemvalue="TestNG.TestSigninWithGSheetEbay.loginEmailAndPassword" />
-        <item itemvalue="TestNG.TestSigninWithGoogleSheet.loginEmailAndPassword (1)" />
-        <item itemvalue="TestNG.TestSinginWithGoogleSheet.loginEmailAndPassword" />
-        <item itemvalue="TestNG.TestSinginWithGoogleSheet" />
-        <item itemvalue="TestNG.TestMainPage.testsearchMensCasualShoes" />
       </list>
     </recent_temporary>
   </component>
@@ -730,15 +600,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 14m 32s.xml">
-      <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 15m 17s.xml">
-      <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 15m 55s.xml">
-      <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 18m 15s.xml">
       <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
     </history-entry>
@@ -760,6 +621,15 @@
     <history-entry file="C__Users_orfat_Desktop_WebAutomationGroup11_UnitedHealthCare_src_test_resources_Testrunner_xml - 2019.01.22 at 20h 48m 50s.xml">
       <configuration name="C:/Users/orfat/Desktop/WebAutomationGroup11/UnitedHealthCare/src/test/resources/Testrunner.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestEmployerPage_testgroupBenefitPlan - 2019.01.23 at 13h 02m 41s.xml">
+      <configuration name="TestEmployerPage.testgroupBenefitPlan" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestEmployerPage_testgroupHealthInsurance - 2019.01.23 at 13h 04m 35s.xml">
+      <configuration name="TestEmployerPage.testgroupHealthInsurance" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestEmployerPage_testgroupBenefitPlan - 2019.01.23 at 13h 05m 57s.xml">
+      <configuration name="TestEmployerPage.testgroupBenefitPlan" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -773,12 +643,12 @@
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32734805" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3192771" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3186969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.10339943" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.296034" />
       <window_info anchor="bottom" id="Favorites" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -858,19 +728,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Walmart/src/main/java/homepage/WelcomePage.java" />
-    <entry file="file://$PROJECT_DIR$/ebay/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="85" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/DBConnection/lib/mysql-connector-java-8.0.13/src/main/user-impl/java/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java" />
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/ReadFiles.java" />
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/ExcelReader1.java" />
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithXlsReader/SearchMoviesExcel.java" />
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader1.java" />
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/dataProviderUtilityWithExcelReader/ExcelReader3.java" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -984,16 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testDataProviderUtilityWithXlsReader/TestExcelreader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1030,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3508">
-          <caret line="1105" column="45" selection-start-line="1105" selection-start-column="45" selection-end-line="1105" selection-end-column="45" />
+        <state relative-caret-position="-3525">
+          <caret line="1099" column="45" selection-start-line="1099" selection-start-column="45" selection-end-line="1099" selection-end-column="45" />
           <folding>
             <element signature="e#196982#196986#0" expanded="true" />
             <element signature="e#196986#196990#0" expanded="true" />
@@ -1134,61 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="43" column="44" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1561#1562#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-            <element signature="e#9533#9534#0" expanded="true" />
-            <element signature="e#9563#9564#0" expanded="true" />
-            <element signature="e#9660#9661#0" expanded="true" />
-            <element signature="e#9728#9729#0" expanded="true" />
-            <element signature="e#10429#10430#0" expanded="true" />
-            <element signature="e#10463#10464#0" expanded="true" />
-            <element signature="e#10338#10350#0" expanded="true" />
-            <element signature="e#10395#10403#0" expanded="true" />
-            <element signature="e#10935#10936#0" expanded="true" />
-            <element signature="e#11010#11011#0" expanded="true" />
-            <element signature="e#11067#11068#0" expanded="true" />
-            <element signature="e#11133#11134#0" expanded="true" />
-            <element signature="e#12940#12941#0" expanded="true" />
-            <element signature="e#12998#12999#0" expanded="true" />
-            <element signature="e#13030#13031#0" expanded="true" />
-            <element signature="e#13070#13071#0" expanded="true" />
-            <element signature="e#13114#13115#0" expanded="true" />
-            <element signature="e#13181#13182#0" expanded="true" />
-            <element signature="e#13881#13882#0" expanded="true" />
-            <element signature="e#14015#14016#0" expanded="true" />
-            <element signature="e#14296#14297#0" expanded="true" />
-            <element signature="e#14425#14426#0" expanded="true" />
-            <element signature="e#14511#14512#0" expanded="true" />
-            <element signature="e#14578#14579#0" expanded="true" />
-            <element signature="e#14342#14354#0" expanded="true" />
-            <element signature="e#14549#14561#0" expanded="true" />
-            <element signature="e#14606#14614#0" expanded="true" />
-            <element signature="e#14939#14951#0" expanded="true" />
-            <element signature="e#15162#15174#0" expanded="true" />
-            <element signature="e#15758#15759#0" expanded="true" />
-            <element signature="e#15801#15802#0" expanded="true" />
-            <element signature="e#16141#16142#0" expanded="true" />
-            <element signature="e#16208#16209#0" expanded="true" />
-            <element signature="e#16106#16114#0" expanded="true" />
-            <element signature="e#18188#18189#0" expanded="true" />
-            <element signature="e#18236#18237#0" expanded="true" />
-            <element signature="e#18275#18276#0" expanded="true" />
-            <element signature="e#18325#18326#0" expanded="true" />
-            <element signature="e#19406#19407#0" expanded="true" />
-            <element signature="e#19473#19474#0" expanded="true" />
-            <element signature="e#19516#19517#0" expanded="true" />
-            <element signature="e#19596#19597#0" expanded="true" />
-            <element signature="e#19422#19430#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Netflix.com/src/test/java/TestSignInPage/TestSigninWithGoogleSheet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1257,8 +1049,185 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testSignInPage/TestSearchInsurance.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/BaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="143" column="10" selection-start-line="143" selection-start-column="10" selection-end-line="143" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1561#1562#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#9533#9534#0" expanded="true" />
+            <element signature="e#9563#9564#0" expanded="true" />
+            <element signature="e#9660#9661#0" expanded="true" />
+            <element signature="e#9728#9729#0" expanded="true" />
+            <element signature="e#10429#10430#0" expanded="true" />
+            <element signature="e#10463#10464#0" expanded="true" />
+            <element signature="e#10338#10350#0" expanded="true" />
+            <element signature="e#10395#10403#0" expanded="true" />
+            <element signature="e#10935#10936#0" expanded="true" />
+            <element signature="e#11010#11011#0" expanded="true" />
+            <element signature="e#11067#11068#0" expanded="true" />
+            <element signature="e#11133#11134#0" expanded="true" />
+            <element signature="e#12940#12941#0" expanded="true" />
+            <element signature="e#12998#12999#0" expanded="true" />
+            <element signature="e#13030#13031#0" expanded="true" />
+            <element signature="e#13070#13071#0" expanded="true" />
+            <element signature="e#13114#13115#0" expanded="true" />
+            <element signature="e#13181#13182#0" expanded="true" />
+            <element signature="e#13962#13963#0" expanded="true" />
+            <element signature="e#14096#14097#0" expanded="true" />
+            <element signature="e#14377#14378#0" expanded="true" />
+            <element signature="e#14506#14507#0" expanded="true" />
+            <element signature="e#14511#14512#0" expanded="true" />
+            <element signature="e#14578#14579#0" expanded="true" />
+            <element signature="e#14342#14354#0" expanded="true" />
+            <element signature="e#14549#14561#0" expanded="true" />
+            <element signature="e#14606#14614#0" expanded="true" />
+            <element signature="e#14939#14951#0" expanded="true" />
+            <element signature="e#15162#15174#0" expanded="true" />
+            <element signature="e#15758#15759#0" expanded="true" />
+            <element signature="e#15801#15802#0" expanded="true" />
+            <element signature="e#16141#16142#0" expanded="true" />
+            <element signature="e#16208#16209#0" expanded="true" />
+            <element signature="e#16106#16114#0" expanded="true" />
+            <element signature="e#18188#18189#0" expanded="true" />
+            <element signature="e#18236#18237#0" expanded="true" />
+            <element signature="e#18275#18276#0" expanded="true" />
+            <element signature="e#18325#18326#0" expanded="true" />
+            <element signature="e#19406#19407#0" expanded="true" />
+            <element signature="e#19473#19474#0" expanded="true" />
+            <element signature="e#19516#19517#0" expanded="true" />
+            <element signature="e#19596#19597#0" expanded="true" />
+            <element signature="e#19422#19430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/TestEmployerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TableAutomation/src/test/java/tableAutomation/Group11TableAutomation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="144" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/YourInfoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/ApplicationBasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="297" column="1" selection-start-line="297" selection-start-column="1" selection-end-line="297" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1175#1176#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#3337#3338#0" expanded="true" />
+            <element signature="e#3398#3399#0" expanded="true" />
+            <element signature="e#3450#3451#0" expanded="true" />
+            <element signature="e#3517#3518#0" expanded="true" />
+            <element signature="e#3577#3578#0" expanded="true" />
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#3933#3934#0" expanded="true" />
+            <element signature="e#3982#3983#0" expanded="true" />
+            <element signature="e#4062#4063#0" expanded="true" />
+            <element signature="e#4112#4113#0" expanded="true" />
+            <element signature="e#4179#4180#0" expanded="true" />
+            <element signature="e#4297#4309#0" expanded="true" />
+            <element signature="e#4504#4516#0" expanded="true" />
+            <element signature="e#4561#4569#0" expanded="true" />
+            <element signature="e#4894#4906#0" expanded="true" />
+            <element signature="e#5117#5129#0" expanded="true" />
+            <element signature="e#5359#5360#0" expanded="true" />
+            <element signature="e#5402#5403#0" expanded="true" />
+            <element signature="e#6068#6069#0" expanded="true" />
+            <element signature="e#6135#6136#0" expanded="true" />
+            <element signature="e#6387#6395#0" expanded="true" />
+            <element signature="e#8230#8231#0" expanded="true" />
+            <element signature="e#8278#8279#0" expanded="true" />
+            <element signature="e#8317#8318#0" expanded="true" />
+            <element signature="e#8367#8368#0" expanded="true" />
+            <element signature="e#9673#9674#0" expanded="true" />
+            <element signature="e#9740#9741#0" expanded="true" />
+            <element signature="e#9783#9784#0" expanded="true" />
+            <element signature="e#9863#9864#0" expanded="true" />
+            <element signature="e#10045#10053#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/main/java/homepage/QuotesOnProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/testhomepage/YourInfoPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
