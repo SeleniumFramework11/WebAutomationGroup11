@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="eBay API Automation Script " parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+<suite name="Netflix Automation Script" parallel="true">
+
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
-    <parameter name="os" value="windows"/>
-    <parameter name="os_version" value="Windows 10"/>
-    <parameter name="browserName" value="Google Chrome"/>
-    <parameter name="browserVersion" value="60.0"/>
-    <parameter name="url" value="https://www.netflix.com/"/>
-
+    <!--<parameter name="cloudEnvName" value="saucelabs"/>-->
+    <parameter name="OS" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="71.0"/>
+    <parameter name="url" value="https://www.netflix.com//"/>
 
 <test name="Search Items">
-    <parameter name="browserName" value="chrome"/>
     <classes>
+        <class name="DatabaseTest.DatabaseTest"/>
+        <class name="ExcelSheetSearchMovies.TestSearchMoviesXcel"/>
+        <class name="GoogleSheetLoginTest.TestSigninWithGoogleSheet"/>
         <class name="TestHomePage.TestHomePage"/>
-        <!--<class name="TestMainPage.TestMainPage"/>-->
-        <!--<class name="TestProfileSelectionPage.TestProfileSelectionPage"/>-->
-        <!--<class name="TestSignInPage.TestSignInPage"/>-->
+        <class name="TestHomePage.TestJobsPage"/>
+        <class name="TestMainPage.SearchMovies"/>
+        <class name="TestMainPage.TestMainPage"/>
+        <class name="TestMainPage.TestMainPageFooter"/>
+        <class name="TestProfileSelectionPage.TestProfileSelectionPage"/>
+        <class name="TestSignInPage.TestSignInPage"/>
+        <class name="TestSignInPage.TestSignInUsers"/>
     </classes>
 </test>
-
-
 </suite>

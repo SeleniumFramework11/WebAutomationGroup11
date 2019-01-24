@@ -1,9 +1,13 @@
 package TestHomePage;
+
 import HomePage.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
+import static org.testng.AssertJUnit.assertEquals;
+
 public class TestHomePage extends HomePage {
     HomePage HomePage;
     @BeforeMethod
@@ -12,6 +16,18 @@ public class TestHomePage extends HomePage {
         }.getClass().getEnclosingMethod().getName()));
         HomePage = PageFactory.initElements(driver, HomePage.class);
         setUrl("http://www.Netflix.com");
+    }
+    @Test
+    public void testURL() {
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String homeUrl = driver.getCurrentUrl();
+        assertEquals(homeUrl, "https://www.netflix.com/");
+    }
+    @Test
+    public void testTitle(){
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String title = driver.getTitle();
+        assertEquals(title, "Netflix - Watch TV Shows Online, Watch Movies Online");
     }
     @Test (priority=1)
     public void testSignInLink() { clickSignInButton(); }
@@ -87,7 +103,7 @@ public class TestHomePage extends HomePage {
     public void testJobsLink(){
         clickJobs();
     }
-    @Test (priority =22)
+    @Test (priority=22)
     public void testLanguageSelector(){ clickLanguageSelector();
     }
 }

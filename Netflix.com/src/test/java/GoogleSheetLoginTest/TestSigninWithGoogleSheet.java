@@ -1,4 +1,4 @@
-package TestSignInPage;
+package GoogleSheetLoginTest;
 import GoogleSheet.SigninWithGoogleSheet;
 import HomePage.HomePage;
 import SignInPage.SignInPage;

@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-public class ExcelReader {
+public class XlsxExcelReader {
     XSSFWorkbook wb = null;
     XSSFSheet sheet = null;
     Cell cell = null;

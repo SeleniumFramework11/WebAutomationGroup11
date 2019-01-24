@@ -1,9 +1,9 @@
-package TestMainPage;
+package ExcelSheetSearchMovies;
+import ExcelSheet.SearchMoviesExcel;
 import HomePage.HomePage;
 import MainPage.MainPage;
 import ProfileSelectionPage.ProfileSelectionPage;
 import SignInPage.SignInPage;
-import SearchMoviesExcel.SearchMoviesExcel;
 import TestProfileSelectionPage.TestProfileSelectionPage;
 import TestSignInPage.TestSignInPage;
 import org.openqa.selenium.support.PageFactory;
@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 import java.io.IOException;
+
 public class TestSearchMoviesXcel extends SearchMoviesExcel {
     SignInPage SignInPage;
     HomePage HomePage;
@@ -34,7 +35,7 @@ public class TestSearchMoviesXcel extends SearchMoviesExcel {
         TestSignInPage.testSignInButtonOnSignInPage();
         TestProfileSelectionPage.testSelectProfile(); }
     @Test
-    public void TestExcel() throws IOException {
+    public void TestExcel() throws IOException, InterruptedException {
         TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         SearchMoviesExcel obj = PageFactory.initElements(driver, SearchMoviesExcel.class);
         clickSearchIcon();

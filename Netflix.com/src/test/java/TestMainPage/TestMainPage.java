@@ -18,6 +18,7 @@ public class TestMainPage extends MainPage {
     TestSignInPage TestSignInPage;
     ProfileSelectionPage ProfileSelectionPage;
     TestProfileSelectionPage TestProfileSelectionPage;
+
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -31,32 +32,33 @@ public class TestMainPage extends MainPage {
         setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
-        TestProfileSelectionPage.testSelectProfile(); }
-    @Test (priority = 1)
-    public void testTvShowsLink(){ clickTvShowsLink(); }
-    @Test (priority = 2)
-    public void testMoviesLink(){ clickMoviesLink(); }
-    @Test (priority = 3)
-    public void testRecentlyAddedLink(){ clickRecentlyAddedLink(); }
-    @Test (priority = 4)
-    public void testMyListLink(){ clickMyListLink(); }
-    @Test (priority = 5)
-    public void testHomeLink(){ clickHomeLink(); }
-    @Test (priority = 6)
-    public void testSearch(){ clickSearchButton(); }
+        TestProfileSelectionPage.testSelectProfile();
+    }
+    @Test
+    public void testTvShowsLink() { clickTvShowsLink(); }
+    @Test
+    public void testMoviesLink() { clickMoviesLink(); }
+    @Test
+    public void testRecentlyAddedLink() { clickRecentlyAddedLink(); }
+    @Test
+    public void testMyListLink() { clickMyListLink(); }
+    @Test
+    public void testHomeLink() { clickHomeLink(); }
+    @Test
+    public void testSearch() { clickSearchButton(); }
     //"Search For ITEMS"
-    @Test (priority = 7)
-    public void searchBox(){clickSearchBox("Bird Box"); }
-    @Test (priority = 8)
-    public void testDVDLink(){ clickDVDLink(); }
     @Test
-    public void testNotificationBell(){ clickNotificationBell(); }
+    public void searchBox() { clickSearchBox("Bird Box"); }
     @Test
-    public void testNewReleases(){ clickNewRelease(); }
+    public void testDVDLink() { clickDVDLink(); }
     @Test
-    public void testNetflixOriginals(){ clickNetflixOriginals(); }
+    public void testNotificationBell() { clickNotificationBell(); }
     @Test
-    public void testCategoriesOddballs(){ clickCategoriesOddballs(); }
-
-
+    public void testNewReleases() { clickNewRelease(); }
+    @Test
+    public void testNetflixOriginals() { clickNetflixOriginals(); }
+    @Test
+    public void testCategoriesOddballs() { clickCategoriesOddballs(); }
+    @Test
+    public void playVideo() throws InterruptedException { clickSearchBox("Bird Box");clickPlayMovie(); }
 }

@@ -7,10 +7,10 @@ public class TestSignInUsers extends TestSignInPage {
         enterPassword("abc123");
         signInButtonSIPButton();
     }
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void testSignInValidUser() {
-        enterEmail("Ilias@yahoo.com");
-        enterPassword("abc123");
+        enterEmail("Ilias247mohammed@yahoo.com");
+        enterPassword("L@k3r$");
         signInButtonSIPButton();
     }
 }
