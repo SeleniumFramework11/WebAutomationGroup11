@@ -19,29 +19,58 @@ public class TestSignInPage extends SignInPage{
     }
     @Test (priority=1)
         public void testEnterEmailAddress(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         enterEmail("Ilias@yahoo.com"); }
     @Test (priority=2)
-        public void testEnterSignInPassword(){ enterPassword("abc123"); }
+        public void testEnterSignInPassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        enterPassword("abc123"); }
     @Test (priority=3)
         public void testRememberMe(){
-        checkRememberMe();
-    }
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        checkRememberMe(); }
     @Test (priority = 4)
-        public void testNeedHelpLink(){ needHelp(); }
+        public void testNeedHelpLink(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        needHelp(); }
     @Test (priority = 5)
-        public void testLoginWithFacebook(){loginWithFacebook();}
+        public void testLoginWithFacebook(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        loginWithFacebook();}
     @Test (priority = 6)
-        public void testSignUp(){signUpLink();}
+        public void testSignUp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        signUpLink();}
     @Test (priority = 7)
-        public void testGiftCardTerms(){ giftCardTermsLink(); }
+        public void testGiftCardTerms(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        giftCardTermsLink(); }
     @Test (priority = 8)
-        public void testTermsOfUseSignInPage() { HomePage.clickTermsOfUse(); }
+        public void testTermsOfUseSignInPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickTermsOfUse(); }
     @Test(priority = 9)
-        public void testPrivacyStatement(){ privacyStatementLink(); }
+        public void testPrivacyStatement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        privacyStatementLink(); }
     @Test (priority = 10)
-    public void testLanguageSignInPage() { HomePage.clickLanguageSelector(); }
+    public void testLanguageSignInPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        HomePage.clickLanguageSelector(); }
     @Test (priority = 11)
     public void testSignInButtonOnSignInPage() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         enterEmail("ilias247mohammed@yahoo.com");
         enterPassword("L@k3r$");
         signInButtonSIPButton();
