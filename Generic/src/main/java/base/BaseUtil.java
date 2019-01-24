@@ -37,10 +37,10 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
     public static ExtentReports extent;
-    public String saucelabs_username = "imohammed0";
-    public String saucelabs_accesskey = "07c48e79-4674-4634-bdfe-1bde1729528c";
-    public String browserstack_username= "iliasmohammed1";
-    public String browserstack_accesskey = "gYMiHxbQWCxUTn7xMTYN";
+    public String saucelabs_username = "";
+    public String saucelabs_accesskey = "";
+    public String browserstack_username= "";
+    public String browserstack_accesskey = "";
     public static WebDriver driver = null;
     public static Actions builder = null;
     public static WebDriverWait wait;

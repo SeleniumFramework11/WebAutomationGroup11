@@ -27,11 +27,11 @@ public class TestMainPageFooter extends MainPageFooter {
         TestSignInPage = PageFactory.initElements(driver, TestSignInPage.class);
         ProfileSelectionPage = PageFactory.initElements(driver, ProfileSelectionPage.class);
         TestProfileSelectionPage = PageFactory.initElements(driver, TestProfileSelectionPage.class);
-        setUrl("https://www.netflix.com/browse");
+        setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage();
-        TestProfileSelectionPage.testSelectProfile();
-    }
+        TestProfileSelectionPage.testSelectProfile(); }
+
     @Test
     public void testAudioAndSubtitles(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
