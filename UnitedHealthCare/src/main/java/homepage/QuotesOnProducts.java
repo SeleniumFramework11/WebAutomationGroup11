@@ -3,9 +3,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pagebase.ApplicationPageBase;
+//import pagebase.ApplicationPageBase;
 import reporting.TestLogger;
-public class QuotesOnProducts extends ApplicationPageBase {
+/*public class QuotesOnProducts extends ApplicationPageBase {
     @FindBy(xpath = "//div[@id='available_products']//div[@id='auto']//div[@class='circle']")
     public static WebElement autoInsIcon;
     @FindBy(id = "validationSummary")
@@ -179,5 +179,4 @@ public class QuotesOnProducts extends ApplicationPageBase {
         Thread.sleep(2000);
         String url = driver.getCurrentUrl();
         return url;
-    }
-}
+    }*/

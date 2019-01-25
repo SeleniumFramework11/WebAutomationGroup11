@@ -1,8 +1,9 @@
 package pagebase;
 
-import base.CommonApi;
-import org.apache.maven.surefire.shade.org.apache.commons.lang3.StringUtils;
-import org.apache.maven.surefire.shade.org.apache.maven.shared.utils.io.FileUtils;
+import base.BaseUtil;
+//import base.CommonApi;
+//import org.apache.maven.surefire.shade.org.apache.commons.lang3.StringUtils;
+//import org.apache.maven.surefire.shade.org.apache.maven.shared.utils.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -17,7 +18,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-public class ApplicationPageBase extends CommonApi {
+/*public class ApplicationPageBase extends BaseUtil {
     Properties prop=null;
     @FindBy(name = "OnlineOpinion1")
     public static WebElement feedbackFrame;
@@ -257,7 +258,7 @@ public class ApplicationPageBase extends CommonApi {
         /* path example to upload a file/image
            path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
-    }
+   /* }
     public void clearInput(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
@@ -295,4 +296,4 @@ public class ApplicationPageBase extends CommonApi {
             System.out.println("CSS locator didn't work");
         }
     }
-}
+}*/

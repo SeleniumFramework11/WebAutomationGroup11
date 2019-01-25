@@ -1,11 +1,11 @@
-package autoinsurancequotetest;
-import autoinsuranceqoutepage.YourInfoPage;
+package testhomepage;
+//import autoinsuranceqoutepage.YourInfoPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class YourInfoPageTest extends YourInfoPage {
+/*public class YourInfoPageTest extends YourInfoPage {
     YourInfoPage customerInformationPage1;
     @BeforeMethod
     public void init(){customerInformationPage1= PageFactory.initElements(driver, YourInfoPage.class);
@@ -28,3 +28,4 @@ public class YourInfoPageTest extends YourInfoPage {
     }
 
 }
+*/
