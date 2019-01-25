@@ -63,7 +63,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
@@ -73,7 +73,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "C:\\Users\\orfat\\Desktop\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
