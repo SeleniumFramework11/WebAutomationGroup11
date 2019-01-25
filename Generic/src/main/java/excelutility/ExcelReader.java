@@ -9,7 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-public class XlsxExcelReader {
+public class ExcelReader {
     XSSFWorkbook wb = null;
     XSSFSheet sheet = null;
     Cell cell = null;
@@ -56,7 +56,7 @@ public class XlsxExcelReader {
         }
     public String getCellValue(XSSFCell cell) {
             Object value = null;
-            int dataType = cell.getCellType();
+            int dataType = cell.CELL_TYPE_BLANK;
             switch (dataType) {
                 case XSSFCell.CELL_TYPE_NUMERIC:
                     value = cell.getNumericCellValue();

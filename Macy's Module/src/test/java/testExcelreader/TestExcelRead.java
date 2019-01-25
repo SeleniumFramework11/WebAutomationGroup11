@@ -1,4 +1,4 @@
-package testexcelread;
+package testExcelreader;
 
 import base.BaseUtil;
 import com.relevantcodes.extentreports.ExtentReports;

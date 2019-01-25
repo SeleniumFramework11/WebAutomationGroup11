@@ -14,8 +14,12 @@
 
     <test name = "Search" enabled="true">
         <classes>
-            <class name="testHomePage.TestMainPage"/>
+            <class name="testExcelreader.TestExcelRead"/>
+            <class name="testHomePage.TestDropdown"/>
             <class name="testHomePage.TestFindProduct"/>
+            <class name="testHomePage.TestHoverover"/>
+            <class name="testHomePage.TestMainPage"/>
+            <class name="testHomePage.TestSiginRegs"/>
         </classes>
     </test>
 
