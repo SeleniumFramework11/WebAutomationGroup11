@@ -395,7 +395,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548470276635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548472896842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MobileNov2018-master" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
@@ -431,7 +431,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestAllEmployees.callAllEmployeeResources">
+  <component name="RunManager" selected="TestNG.TestSignInPage.testPrivacyStatement">
     <configuration name="ConnectDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Databases.ConnectDB" />
       <module name="Netflix.com" />
@@ -494,7 +494,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSignInPage.testLanguageSignInPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSignInPage.testPrivacyStatement" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Netflix.com" />
       <extension name="coverage">
         <pattern>
@@ -504,7 +504,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestSignInPage" />
       <option name="MAIN_CLASS_NAME" value="TestSignInPage.TestSignInPage" />
-      <option name="METHOD_NAME" value="testLanguageSignInPage" />
+      <option name="METHOD_NAME" value="testPrivacyStatement" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -514,11 +514,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSignInPage.testPrivacyStatement" />
         <item itemvalue="TestNG.TestAllEmployees.callAllEmployeeResources" />
         <item itemvalue="TestNG.DatabaseTest.webElementName" />
         <item itemvalue="Application.ConnectToSqlDB" />
         <item itemvalue="Application.ConnectDB" />
-        <item itemvalue="TestNG.TestSignInPage.testLanguageSignInPage" />
       </list>
     </recent_temporary>
   </component>

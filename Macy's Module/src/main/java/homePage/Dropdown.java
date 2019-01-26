@@ -1,12 +1,10 @@
 package homePage;
-
 import base.BaseUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
-//all dropdown over 19 tests are passed
-public class Dropdown extends BaseUtil {
+public class Dropdown extends BaseUtil { //all dropdown over 19 tests are passed
 @FindBy(id = "showByDepartmentCaret")
 public static WebElement departmentCaret;
 @FindBy(xpath = "//span[contains(text(),'SALE & CLEARANCE')]")
