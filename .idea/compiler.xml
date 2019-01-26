@@ -8,9 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ebay" />
         <module name="Generic" />
-        <module name="MacysModule" />
+        <module name="Macy's Module" />
         <module name="Netflix.com" />
-        <module name="RestAPI" />
         <module name="TableAutomation" />
         <module name="UnitedHealthCare" />
       </profile>

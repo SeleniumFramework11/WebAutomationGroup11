@@ -17,6 +17,7 @@ public class TestMainPage extends MainPage {
         setUrl("https://www.ebay.com/");
         setUrl("https://www.ebay.com/b/Womens-Clothing/15724/bn_661783");
         setUrl("https://www.ebay.com/b/Mens-Shoes/93427/bn_61999");
+        setUrl("https://www.ebay.com/b/adidas-Shoes-for-Men/93427/bn_62013");
     }
     @Test
     public void testsearchButton() {
@@ -162,25 +163,30 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checksearchMensCasualShoes();
     }
-    /*@Test
-    public void testsearchMensCasualShoes() {
+    @Test
+    public void testsearchAdidasShoes() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checksearchMensCasualShoes();
+        mainPage.checksearchAdidasShoes();
     }
-
-
-
-
-
-
-
-    /*@Test
-    public void testLogo() {
+    @Test
+    public void findAdidasNMD() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        mainPage.checkLogo();
-    }*/
+        mainPage.checkfindAdidasNMD();
+    }
+    @Test
+    public void findSize() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindSize();
+    }
+    @Test
+    public void findColor() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindColor();
+    }
 
 
 

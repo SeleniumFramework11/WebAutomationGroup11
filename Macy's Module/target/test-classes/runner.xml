@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Macy's Automation Script" parallel="tests">
+
+    <parameter name="useCloudEnv" value="true"/>
+    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="71.0.3578.98"/>
+    <parameter name="url" value="https://www.macys.com"/>
+
+    <test name = "Search" enabled="true">
+        <classes>
+            <class name="testHomePage.TestMainPage"/>
+            <class name="testHomePage.TestFindProduct"/>
+        </classes>
+    </test>
+
+</suite>

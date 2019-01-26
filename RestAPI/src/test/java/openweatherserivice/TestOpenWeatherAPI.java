@@ -23,7 +23,11 @@ public class TestOpenWeatherAPI {
     }
     @Test
     public void badCallOpenWeatherMapApi() {
+
         //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         Response response ;
         int statusCode = 0;
         try {
@@ -35,26 +39,42 @@ public class TestOpenWeatherAPI {
     }
     @Test
     public void testResponseCode() {
+
        // TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         int status = given().when().get(url).getStatusCode();
         Assert.assertEquals(status, 200);
     }
     @Test
     public void testResponseTime() {
+
         //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         long time = given().when().get(url).getTime();
         Assert.assertTrue(time > 0.0);
     }
     @Test
     public void testResponseCity() {
+
         //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         JsonPath jsonPathEvaluator = given().when().get(url).jsonPath();
         String city = jsonPathEvaluator.get("name");
         Assert.assertEquals(city, "London");
     }
     @Test
     public void testResponseIDTotalResults() {
+
         //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
         JsonPath jsonPathEvaluator = given().when().get(url).jsonPath();
         int id = jsonPathEvaluator.get("id");
         Assert.assertEquals(id, 2643743);
