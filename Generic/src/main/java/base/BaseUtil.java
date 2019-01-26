@@ -60,9 +60,9 @@ public class BaseUtil {
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver","/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/Driver/chromedriver"); //this one used
+                System.setProperty("webdriver.chrome.driver","Q:\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver();
             builder = new Actions(driver);
@@ -72,7 +72,7 @@ public class BaseUtil {
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/browserDriver/chromedriver");
             }else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/browserDriver/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "..Generic\\Driver\\chromedriver.exe");
             }
             driver = new ChromeDriver(options);
             driver.manage().deleteAllCookies();
@@ -125,7 +125,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException { //need to change to your url
+                              String browserVersion, @Optional("http://www.netflix.com") String url)throws IOException { //need to change to your url
 
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
@@ -140,7 +140,7 @@ public class BaseUtil {
         wait = new WebDriverWait(driver,10);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
-        driver.get(url);
+        //driver.get(url);
         //driver.manage().window().maximize();
     }
     @Parameters
