@@ -2,6 +2,7 @@ package TestHomePage;
 
 import HomePage.HomePage;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
@@ -27,112 +28,220 @@ public class TestHomePage extends HomePage {
         }.getClass().getEnclosingMethod().getName()));
         String title = driver.getTitle();
         assertEquals(title, "Netflix - Watch TV Shows Online, Watch Movies Online"); }
-    @Test (priority=1)
+    @Test
+    public void testLanguages(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        System.out.println(languageSelector.getTagName());
+        System.out.println(languageSelector.getText()); }
+    @Test
     public void testSignInLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickSignInButton(); }
-    @Test (priority=2)
+    @Test
     public void testJoinLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickJoinButton(); }
-    @Test (priority=3)
+    @Test
     public void testPriceButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickPriceLink(); }
-    @Test (priority=4)
+    @Test
     public void testDevicesButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickDevicesLink(); }
-    @Test (priority=5)
+    @Test
     public void testGoToFAQLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickFAQLink(); }
-    @Test (priority=6)
+    @Test
+    public void getTextFAQ(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = faqLink.getText();
+        Assert.assertEquals(link, "FAQ"); }
+    @Test
     public void testGoToAccountLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickAccountLink(); }
-    @Test (priority=7)
+    @Test
+    public void getAccountJobs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = accountLink.getText();
+        Assert.assertEquals(link, "Account"); }
+    @Test
     public void testGoToInvestorRelationsLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickInvestorRelationsLink(); }
-    @Test (priority=8)
+    @Test
+    public void getTextInvestor(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = investorRelationsLink.getText();
+        Assert.assertEquals(link, "Investor Relations"); }
+    @Test
     public void testRedeemGiftCardsLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickRedeemGiftCards(); }
-    @Test (priority=9)
+    @Test
+    public void getTextRedeemGiftJobs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = redeemGiftCards.getText();
+        Assert.assertEquals(link, "Redeem Gift Cards"); }
+    @Test
     public void testCorporateInformationLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickCorporateInformation(); }
-    @Test (priority=10)
+    @Test
+    public void getTextCorporateInfo(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = corporateInformation.getText();
+        Assert.assertEquals(link, "Corporate Information"); }
+    @Test
     public void testPrivacyLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickPrivacy(); }
-    @Test (priority=11)
+    @Test
+    public void getTextPrivacy(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = privacy.getText();
+        Assert.assertEquals(link, "Privacy"); }
+    @Test
     public void testWaysToWatchLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickWaysToWatch(); }
-    @Test (priority=12)
+    @Test
+    public void getTextWaysToWatch(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = waysToWatch.getText();
+        Assert.assertEquals(link, "Ways To Watch"); }
+    @Test
     public void testSpeedTestLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickSpeedTest(); }
-    @Test (priority=13)
+    @Test
+    public void getTextSpeed(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = speedTest.getText();
+        Assert.assertEquals(link, "Speed Test"); }
+    @Test
     public void testNetflixOriginalsLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickNetflixOriginals(); }
-    @Test (priority=14)
+    @Test
+    public void getTextNetflixOriginals(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link =netflixOriginalsLink.getText();
+        Assert.assertEquals(link, "Netflix Originals"); }
+    @Test
     public void testHelpCenterLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickHelpCenter(); }
-    @Test (priority=15)
+    @Test
+    public void getTextHelpCenter(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = helpCenterLink.getText();
+        Assert.assertEquals(link, "Help Center"); }
+    @Test
     public void testMediaCenterLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickMediaCenter(); }
-    @Test (priority=16)
+    @Test
+    public void getTextMediaCenter(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = mediaCenterLink.getText();
+        Assert.assertEquals(link, "Media Center"); }
+    @Test
     public void testBuyGiftCardsLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickBuyGiftCards(); }
-    @Test (priority=17)
+    @Test
+    public void getTextBuyGiftCards(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = buyGiftCardsLink.getText();
+        Assert.assertEquals(link, "Buy Gift Cards"); }
+    @Test
     public void testTermsOfUseLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickTermsOfUse(); }
-    @Test (priority=18)
+    @Test
+    public void getTextTermsOfUse(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = termsOfUseLink.getText();
+        Assert.assertEquals(link, "Terms of Use"); }
+    @Test
     public void testCookiePreferencesLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickCookiePreferences(); }
-    @Test (priority=19)
+    @Test
+    public void getTextCookiePreferences(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = cookiePreferencesLink.getText();
+        Assert.assertEquals(link, "Cookie Preferences"); }
+    @Test
     public void testContactUsLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickContactUs(); }
-    @Test (priority=20)
+    @Test
+    public void getTextContactUS(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = contactUsLink.getText();
+        Assert.assertEquals(link, "Contact Us"); }
+    @Test
     public void testLegalNoticesLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickLegalNoticesLink(); }
-    @Test (priority=21)
+    @Test
+    public void getTextLegalNotices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = legalNoticesLink.getText();
+        Assert.assertEquals(link, "Legal Notices"); }
+    @Test
     public void testJobsLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         clickJobs(); }
-    @Test (priority=22)
+    @Test
+    public void getTextJobs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        String link = jobsLink.getText();
+        Assert.assertEquals(link, "Jobs"); }
+    @Test
     public void testLanguageSelector(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));

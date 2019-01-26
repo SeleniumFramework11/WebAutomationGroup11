@@ -14,17 +14,17 @@
 
 <test name="Search Items">
     <classes>
-        <class name="DatabaseTest.DatabaseTest"/>
-        <class name="ExcelSheetSearchMovies.TestSearchMoviesXcel"/>
-        <class name="GoogleSheetLoginTest.TestSigninWithGoogleSheet"/>
-        <class name="TestHomePage.TestHomePage"/>
-        <class name="TestHomePage.TestJobsPage"/>
-        <class name="TestMainPage.SearchMovies"/>
-        <class name="TestMainPage.TestMainPage"/>
+        <!--<class name="DatabaseTest.DatabaseTest"/>-->
+        <!--<class name="ExcelSheetSearchMovies.TestSearchMoviesXcel"/>-->
+        <!--<class name="GoogleSheetLoginTest.TestSigninWithGoogleSheet"/>-->
+        <!--<class name="TestHomePage.TestHomePage"/>-->
+        <!--<class name="TestHomePage.TestJobsPage"/>-->
+        <!--<class name="TestMainPage.SearchMovies"/>-->
+        <!--<class name="TestMainPage.TestMainPage"/>-->
         <class name="TestMainPage.TestMainPageFooter"/>
-        <class name="TestProfileSelectionPage.TestProfileSelectionPage"/>
-        <class name="TestSignInPage.TestSignInPage"/>
-        <class name="TestSignInPage.TestSignInUsers"/>
+        <!--<class name="TestProfileSelectionPage.TestProfileSelectionPage"/>-->
+        <!--<class name="TestSignInPage.TestSignInPage"/>-->
+        <!--<class name="TestSignInPage.TestSignInUsers"/>-->
     </classes>
 </test>
 </suite>

@@ -7,6 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
+import static org.testng.AssertJUnit.assertEquals;
+
 public class TestProfileSelectionPage extends ProfileSelectionPage {
     SignInPage SignInPage;
     HomePage HomePage;
@@ -23,6 +26,11 @@ public class TestProfileSelectionPage extends ProfileSelectionPage {
         setUrl("http://www.Netflix.com");
         HomePage.clickSignInButton();
         TestSignInPage.testSignInButtonOnSignInPage(); }
+    @Test
+    public void testURL() {
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String homeUrl = driver.getCurrentUrl();
+        assertEquals(homeUrl, "https://www.netflix.com/browse"); }
     @Test (priority = 1)
         public void testAddProfile(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

@@ -1,0 +1,11 @@
+TestHomePage = 42
+TestJobsPage = 23
+SearchMovies = 18
+TestMainPage = 14
+TestMainPageFooter = 10
+TestProfileSelectionPage = 4
+TestSignInPage = 12
+TestSignInUsers =
+DataBase = 1
+Excel = 1
+Google Sheet = 1

@@ -6,6 +6,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
+import static org.testng.AssertJUnit.assertEquals;
+
 public class TestJobsPage extends JobsPage {
    JobsPage JobsPage;
     @BeforeMethod
@@ -15,6 +17,11 @@ public class TestJobsPage extends JobsPage {
         JobsPage = PageFactory.initElements(driver, JobsPage.class);
         setUrl("https://jobs.netflix.com/");
     }
+    @Test
+    public void testURL() {
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String homeUrl = driver.getCurrentUrl();
+        assertEquals(homeUrl, "https://jobs.netflix.com/"); }
     @Test
     public void testTeamLink(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
