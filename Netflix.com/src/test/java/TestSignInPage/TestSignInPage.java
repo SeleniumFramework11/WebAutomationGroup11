@@ -5,6 +5,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
+import static org.testng.AssertJUnit.assertEquals;
+
 public class TestSignInPage extends SignInPage{
     SignInPage SignInPage;
     HomePage HomePage;
@@ -15,8 +18,12 @@ public class TestSignInPage extends SignInPage{
         SignInPage = PageFactory.initElements(driver, SignInPage.class);
         HomePage = PageFactory.initElements(driver, HomePage.class);
         setUrl("http://www.Netflix.com");
-        HomePage.clickSignInButton();
-    }
+        HomePage.clickSignInButton(); }
+    @Test
+    public void testURL() {
+        TestLogger.log(getClass().getSimpleName()+ ": "+ convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        String homeUrl = driver.getCurrentUrl();
+        assertEquals(homeUrl, "https://www.netflix.com/login"); }
     @Test (priority=1)
         public void testEnterEmailAddress(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
