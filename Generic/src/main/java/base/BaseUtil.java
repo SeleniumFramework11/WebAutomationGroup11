@@ -60,7 +60,7 @@ public class BaseUtil {
     public WebDriver getLocalDriver(@Optional("OS X") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver","/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/Driver/chromedriver"); //this one used
+                System.setProperty("webdriver.chrome.driver","Q:\\WebAutomationGroup11\\Generic\\Driver\\chromedriver.exe"); //this one used
             }else if(OS.equalsIgnoreCase("Windows")){
                 System.setProperty("webdriver.chrome.driver", "..\\Generic\\browserDriver\\chromedriver.exe");
             }
@@ -125,7 +125,7 @@ public class BaseUtil {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome") String browserName, @Optional("60")
-                              String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException { //need to change to your url
+                              String browserVersion, @Optional("http://www.netflix.com") String url)throws IOException { //need to change to your url
 
         System.setProperty("webdriver.chrome.driver","../Generic/browserDriver/chromedriver");
         if(useCloudEnv==true){
