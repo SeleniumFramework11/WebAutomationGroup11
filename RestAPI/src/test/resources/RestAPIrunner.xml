@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Employee Rest API Automation Script " parallel="false">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="cloudEnvName" value="saucelabs"/>
+    <parameter name="os" value="WINDOWS"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="66.0.3359.139"/>
+    <parameter name="url" value="https://www.piit.us"/>
+
+    <test name = "Employee Information Services">
+        <classes>
+            <class name="employees.TestAllEmployees"/>
+            <class name="employees.TestSingleEmployee"/>
+        </classes>
+    </test>
+
+</suite>

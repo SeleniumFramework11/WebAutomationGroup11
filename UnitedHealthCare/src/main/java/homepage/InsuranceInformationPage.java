@@ -1,5 +1,4 @@
 package homepage;
-import homepage.QuotesOnProducts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -7,13 +6,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 
-import static base.BaseUtil.driver;
-
-public class YourInfoPage extends QuotesOnProducts {
-    QuotesOnProducts quotesOnProducts;
+public class InsuranceInformationPage extends InsuranceQuotes {
+    InsuranceQuotes quotesOnProducts;
     @BeforeMethod
     public void init(){
-        quotesOnProducts=PageFactory.initElements(driver,QuotesOnProducts.class);
+        quotesOnProducts=PageFactory.initElements(driver, InsuranceQuotes.class);
     }
     @FindBy(css = ".skip-collect-intent.link--primary")
     public static WebElement skipButton;

@@ -1,31 +1,30 @@
-package autoinsuranceqoutepage;
+package homepage;
 
-import homepage.YourAddress;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import static base.BaseUtil.driver;
+import java.time.Year;
 
-public class Vehicle extends YourAddress {
+public class MedicareInfo extends AddressOfPatient {
     @FindBy (css=".requiredYear")
     public static WebElement modelYear;
     @FindBy (css=".requiredMake")
     public static WebElement make;
     @FindBy (css="#vehicleModel")
-    public static WebElement model;
+    public static WebElement name;
     public String  enterVehicleDetails(){
         enterCustomerAddress();
-        selectOptionByVisibleText(modelYear,"2015");
-        selectOptionByVisibleText(make,"Acura");
-        selectOptionByVisibleText(model, "MDX");
+        selectOptionByVisibleText(lastName,"Riot");
+        selectOptionByVisibleText(firstName,"Ramza");
+        selectOptionByVisibleText(zipCodeTextBox, "11101");
         clickNext();
         clickNext();
         return driver.getTitle();
     }
     public String clickOnRadioButtonForOwnershipType(){
         enterVehicleDetails();
-        clickByCss("#vehicleOwned0");
+        clickByCss("#medicareinfo0");
         clickNext();
         return driver.getTitle();
     }

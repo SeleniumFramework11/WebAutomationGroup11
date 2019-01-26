@@ -1,8 +1,6 @@
 package homepage;
 
-import static base.BaseUtil.driver;
-
-public class YourAddress extends YourInfoPage{
+public class AddressOfPatient extends InsuranceInformationPage {
     public String enterCustomerAddress(){
         enterCustomerDOB();
         typeByCss("#street","17527 wexford road");
