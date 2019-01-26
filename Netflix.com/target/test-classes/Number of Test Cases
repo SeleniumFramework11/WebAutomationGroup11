@@ -1,11 +1,14 @@
 TestHomePage = 42
 TestJobsPage = 23
-SearchMovies = 18
+SearchMovies = 4 - 18 via Excel Sheet
 TestMainPage = 14
 TestMainPageFooter = 10
 TestProfileSelectionPage = 4
 TestSignInPage = 12
-TestSignInUsers =
+TestSignInUsers = 2
 DataBase = 1
 Excel = 1
 Google Sheet = 1
+
+Total w/o excel sheet having multiple entries = 114
+Total = 140
