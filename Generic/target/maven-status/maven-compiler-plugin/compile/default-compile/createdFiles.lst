@@ -1,3 +1,4 @@
+base\BaseUtil$1.class
 reporting\ApplicationLog.class
 GoogleSheets\SheetsQuickStart.class
 databases\ConnectToMongoDB.class
@@ -6,10 +7,10 @@ excelutility\Xls_Reader.class
 reporting\ExtentManager.class
 excelutility\XlsDataReaderUtil.class
 reporting\ExtentTestManager.class
+excelutility\XlsxExcelReader.class
 databases\Student.class
 GoogleSheets\GoogleSheetReader.class
 reporting\TestLogger.class
 utility\DataReader.class
-excelutility\ExcelReader.class
 databases\ConnectToSqlDB.class
 base\BaseUtil.class

@@ -10,6 +10,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
+
 public class TestMainPageFooter extends MainPageFooter {
     SignInPage SignInPage;
     HomePage HomePage;
@@ -32,21 +33,6 @@ public class TestMainPageFooter extends MainPageFooter {
         TestSignInPage.testSignInButtonOnSignInPage();
         TestProfileSelectionPage.testSelectProfile(); }
 
-    @Test
-    public void testAudioAndSubtitles(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        clickAudioAndSubtitles(); }
-    @Test
-    public void testAudioDescription(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        clickAudioDescriptionLink(); }
-    @Test
-    public void testGiftCardsLinks(){
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
-        }.getClass().getEnclosingMethod().getName()));
-        clickGiftCardsLink(); }
     @Test
     public void testLegalNoticesMP(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {

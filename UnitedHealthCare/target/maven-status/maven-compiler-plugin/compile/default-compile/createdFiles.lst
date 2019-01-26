@@ -31,6 +31,7 @@ homepage\MainPage$50.class
 homepage\MainPage$70.class
 homepage\MainPage$10.class
 homepage\MainPage$30.class
+dataProviderUtilityWithExcelReader\ExcelReader.class
 signIn\SignInPage$3.class
 homepage\ViewPlan.class
 homepage\MainPage$7.class
@@ -54,18 +55,16 @@ homepage\MainPage$64.class
 homepage\MainPage$8.class
 homepage\EmployerPage$21.class
 signIn\SignInPage$4.class
-dataProviderUtilityWithXlsReader\XlsReader.class
 homepage\EmployerPage$5.class
 homepage\MainPage$47.class
 homepage\MainPage$12.class
 homepage\MainPage$40.class
 homepage\MainPage$35.class
 homepage\MainPage$1.class
-dataProviderUtilityWithXlsReader\XlsDataReaderUtil.class
 GoogleSheet\SignInWithGoogleSheet.class
 homepage\ViewPlan$1.class
+dataProviderUtilityWithExcelReader\ExcelReader2.class
 SearchDB\DatabaseOperation.class
-dataProviderUtilityWithXlsReader\LogInByXls.class
 homepage\EmployerPage.class
 homepage\MainPage$14.class
 homepage\MainPage$34.class
@@ -74,7 +73,6 @@ homepage\EmployerPage$7.class
 homepage\MainPage$42.class
 homepage\MainPage$62.class
 homepage\MainPage$54.class
-dataProviderUtilityWithXlsReader\XlsReaderTest.class
 homepage\EmployerPage$11.class
 homepage\MainPage$57.class
 SearchDB\SearchPage.class
