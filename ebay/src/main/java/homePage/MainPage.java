@@ -76,6 +76,16 @@ public class MainPage extends BaseUtil {
     public static WebElement findSize;
     @FindBy(xpath = "/html[1]/body[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/ul[1]/div[1]/div[1]/li[2]/div[1]/h3[1]")
     public static WebElement findColor;
+    @FindBy(xpath = "//*[@id=\"ui-id-2\"]")
+    public static WebElement findMicrosoftOffice;
+    @FindBy(xpath = "//input[@id='gh-ac']")
+    public static WebElement searchiPhones;
+    @FindBy(xpath = "//h2[contains(text(),'All Listings')]")
+    public static WebElement searchAllListings;
+    @FindBy(xpath = "/html[1]/body[1]/div[3]/div[4]/div[1]/div[2]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]/h2[1]")
+    public static WebElement clickBuyItNow;
+    @FindBy(xpath = "//h3[contains(text(),'Apple iPhone 7 a1778 32GB GSM Unlocked - Excellent')]")
+    public static WebElement clickAppleiPhone7;
 
 
     public void clickOnSignInButton(){signIn.click();}
@@ -234,6 +244,33 @@ public class MainPage extends BaseUtil {
         }.getClass().getEnclosingMethod().getName()));
         findColor.click();
     }
+    public void checkfindMicrosoftOffice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findMicrosoftOffice.click();
+    }
+    public void checksearchiPhones() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        findMicrosoftOffice.click();
+    }
+    public void checksearchAllListings() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        searchAllListings.click();
+    }
+    public void checkclickBuyItNow() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickBuyItNow.click();
+    }
+    public void checkAppleiPhone7() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        clickAppleiPhone7.click();
+    }
+
+
 
 
 

@@ -14,10 +14,10 @@ public class TestMainPage extends MainPage {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         mainPage = PageFactory.initElements(driver, MainPage.class);
-        setUrl("https://www.ebay.com/");
+        //setUrl("https://www.ebay.com/");
         setUrl("https://www.ebay.com/b/Womens-Clothing/15724/bn_661783");
-        setUrl("https://www.ebay.com/b/Mens-Shoes/93427/bn_61999");
-        setUrl("https://www.ebay.com/b/adidas-Shoes-for-Men/93427/bn_62013");
+        //setUrl("https://www.ebay.com/b/Mens-Shoes/93427/bn_61999");
+        //setUrl("https://www.ebay.com/b/adidas-Shoes-for-Men/93427/bn_62013");
     }
     @Test
     public void testsearchButton() {
@@ -187,7 +187,30 @@ public class TestMainPage extends MainPage {
         }.getClass().getEnclosingMethod().getName()));
         mainPage.checkfindColor();
     }
-
+    @Test
+    public void findMicrosoftOffice() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkfindMicrosoftOffice();
+    }
+    @Test
+    public void searchiPhones() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchiPhones();
+    }
+    @Test
+    public void findsearchAllListings() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checksearchAllListings();
+    }
+    @Test
+    public void clickAppleiPhone7() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        mainPage.checkAppleiPhone7();
+    }
 
 
 

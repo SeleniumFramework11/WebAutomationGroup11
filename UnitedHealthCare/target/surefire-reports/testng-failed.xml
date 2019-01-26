@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UHC Automation Script]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="useCloudEnv" value="true"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="os_version" value="10"/>
+  <parameter name="browserVersion" value="60.0"/>
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="cloudEnvName" value="browserstack"/>
+  <parameter name="url" value="https://www.uhc.com//"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testhomepage.TestHomePage">
+        <methods>
+          <include name="testnearbyClinic"/>
+          <include name="testhealthTopics"/>
+          <include name="testlearnMore"/>
+          <include name="testfitnessLiving"/>
+          <include name="testlegalIssue"/>
+          <include name="testfindaDoctor"/>
+          <include name="testcontactUs"/>
+          <include name="testviewindividualAndFamily"/>
+          <include name="testtermLifeInsurance"/>
+          <include name="testlearnmoreMedicare"/>
+          <include name="testvisionProduct"/>
+          <include name="testcareControl"/>
+          <include name="testmedicareMenu"/>
+          <include name="testtravelInsurance"/>
+          <include name="testcheckBenefits"/>
+          <include name="testvaluebasedCare"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testglobalInsurance"/>
+          <include name="testtrytosignIn"/>
+          <include name="extentSetup"/>
+          <include name="testlanguage"/>
+          <include name="testlanguageNotice"/>
+          <include name="testmarketplaceInsurance"/>
+          <include name="testprintidCard"/>
+          <include name="testemployerPlans"/>
+          <include name="testshorttermHealth"/>
+          <include name="testhomeButton"/>
+          <include name="testmedicaidProduct"/>
+          <include name="testimageHealth"/>
+          <include name="testlearnmoreBusiness"/>
+          <include name="testemployerMenu"/>
+          <include name="testseatchText"/>
+          <include name="testloginButton"/>
+          <include name="generateReport"/>
+          <include name="testprivacy"/>
+          <include name="testseeLogo"/>
+          <include name="testkeySearch"/>
+          <include name="testmedicareLink"/>
+          <include name="testmemberResource"/>
+          <include name="testvisionInsurance"/>
+          <include name="testlearnHealthINsurance"/>
+          <include name="startExtent"/>
+          <include name="testviewdrugList"/>
+          <include name="testemployerGroup"/>
+          <include name="testlearnMedicaidPlans"/>
+          <include name="initElements"/>
+          <include name="testhospitalInsurance"/>
+          <include name="testviewclaimAccount"/>
+          <include name="testhospitalAndDoctorInsurance"/>
+          <include name="testnewsRoom"/>
+          <include name="testproviderPortal"/>
+          <include name="testsigninUHC"/>
+          <include name="testunitedReform"/>
+          <include name="testfindanyDoctor"/>
+          <include name="testdownloadApp"/>
+          <include name="testviewDental"/>
+          <include name="testhealthcareFraud"/>
+          <include name="testprogramTools"/>
+          <include name="setUp"/>
+          <include name="testcareer"/>
+          <include name="testdentalInsurance"/>
+          <include name="testindividualPlans"/>
+          <include name="testlearnDental"/>
+          <include name="testmenubutton"/>
+          <include name="testviewHealthINsurance"/>
+          <include name="testsearchName"/>
+          <include name="testnutritionLiving"/>
+          <include name="testillnessInsurance"/>
+          <include name="testtermsofUse"/>
+          <include name="testopenEnrollment"/>
+          <include name="testplainGlossary"/>
+          <include name="testsupplementInsurance"/>
+        </methods>
+      </class> <!-- testhomepage.TestHomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [UHC Automation Script] -->

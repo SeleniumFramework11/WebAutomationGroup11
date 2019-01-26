@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="167.811" tests="337" errors="0" skipped="330" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/test-classes:/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/classes:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/apis/google-api-services-sheets/v4-rev498-1.23.0/google-api-services-sheets-v4-rev498-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-io/commons-io/20030203.000550/commons-io-20030203.000550.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar:/Users/alrafifahd96gmail.com/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.30/neko-htmlunit-2.30.jar:/Users/alrafifahd96gmail.com/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.0.0/htmlunit-cssparser-1.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.9.v20180320/websocket-client-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-client/9.4.9.v20180320/jetty-client-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-http/9.4.9.v20180320/jetty-http-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.9.v20180320/jetty-xml-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-util/9.4.9.v20180320/jetty-util-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-io/9.4.9.v20180320/jetty-io-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.9.v20180320/websocket-common-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.9.v20180320/websocket-api-9.4.9.v20180320.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/surefire/surefirebooter17399143678969273273.jar /Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/surefire 2019-01-25T23-21-58_164-jvmRun1 surefire13640034782561009367tmp surefire_06051241906688283701tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/test-classes:/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/classes:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/Generic/target/Generic-1.0-SNAPSHOT.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/relevantcodes/extentreports/2.41.1/extentreports-2.41.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client/1.23.0/google-oauth-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/http-client/google-http-client/1.23.0/google-http-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client-java6/1.23.0/google-oauth-client-java6-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/oauth-client/google-oauth-client-jetty/1.23.0/google-oauth-client-jetty-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/api-client/google-api-client/1.23.0/google-api-client-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/http-client/google-http-client-jackson2/1.23.0/google-http-client-jackson2-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.3/jackson-core-2.1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/guava/guava-jdk5/17.0/guava-jdk5-17.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/google/apis/google-api-services-sheets/v4-rev498-1.23.0/google-api-services-sheets-v4-rev498-1.23.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-io/commons-io/20030203.000550/commons-io-20030203.000550.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi-ooxml/4.0.0/poi-ooxml-4.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.0.0/poi-ooxml-schemas-4.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/xmlbeans/xmlbeans/3.0.1/xmlbeans-3.0.1.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/alrafifahd96gmail.com/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.30/htmlunit-2.30.jar:/Users/alrafifahd96gmail.com/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/commons/commons-text/1.3/commons-text-1.3.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/apache/httpcomponents/httpmime/4.5.5/httpmime-4.5.5.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.28/htmlunit-core-js-2.28.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/neko-htmlunit/2.30/neko-htmlunit-2.30.jar:/Users/alrafifahd96gmail.com/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/alrafifahd96gmail.com/.m2/repository/net/sourceforge/htmlunit/htmlunit-cssparser/1.0.0/htmlunit-cssparser-1.0.0.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alrafifahd96gmail.com/.m2/repository/commons-net/commons-net/3.6/commons-net-3.6.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.9.v20180320/websocket-client-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-client/9.4.9.v20180320/jetty-client-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-http/9.4.9.v20180320/jetty-http-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.9.v20180320/jetty-xml-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-util/9.4.9.v20180320/jetty-util-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/jetty-io/9.4.9.v20180320/jetty-io-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.9.v20180320/websocket-common-9.4.9.v20180320.jar:/Users/alrafifahd96gmail.com/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.9.v20180320/websocket-api-9.4.9.v20180320.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/alrafifahd96gmail.com"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare/target/surefire/surefirebooter17399143678969273273.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="user.name" value="alrafifahd96gmail.com"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/alrafifahd96gmail.com/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/th/t2k3ltfd38q2g2z72rvf9y840000gn/T/"/>
+    <property name="idea.version" value="2018.3.1"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="/Users/alrafifahd96gmail.com/Desktop/GroupWebAutomation/WebAutomationGroup11/UnitedHealthCare"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/alrafifahd96gmail.com/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testaboutUs" classname="testhomepage.TestHomePage" time="1.229"/>
+  <testcase name="testaccessibility" classname="testhomepage.TestHomePage" time="0.947"/>
+  <testcase name="testaccidentInsurance" classname="testhomepage.TestHomePage" time="1.597"/>
+  <testcase name="testbrokerLink" classname="testhomepage.TestHomePage" time="0.407"/>
+  <testcase name="testbrokerresources" classname="testhomepage.TestHomePage" time="0.577"/>
+  <testcase name="testbuttonSearch" classname="testhomepage.TestHomePage" time="0.413"/>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="35.216">
+    <failure message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+Could not start Browser / Emulator
+ Reason: 
+Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23.71 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alrafis-Air.lan1', ip: '2604:2000:1241:489d:0:0:0:29c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.1'
+Driver info: driver.version: RemoteWebDriver
+</failure>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setUp" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="startExtent" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="initElements" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testcareControl" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="afterEachTestMethod" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testcareer" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testcheckBenefits" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testcontactUs" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testdentalInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testdownloadApp" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testemployerGroup" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testemployerMenu" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testemployerPlans" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testfindaDoctor" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testfindanyDoctor" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testfitnessLiving" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testglobalInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testhealthTopics" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testhealthcareFraud" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testhomeButton" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testhospitalAndDoctorInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testhospitalInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testillnessInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testimageHealth" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testindividualPlans" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testkeySearch" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlanguage" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlanguageNotice" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnDental" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnHealthINsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnMedicaidPlans" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnMore" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnmoreBusiness" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlearnmoreMedicare" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testlegalIssue" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testloginButton" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmarketplaceInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmedicaidProduct" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmedicareLink" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmedicareMenu" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmemberResource" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testmenubutton" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testnearbyClinic" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testnewsRoom" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testnutritionLiving" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testopenEnrollment" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testplainGlossary" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testprintidCard" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testprivacy" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testprogramTools" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testproviderPortal" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testsearchName" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testseatchText" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testseeLogo" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testshorttermHealth" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testsigninUHC" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testsupplementInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testtermLifeInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testtermsofUse" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testtravelInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testtrytosignIn" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testunitedReform" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testvaluebasedCare" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testviewDental" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testviewHealthINsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testviewclaimAccount" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testviewdrugList" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testviewindividualAndFamily" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testvisionInsurance" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="testvisionProduct" classname="testhomepage.TestHomePage" time="0">
+    <skipped message="Could not start Browser / Emulator&#10; Reason: &#10;Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 23.71 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;alrafis-Air.lan1&apos;, ip: &apos;2604:2000:1241:489d:0:0:0:29c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.2&apos;, java.version: &apos;11.0.1&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="generateReport" classname="testhomepage.TestHomePage" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

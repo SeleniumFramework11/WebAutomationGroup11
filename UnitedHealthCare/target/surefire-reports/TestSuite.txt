@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 337, Failures: 1, Errors: 0, Skipped: 330, Time elapsed: 167.811 s <<< FAILURE! - in TestSuite
+setUp(testhomepage.TestHomePage)  Time elapsed: 35.216 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Could not start Browser / Emulator
+ Reason: 
+Could not initialize class org.openqa.selenium.os.Kernel32 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23.71 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'alrafis-Air.lan1', ip: '2604:2000:1241:489d:0:0:0:29c%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.1'
+Driver info: driver.version: RemoteWebDriver
+
