@@ -3,7 +3,6 @@ package databases;
 import java.io.Serializable;
 
 public class Student implements Serializable {
-
     /*
      * Student class have 4 variables which will be constructed as Student Object into List<Student>.
      */

@@ -15,6 +15,7 @@
         <module>Netflix.com</module>
         <module>ebay</module>
         <module>TableAutomation</module>
+        <module>RestAPI</module>
     </modules>
 
     <dependencyManagement>

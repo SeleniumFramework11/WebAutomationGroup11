@@ -4,7 +4,7 @@
 <suite name="Macy's Automation Script" parallel="tests">
 
     <parameter name="useCloudEnv" value="true"/>
-    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+    <parameter name="cloudEnvName" value="browserstack"/>
     <parameter name="cloudEnvName" value="saucelabs"/>
     <parameter name="os" value="Windows"/>
     <parameter name="os_version" value="10"/>

@@ -21,7 +21,6 @@ public class ConnectToMongoDB {
 
         return mongoDatabase;
     }
-
     public static String insertIntoToMongoDB(User user){
         String profile = user.getStName();
         MongoDatabase mongoDatabase = connectToMongoDB();
@@ -31,7 +30,6 @@ public class ConnectToMongoDB {
         collection.insertOne(document);
         return profile + " has been registered";
     }
-
     public String insertIntoMongoDB(List<Student> student, String profileName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(profileName);
@@ -48,7 +46,6 @@ public class ConnectToMongoDB {
         }
         return  "Student has been registered";
     }
-
     public static List<User> readUserProfileFromMongoDB(){
         List<User> list = new ArrayList<User>();
         User user = new User();
@@ -68,7 +65,6 @@ public class ConnectToMongoDB {
         }
         return list;
     }
-
     public List<Student> readStudentListFromMongoDB(String profileName){
         List<Student> list = new ArrayList<Student>();
         Student student = new Student();
@@ -90,7 +86,6 @@ public class ConnectToMongoDB {
         }
         return list;
     }
-
     public static void main(String[] args){
         insertIntoToMongoDB(new User("Naomi Chan", "4493","07-1996"));
         List<User> user = readUserProfileFromMongoDB();

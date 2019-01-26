@@ -37,8 +37,8 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseUtil {
     public static ExtentReports extent;
-    public String saucelabs_username = "nayeemsisir";
-    public String saucelabs_accesskey = "041cf885-1b6e-4c5b-8351-17d0e20a67c0";
+    public String saucelabs_username = "";
+    public String saucelabs_accesskey = "";
     public String browserstack_username= "";
     public String browserstack_accesskey = "";
     public static WebDriver driver = null;
@@ -78,7 +78,6 @@ public class BaseUtil {
             driver.manage().deleteAllCookies();
             //builder = new Actions(driver);
         }
-
         else if(browserName.equalsIgnoreCase("firefox")){
             if(OS.equalsIgnoreCase("OS X")){
                 System.setProperty("webdriver.gecko.driver", "../Generic/browserDriver/geckodriver");
@@ -91,9 +90,9 @@ public class BaseUtil {
             driver = new InternetExplorerDriver();
         }
         return driver;
-
     }
-    /*    public void setUpBrowserStack() throws MalformedURLException {
+    /* For MAC
+    public void setUpBrowserStack() throws MalformedURLException {
             DesiredCapabilities cap = new DesiredCapabilities();
             cap.setCapability("browser","chrome");
             cap.setCapability("browser_version","68.0");
@@ -148,7 +147,6 @@ public class BaseUtil {
         this.URL = URL;
         driver.get(URL);
     }
-
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
@@ -348,7 +346,6 @@ public class BaseUtil {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
@@ -437,12 +434,10 @@ public class BaseUtil {
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
-
     //get Links
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
-
     //Synchronization
     public void waitUntilClickAble(WebElement locator){ //previously it was By instead of WebElement
         WebDriverWait wait = new WebDriverWait(driver, 10);
