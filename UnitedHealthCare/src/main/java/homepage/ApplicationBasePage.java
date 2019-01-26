@@ -1,9 +1,11 @@
-package pagebase;
+package homepage;
 
 import base.BaseUtil;
 //import base.CommonApi;
 //import org.apache.maven.surefire.shade.org.apache.commons.lang3.StringUtils;
 //import org.apache.maven.surefire.shade.org.apache.maven.shared.utils.io.FileUtils;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -18,23 +20,23 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-/*public class ApplicationPageBase extends BaseUtil {
+public class ApplicationBasePage extends BaseUtil {
     Properties prop=null;
     @FindBy(name = "OnlineOpinion1")
-    public static WebElement feedbackFrame;
+    public static WebElement frameIcon;
     @FindBy(id="oo_tab")
-    public static WebElement feedbackIcon;
+    public static WebElement feedBack;
     @FindBy (css = ".large_only")
     public static WebElement heroImage;
     @FindBy(css = "#header-right-links > ul > li:nth-child(3) > a > span")
-    public static WebElement searchIcon;
+    public static WebElement searchBar;
 
     public static void clearField(WebElement webElement) {
         webElement.clear();
     }
     public void clickSubmit(WebElement element){element.click();}
 
-    public static void navigateBack() {
+    public void navigateBack() {
         driver.navigate().back();
     }
 
@@ -86,7 +88,7 @@ import java.util.Properties;
         }
 
     }
-    public static void clickByXpath(String locator) {
+    public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
     public static void clickByCss(String locator) {
@@ -258,7 +260,7 @@ import java.util.Properties;
         /* path example to upload a file/image
            path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
-   /* }
+    }
     public void clearInput(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
@@ -296,4 +298,4 @@ import java.util.Properties;
             System.out.println("CSS locator didn't work");
         }
     }
-}*/
+}
