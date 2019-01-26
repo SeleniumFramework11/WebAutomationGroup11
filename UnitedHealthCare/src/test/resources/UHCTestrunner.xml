@@ -15,8 +15,16 @@
     <test name = "Test" enabled ="true">
         <classes>
              <class name="testhomepage.TestHomePage"/>
-            <!--<class name="testhomepage.TestEmployerPage"/>-->
-            <!--<class name="testhomepage.TestRegisterPage"/>-->
+            <class name="testhomepage.TestEmployerPage"/>
+            <class name="testhomepage.TestRegisterPage"/>
+            <class name="testDataProviderUtilityWithXlsReader.TestExcelreader"/>
+            <class name="testhomepage.TestMedicareInfo"/>
+            <class name="testhomepage.TestAddressOfPatient"/>
+            <class name="testhomepage.TestViewPlan"/>
+            <class name="testSearchPage.TestSearchPage"/>
+            <class name="testSignInPage.TestSearchInsurance"/>
+            <class name="testSignInPage.TestSignInPage"/>
+            <class name="testSignInPage.TestSignInWithGooglesheet"/>
         </classes>
     </test>
 
