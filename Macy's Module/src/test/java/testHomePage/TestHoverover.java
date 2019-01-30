@@ -1,5 +1,4 @@
 package testHomePage;
-
 import homePage.Hoverover;
 import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
@@ -11,7 +10,6 @@ import reporting.TestLogger;
 
 public class TestHoverover extends Hoverover {
     Hoverover hoverover;
-
     @BeforeMethod
     public void initElements() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
@@ -31,4 +29,3 @@ public class TestHoverover extends Hoverover {
         driver.close();
     }
 }
-

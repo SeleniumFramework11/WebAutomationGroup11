@@ -5,9 +5,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
-
 public class TestFindProduct extends FindProduct {
-                                                        //all 10 search product tests are passed
+                                                      //all 10 search product tests are passed
     FindProduct searchproduct;
     @BeforeMethod
     public void initElements() {

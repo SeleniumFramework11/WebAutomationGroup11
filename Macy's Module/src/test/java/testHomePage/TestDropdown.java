@@ -8,7 +8,6 @@ import reporting.TestLogger;
 
 //Dropdown test method
 public class TestDropdown extends Dropdown {
-
 Dropdown dropdown;
 @BeforeMethod
 public void initElements() {

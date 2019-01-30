@@ -1,19 +1,15 @@
 package employees;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
 
 public class SingleEmployees {
-
     @Test
     public void callSingleEmployeeResources(){
-
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/590a4acd35522970c7956cdf").then().statusCode(200).extract().response();
         String statusLine = response.getStatusLine();
         int statusCode = response.getStatusCode();

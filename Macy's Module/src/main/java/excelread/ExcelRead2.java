@@ -1,11 +1,9 @@
 package excelread;
-
 import base.BaseUtil;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 public class ExcelRead2 extends BaseUtil {
     public ExcelRead2(){
         PageFactory.initElements(driver, this);

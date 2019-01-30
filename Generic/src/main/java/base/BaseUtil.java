@@ -303,7 +303,6 @@ public class BaseUtil {
             }
         }
     }
-
     public void typeOnInputField2(String locator, String value){
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -321,15 +320,12 @@ public class BaseUtil {
     public void typeByCssNEnter(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
-
     public void typeByXpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
-
     public void takeEnterKeys(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
-
     public void clearInputField(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
@@ -381,7 +377,6 @@ public class BaseUtil {
         String st = driver.findElement(By.name(locator)).getText();
         return st;
     }
-
     public List<String> getListOfString(List<WebElement> list) {
         List<String> items = new ArrayList<String>();
         for (WebElement element : list) {

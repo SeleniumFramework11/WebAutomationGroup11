@@ -5,11 +5,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
-
 public class FindProduct extends BaseUtil { //search by product name in search box, all 10 tests are passed
 @FindBy(id = "searchSubmit")
 public static WebElement searchbox;
-
 public void checksearchBox(){
 TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
 searchbox.sendKeys(" perfume for men", Keys.ENTER);
