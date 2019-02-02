@@ -3,7 +3,7 @@
 
 <suite name="UHC Automation Script" parallel="false">
 
-    <parameter name="useCloudEnv" value="true"/>
+    <parameter name="useCloudEnv" value="false"/>
     <parameter name="cloudEnvName" value="browserstack"/>
     <!--<parameter name="cloudEnvName" value="saucelabs"/>-->
     <parameter name="os" value="Windows"/>

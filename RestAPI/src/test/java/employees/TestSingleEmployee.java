@@ -1,26 +1,16 @@
 package employees;
-
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
-
 import io.restassured.response.Response;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import static io.restassured.RestAssured.given;
 
-
 public class TestSingleEmployee {
-
-
-
     @Test
     public void callSingleEmployeeResources(){
-
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/590a4acd35522970c7956cdf").then().statusCode(200).extract().response();
         String statusLine = response.getStatusLine();
         int statusCode = response.getStatusCode();
@@ -28,7 +18,6 @@ public class TestSingleEmployee {
         Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
         Assert.assertEquals(statusCode, 200);
     }
-
     @Test
     public void callSingleEmployeeOrfattChowdhury() {
         Response response = given().when().get("http://info.venturepulse.org:8080/service-webapp/api/SingleEmployeeResources/590a4ada35522970c7956ce2").then().statusCode(200).extract().response();
@@ -38,7 +27,6 @@ public class TestSingleEmployee {
         Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
         Assert.assertEquals(statusCode, 200);
     }
-
     @Test
     public void postInfo() {
         RequestSpecification request = RestAssured.given();
@@ -76,6 +64,3 @@ public class TestSingleEmployee {
         Assert.assertEquals(actual, expected);
     }
 }
-
-
-

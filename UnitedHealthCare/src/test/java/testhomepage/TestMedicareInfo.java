@@ -9,18 +9,20 @@ import org.testng.annotations.Test;
 public class TestMedicareInfo extends MedicareInfo {
     MedicareInfo medicareInfo;
     @BeforeMethod
-    public void init(){medicareInfo= PageFactory.initElements(driver, MedicareInfo.class);
+    public void init(){
+        medicareInfo= PageFactory.initElements(driver, MedicareInfo.class);
     }
     @Test
     public void testEnterPatientDetailsPage(){
-        Assert.assertEquals(enterVehicleDetails(),"UHC");
+        Assert.assertEquals(medicareInfo,"UHC");
     }
     @Test
     public void testInsranceType(){
-        Assert.assertEquals(clickOnRadioButtonForOwnershipType(),"UHC");
+        Assert.assertEquals(medicareInfo,"UHC");
     }
     @Test
     public void testQuotes(){
+
         Assert.assertEquals(clickOnRadioButtonForimaryUse(),"UHC");
     }
 }

@@ -79,7 +79,7 @@ public class InsuranceQuotes extends ApplicationBasePage {
     @FindBy(css = ".chevron.icon-chevron-right.highlighted")
     public static WebElement arrow3;
 
-    public String getQuoteWithNoZipP1(WebElement insuranceProduct, WebElement message) {
+    public String getQuoteWithVisionInsurance(WebElement insuranceProduct, WebElement message) {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         insuranceProduct.click();
@@ -88,7 +88,7 @@ public class InsuranceQuotes extends ApplicationBasePage {
         return s;
     }
 
-    public String getQuoteWithNoZipP2(WebElement insuranceProduct, WebElement message) {
+    public String getQuoteDentalInsurance(WebElement insuranceProduct, WebElement message) {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         arrow1.click();
@@ -98,13 +98,13 @@ public class InsuranceQuotes extends ApplicationBasePage {
         return s;
     }
 
-    public WebElement moveTomodalforFlood() {
+    public WebElement moveToDifferentCompany() {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("wrapper"))));
         WebElement floddMessage = driver.findElement(By.xpath("/html//div[@id='external_disclaimer_quote_modal']//p[.='You are about to leave geico.com']"));
         return floddMessage;
     }
 
-    public String getQuoteWithNoZip3(WebElement element) throws InterruptedException {
+    public String getQCarInsurance(WebElement element) throws InterruptedException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
         arrow1.click();

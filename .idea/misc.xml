@@ -11,6 +11,9 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/MacysModule/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/RestAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/TableAutomation/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAPI/UnitedHealthCare/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
       </set>
     </option>

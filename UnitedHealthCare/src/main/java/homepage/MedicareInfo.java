@@ -13,7 +13,7 @@ public class MedicareInfo extends AddressOfPatient {
     public static WebElement make;
     @FindBy (css="#vehicleModel")
     public static WebElement name;
-    public String  enterVehicleDetails(){
+    public String  enterMedicareDetails(){
         enterCustomerAddress();
         selectOptionByVisibleText(lastName,"Riot");
         selectOptionByVisibleText(firstName,"Ramza");
@@ -22,14 +22,14 @@ public class MedicareInfo extends AddressOfPatient {
         clickNext();
         return driver.getTitle();
     }
-    public String clickOnRadioButtonForOwnershipType(){
-        enterVehicleDetails();
+    public String MedicarePlan(){
+        enterMedicareDetails();
         clickByCss("#medicareinfo0");
         clickNext();
         return driver.getTitle();
     }
     public String clickOnRadioButtonForimaryUse(){
-        clickOnRadioButtonForOwnershipType();
+        MedicarePlan();
         driver.findElement(By.partialLinkText("Pleasure")).click();
         clickNext();
         clickNext();

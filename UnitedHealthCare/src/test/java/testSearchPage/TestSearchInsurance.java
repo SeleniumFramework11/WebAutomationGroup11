@@ -1,4 +1,4 @@
-package testSignInPage;
+package testSearchPage;
 
 import SearchDB.SearchInsurance;
 import org.openqa.selenium.support.PageFactory;

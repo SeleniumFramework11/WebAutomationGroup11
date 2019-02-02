@@ -1,6 +1,7 @@
 package SearchDB;
 
 import databases.ConnectToSqlDB;
+import homepage.EmployerPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import java.util.ArrayList;
@@ -31,26 +32,27 @@ public class DatabaseOperation extends ConnectToSqlDB {
         return list;
     }
     @FindBy(xpath = "//a[contains(text(),'Employer')]")
-    WebElement ABOUT;
+    WebElement Employer;
     @FindBy(xpath = "//a[contains(text(),'Dental Insurance')]")
-    WebElement WAYS_TO_GET;
+    WebElement dentalInsurance;
     @FindBy(xpath = "//a[contains(text(),'Vision Insurance')]")
-    WebElement HELP;
+    WebElement visionInsurance;
     @FindBy(xpath = "//a[contains(text(),'Shop')]")
-    WebElement SHOP;
+    WebElement Shop;
     @FindBy(xpath = "//a[contains(text(),'Careers')]")
     WebElement CAREERS;
     @FindBy(xpath = "//a[contains(text(),'Car insurance')]")
-    WebElement HBOINSPIRES;
+    WebElement carInsurance;
 
     public List getHeadersValue1() {
         List<WebElement> headerList1 = new ArrayList<>();
-        headerList1.add(ABOUT);
-        headerList1.add(WAYS_TO_GET);
-        headerList1.add(HELP);
-        headerList1.add(SHOP);
+        headerList1.add(Employer);
+        headerList1.add(dentalInsurance);
+        headerList1.add(visionInsurance);
+        headerList1.add(Shop);
         headerList1.add(CAREERS);
-        headerList1.add(HBOINSPIRES);
+        headerList1.add(carInsurance);
+
 
         List<String> list = new ArrayList<>();
         for (int i = 0; i<headerList1.size();i++){

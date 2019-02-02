@@ -8,12 +8,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class TestAddressOfPatient extends AddressOfPatient {
-    AddressOfPatient yourAddressPage;
+    AddressOfPatient patient;
     @BeforeMethod
-    public void init(){yourAddressPage= PageFactory.initElements(driver, AddressOfPatient.class);
+    public void init(){
+        patient= PageFactory.initElements(driver, AddressOfPatient.class);
     }
     @Test
-    public void testEnterCustomerAddress()  {
-        Assert.assertEquals(enterCustomerAddress(), "GEICO");
+    public void testPatientAddress()  {
+        Assert.assertEquals(enterCustomerAddress(), "UHC");
+
     }
 }

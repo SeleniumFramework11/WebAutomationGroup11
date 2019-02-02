@@ -12,13 +12,13 @@ public class InsuranceInformationPage extends InsuranceQuotes {
     public void init(){
         quotesOnProducts=PageFactory.initElements(driver, InsuranceQuotes.class);
     }
-    @FindBy(css = ".skip-collect-intent.link--primary")
+    @FindBy(css = ".skip-Button")
     public static WebElement skipButton;
-    @FindBy(id = "firstName")
+    @FindBy(id = "first-Name")
     public static WebElement firstName;
-    @FindBy(id = "lastName")
+    @FindBy(id = "last-Name")
     public static WebElement lastName;
-    @FindBy(xpath = "//*[@class='btn btn--primary btn--full-mobile btn-spotlight']")
+    @FindBy(xpath = "//*[@class='btn btn--primary ")
     public static WebElement submit;
     public  void getInformationPage1QuoteWithZipCode()  {
         autoInsIcon.click();
@@ -43,26 +43,26 @@ public class InsuranceInformationPage extends InsuranceQuotes {
         String title=driver.getTitle();
         return title;
     }
-    public String enterCustomerNameWithEmptySpace(){
+    public String enterPatientNameWithEmptySpace(){
         getInformationPage1QuoteWithZipCode();
         clickSkip();
         clickNext();
         String errorMessage=driver.findElement(By.id("firstName-error")).getText();
         return errorMessage;
     }
-    public String enterCustomerDOB(){
-        enterCustomerName("arif", "mahmud");
-        typeByCss("#date-monthdob","01");
-        typeByCss("#date-daydob","01");
-        typeByCss("#date-yeardob","1980");
+    public String enterPatientDOB(){
+        enterCustomerName("Chowdhury", "Orfatt");
+        typeByCss("#date-monthdob","05");
+        typeByCss("#date-daydob","06");
+        typeByCss("#date-yeardob","1993");
         clickNext();
         String title=driver.getTitle();
         return title;
     }
     public String enterCustomerAddress(){
-        enterCustomerDOB();
-        typeByCss("#street","17527 wexford road");
-        typeByCss("#apt","7B");
+        enterPatientDOB();
+        typeByCss("#street","1-50 50th avenue");
+        typeByCss("#apt","304");
         clickNext();
         return driver.getTitle();
     }

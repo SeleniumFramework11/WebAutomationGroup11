@@ -16,9 +16,7 @@ public class TestAllEmployees {
         Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
         Assert.assertEquals(statusCode, 200);
     }
-
-
-    // @Test
+     @Test
     public void badCallAllEmployeeResources(){
         Response response = null;
         int statusCode = 0;
@@ -30,7 +28,7 @@ public class TestAllEmployees {
         Assert.assertEquals(statusCode, 404);
     }
 
-    //@Test
+    @Test
     public void serverErrorCallAllEmployeeResources(){
         Response response = null;
         int statusCode = 0;
@@ -42,4 +40,3 @@ public class TestAllEmployees {
         Assert.assertEquals(statusCode, 501);
     }
 }
-

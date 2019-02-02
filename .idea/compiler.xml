@@ -15,7 +15,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ebay" target="1.8" />
       <module name="eBay" target="1.10" />
+      <module name="ebay (1)" target="1.5" />
+      <module name="Generic" target="1.8" />
+      <module name="Generic (1)" target="1.5" />
+      <module name="Netflix.com" target="1.10" />
+      <module name="Netflix.com (1)" target="1.5" />
+      <module name="RestAPI (1)" target="1.5" />
+      <module name="TableAutomation" target="1.8" />
+      <module name="TableAutomation (1)" target="1.5" />
+      <module name="UnitedHealthCare" target="1.8" />
+      <module name="UnitedHealthCare (1)" target="1.5" />
       <module name="Walmart" target="1.8" />
     </bytecodeTargetLevel>
   </component>

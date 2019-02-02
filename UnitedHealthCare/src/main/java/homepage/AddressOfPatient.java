@@ -2,9 +2,9 @@ package homepage;
 
 public class AddressOfPatient extends InsuranceInformationPage {
     public String enterCustomerAddress(){
-        enterCustomerDOB();
-        typeByCss("#street","17527 wexford road");
-        typeByCss("#apt","7B");
+        enterPatientDOB();
+        typeByCss("#street","34-64 60th street");
+        typeByCss("#apt","1");
         clickNext();
         return driver.getTitle();
     }

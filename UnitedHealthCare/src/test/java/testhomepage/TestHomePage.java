@@ -16,435 +16,435 @@ public class TestHomePage extends MainPage {
         setUrl("https://www.uhc.com/");
     }
         @Test
-    public void testseeLogo() {
+    public void testSeeLogo() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkseeLogo();
+        welcome.checkSeeLogo();
     }
     @Test
-    public void testmenubutton() {
+    public void testMenubutton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmenubutton();
+        welcome.checkMenubutton();
     }
     @Test
-    public void testsearchName() {
+    public void testSearchName() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checksearchName();
+        welcome.checkSearchName();
     }
     @Test
-    public void testbuttonSearch() {
+    public void testButtonSearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkbuttonSearch();
+        welcome.checkButtonSearch();
     }
     @Test
-    public void testseatchText() {
+    public void testSearchText() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checksearchText();
+        welcome.checkSearchText();
     }
     @Test
-    public void testkeySearch() {
+    public void testKeySearch() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkkeySearch();
+        welcome.checkKeySearch();
     }
     @Test
-    public void testhomeButton() {
+    public void testHomeButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkhomeButton();
+        welcome.checkHomeButton();
     }
     @Test
-    public void testemployerMenu() {
+    public void testEmployerMenu() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkemployerMenu();
+        welcome.checkEmployerMenu();
     }
     @Test
-    public void testmedicareMenu() {
+    public void testMedicareMenu() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmedicareMenu();
+        welcome.checkMedicareMenu();
     }
     @Test
-    public void testfindaDoctor() {
+    public void testFindaDoctor() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkfindaDoctor();
+        welcome.checkFindaDoctor();
     }
     @Test
-    public void testimageHealth() {
+    public void testImageHealth() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkimageHealth();
+        welcome.checkImageHealth();
     }
     @Test
-    public void testloginButton() {
+    public void testLogInButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkloginButton();
+        welcome.checkLoginButton();
     }
     @Test
-    public void testsigninUHC() {
+    public void testSignInUHC() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checksigninUHC();
+        welcome.checkSigninUHC();
     }
     @Test
-    public void testnearbyClinic() {
+    public void testNearbyClinic() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checknearbyClinic();
+        welcome.checkNearbyClinic();
     }
     @Test
-    public void testlearnMore() {
+    public void testLearnMore() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnMore();
+        welcome.checkLearnMore();
     }
     @Test
-    public void testlearnmoreBusiness() {
+    public void testLearnMoreBusiness() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnmoreBusiness();
+        welcome.checkLearnmoreBusiness();
     }
     @Test
-    public void testindividualPlans() {
+    public void testIndividualPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkindividualPlans();
+        welcome.checkIndividualPlans();
     }
     @Test
-    public void testemployerPlans() {
+    public void testEmployerPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkemployerPlans();
+        welcome.checkEmployerPlans();
     }
     @Test
-    public void testlearnmoreMedicare() {
+    public void testLearnMoreMedicare() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnmoreMedicare();
+        welcome.checkLearnmoreMedicare();
     }
     @Test
-    public void testviewindividualAndFamily() {
+    public void testViewindividualAndFamily() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkviewindividualAndFamily();
+        welcome.checkViewindividualAndFamily();
     }
     @Test
-    public void testlearnDental() {
+    public void testLearnDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnDental();
+        welcome.checkLearnDental();
     }
     @Test
-    public void testviewDental() {
+    public void testViewDental() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkviewDental();
+        welcome.checkViewDental();
     }
     @Test
-    public void testlearnHealthINsurance() {
+    public void testLearnHealthInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnHealthInsurance();
+        welcome.checkLearnHealthInsurance();
     }
     @Test
-    public void testviewHealthINsurance() {
+    public void testViewHealthINsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkviewHealthInsurance();
+        welcome.checkViewHealthInsurance();
     }
     @Test
-    public void testlearnMedicaidPlans() {
+    public void testLearnMedicaidPlans() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklearnMedicaidPlans();
+        welcome.checkLearnMedicaidPlans();
     }
     @Test
-    public void testhospitalAndDoctorInsurance() {
+    public void testHospitalAndDoctorInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkhospitalAndDoctorInsurance();
+        welcome.checkHospitalAndDoctorInsurance();
     }
     @Test
-    public void testvisionInsurance() {
+    public void testVisionInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkvisionInsurance();
+        welcome.checkVisionInsurance();
     }
     @Test
-    public void testtermLifeInsurance() {
+    public void testTermLifeInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checktermLifeInsurance();
+        welcome.checkTermLifeInsurance();
     }
     @Test
-    public void testillnessInsurance() {
+    public void testIllnessInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkillnessInsurance();
+        welcome.checkIllnessInsurance();
     }
     @Test
-    public void testaccidentInsurance() {
+    public void testAccidentInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkaccidentInsurance();
+        welcome.checkAccidentInsurance();
     }
     @Test
-    public void testhospitalInsurance() {
+    public void testHospitalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkhospitalInsurance();
+        welcome.checkHospitalInsurance();
     }
     @Test
-    public void testsupplementInsurance() {
+    public void testSupplementInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checksupplementInsurance();
+        welcome.checkSupplementInsurance();
     }
     @Test
-    public void testglobalInsurance() {
+    public void testGlobalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkglobalInsurance();
+        welcome.checkGlobalInsurance();
     }
     @Test
-    public void testtravelInsurance() {
+    public void testTravelInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checktravelInsurance();
+        welcome.checkTravelInsurance();
     }
     @Test
-    public void testproviderPortal() {
+    public void testProviderPortal() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkproviderPortal();
+        welcome.checkProviderPortal();
     }
     @Test
-    public void testbrokerresources() {
+    public void testBrokerresources() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkbrokerResources();
+        welcome.checkBrokerResources();
     }
     @Test
-    public void testmarketplaceInsurance() {
+    public void testMarketplaceInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmarketplaceInsurance();
+        welcome.checkMarketplaceInsurance();
     }
     @Test
-    public void testmedicareLink() {
+    public void testMedicareLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmedicareLink();
+        welcome.checkMedicareLink();
     }
     @Test
-    public void testmedicaidProduct() {
+    public void testMedicaidProduct() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmedicaidProduct();
+        welcome.checkMedicaidProduct();
     }
     @Test
-    public void testemployerGroup() {
+    public void testEmployerGroup() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkemployerGroup();
+        welcome.checkEmployerGroup();
     }
     @Test
-    public void testdentalInsurance() {
+    public void testDentalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkdentalInsurance();
+        welcome.checkDentalInsurance();
     }
     @Test
-    public void testvisionProduct() {
+    public void testVisionProduct() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkvisionProduct();
+        welcome.checkVisionProduct();
     }
     @Test
-    public void testshorttermHealth() {
+    public void testShorttermHealth() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkshorttermHealth();
+        welcome.checkShorttermHealth();
     }
     @Test
-    public void testfitnessLiving() {
+    public void testFitnessLiving() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkfitnessLiving();
+        welcome.checkFitnessLiving();
     }
     @Test
-    public void testnutritionLiving() {
+    public void testNutritionLiving() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checknutritionLiving();
+        welcome.checkNutritionLiving();
     }
     @Test
-    public void testhealthTopics() {
+    public void testHealthTopics() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkhealthTopics();
+        welcome.checkHealthTopics();
     }
     @Test
-    public void testcareControl() {
+    public void testCareControl() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkcontrolCare();
+        welcome.checkControlCare();
     }
     @Test
-    public void testprogramTools() {
+    public void testProgramTools() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkprogramandTools();
+        welcome.checkProgramandTools();
     }
     @Test
-    public void testopenEnrollment() {
+    public void testOpenEnrollment() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkopenEnrollment();
+        welcome.checkOpenEnrollment();
     }
     @Test
-    public void testmemberResource() {
+    public void testMemberResource() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkmemberResource();
+        welcome.checkMemberResource();
     }
     @Test
-    public void testaboutUs() {
+    public void testAboutUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkaboutUs();
+        welcome.checkAboutUs();
     }
     @Test
-    public void testunitedReform() {
+    public void testUnitedReform() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkunitedReform();
+        welcome.checkUnitedReform();
     }
     @Test
-    public void testvaluebasedCare() {
+    public void testValueBasedCare() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkvaluebasedCare();
+        welcome.checkValuebasedCare();
     }
     @Test
-    public void testviewdrugList() {
+    public void testViewDrugList() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkviewdrugList();
+        welcome.checkViewDrugList();
     }
     @Test
-    public void testdownloadApp() {
+    public void testDownloadApp() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkdownloadApp();
+        welcome.checkDownloadApp();
     }
     @Test
-    public void testbrokerLink() {
+    public void testBrokerLink() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkbrokerLink();
+        welcome.checkBrokerLink();
     }
     @Test
     public void testplainGlossary() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkplainGlossary();
+        welcome.checkPlainGlossary();
     }
     @Test
-    public void testlanguageNotice() {
+    public void testLanguageNotice() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklanguageNotice();
+        welcome.checkLanguageNotice();
     }
     @Test
-    public void testfindanyDoctor() {
+    public void testFindAnyDoctor() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkfindanyDoctor();
+        welcome.checkFindanyDoctor();
     }
     @Test
-    public void testprintidCard() {
+    public void testPrintIdCard() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkprintidCard();
+        welcome.checkPrintIdCard();
     }
     @Test
-    public void testviewclaimAccount() {
+    public void testViewclaimAccount() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkviewclaimAccount();
+        welcome.checkViewclaimAccount();
     }
     @Test
-    public void testcheckBenefits() {
+    public void testCheckBenefits() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkcheckBenefits();
+        welcome.checkCheckBenefits();
     }
     @Test
-    public void testnewsRoom() {
+    public void testNewsRoom() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checknewsRoom();
+        welcome.checkNewsRoom();
     }
     @Test
-    public void testcontactUs() {
+    public void testContactUs() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkcontactUs();
+        welcome.checkContactUs();
     }
     @Test
-    public void testcareer() {
+    public void testCareer() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkcareer();
+        welcome.checkCareer();
     }
     @Test
-    public void testhealthcareFraud() {
+    public void testHealthcareFraud() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkhealthcareFraud();
+        welcome.checkHealthcareFraud();
     }
     @Test
-    public void testlegalIssue() {
+    public void testLegalIssue() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklegalIssue();
+        welcome.checkLegalIssue();
     }
     @Test
-    public void testprivacy() {
+    public void testPrivacy() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkprivacy();
+        welcome.checkPrivacy();
     }
     @Test
-    public void testtermsofUse() {
+    public void testTermsofUse() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checktermsofUse();
+        welcome.checkTermsofUse();
     }
     @Test
-    public void testaccessibility() {
+    public void testAccessibility() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checkaccessibility();
+        welcome.checkAccessibility();
     }
     @Test
-    public void testlanguage() {
+    public void testLanguage() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checklanguage();
+        welcome.checkLanguage();
     }
     @Test
-    public void testtrytosignIn() {
+    public void testTrytosignIn() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
         }.getClass().getEnclosingMethod().getName()));
-        welcome.checktrytoSignIn();
+        welcome.checkTrytoSignIn();
     }
 }

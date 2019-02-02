@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Netflix.com/Netflix.com.iml" filepath="$PROJECT_DIR$/Netflix.com/Netflix.com.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TableAutomation/TableAutomation.iml" filepath="$PROJECT_DIR$/TableAutomation/TableAutomation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnitedHealthCare/UnitedHealthCare.iml" filepath="$PROJECT_DIR$/UnitedHealthCare/UnitedHealthCare.iml" />
       <module fileurl="file://$PROJECT_DIR$/Walmart/Walmart.iml" filepath="$PROJECT_DIR$/Walmart/Walmart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ebay/ebay.iml" filepath="$PROJECT_DIR$/ebay/ebay.iml" />
     </modules>
   </component>
 </project>
