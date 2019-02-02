@@ -22,9 +22,10 @@
             <class name="testhomepage.TestAddressOfPatient"/>
             <class name="testhomepage.TestViewPlan"/>
             <class name="testSearchPage.TestSearchPage"/>
-            <class name="testSignInPage.TestSearchInsurance"/>
+            <class name="testSearchPage.TestSearchInsurance"/>
             <class name="testSignInPage.TestSignInPage"/>
             <class name="testSignInPage.TestSignInWithGooglesheet"/>
+            <class name="testhomepage.TestPharmacyBenefits"/>
         </classes>
     </test>
 

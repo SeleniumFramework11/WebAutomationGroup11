@@ -86,7 +86,6 @@ public class ApplicationBasePage extends BaseUtil {
         }catch (Exception ex){
             driver.findElement(By.id(locator)).sendKeys(value);
         }
-
     }
     public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
